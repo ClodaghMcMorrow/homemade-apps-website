@@ -325,12 +325,162 @@ section { padding: clamp(56px, 9vw, 104px) 0; }
 .site-footer a { color: var(--muted); }
 .site-footer a:hover { color: var(--navy); }
 
+/* ── Accessibility utility ── */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Language switcher ── */
+.lang-switcher {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--navy);
+  background-color: var(--card);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%232E3A59' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  border: 1px solid rgba(46,58,89,.15);
+  border-radius: 999px;
+  padding: 7px 32px 7px 14px;
+  cursor: pointer;
+  transition: border-color .15s, box-shadow .15s;
+}
+.lang-switcher:hover { border-color: rgba(46,58,89,.35); }
+.lang-switcher:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+
+/* ── Back link (app pages) ── */
+.back-link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: .95rem;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.back-link:hover { color: var(--orange); }
+
+/* ── App hero (Charades / Clues) ── */
+.app-hero {
+  padding: clamp(40px,6vw,72px) 0 clamp(48px,7vw,80px);
+  background:
+    radial-gradient(circle at 82% 15%, rgba(183,216,198,.3) 0%, transparent 55%),
+    radial-gradient(circle at 12% 90%, rgba(244,207,198,.35) 0%, transparent 55%),
+    var(--cream);
+}
+.app-hero-inner {
+  display: flex;
+  align-items: center;
+  gap: clamp(28px,5vw,64px);
+  flex-wrap: wrap;
+}
+.app-hero-logo {
+  flex: 0 0 auto;
+  width: clamp(140px, 30vw, 220px);
+}
+.app-hero-logo img {
+  width: 100%;
+  border-radius: 32px;
+  box-shadow: var(--shadow-md);
+}
+.app-hero-copy { flex: 1 1 320px; }
+.app-hero-copy .status-badge { margin-bottom: 14px; }
+.app-hero-copy h1 { margin: 0 0 .3em; }
+.app-tagline {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.2rem, 2.4vw, 1.5rem);
+  color: var(--orange-dark);
+  font-weight: 500;
+  margin: 0 0 .7em;
+}
+.soon-note {
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 4px 0 0;
+}
+
+/* ── Steps (How it works) ── */
+.steps-section { background: var(--cream); }
+.steps-section h2 { text-align: center; }
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 44px;
+}
+.step {
+  background: var(--card);
+  border: 1px solid rgba(46,58,89,.06);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 28px 26px;
+}
+.step-num {
+  display: grid;
+  place-items: center;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--orange);
+  color: #fff;
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+.step h3 { margin-bottom: 6px; }
+.step p { color: var(--muted); font-size: .97rem; margin: 0; }
+
+/* ── Privacy section (app pages) ── */
+.privacy-section { background: var(--cream-warm); }
+.privacy-section .container { max-width: 760px; }
+.privacy-section h2 { margin-bottom: .6em; }
+.privacy-section h3 {
+  margin-top: 1.6em;
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+.privacy-section p { color: var(--ink); }
+.privacy-section .notice {
+  background: #FFF6EE;
+  border: 1px solid rgba(217,122,44,.25);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  margin: 8px 0 8px;
+  color: var(--ink);
+}
+
+/* ── RTL overrides (Arabic) ── */
+html[dir="rtl"] .site-header .container,
+html[dir="rtl"] .nav,
+html[dir="rtl"] .site-footer .container,
+html[dir="rtl"] .site-footer nav,
+html[dir="rtl"] .app-hero-inner { direction: rtl; }
+html[dir="rtl"] .brand { flex-direction: row-reverse; }
+html[dir="rtl"] .lang-switcher {
+  background-position: left 12px center;
+  padding: 7px 14px 7px 32px;
+}
+html[dir="rtl"] .back-link { display: inline-block; }
+html[dir="rtl"] .chip svg { transform: scaleX(-1); }
+
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .apps-grid { grid-template-columns: 1fr; }
   .pillars   { grid-template-columns: 1fr; }
+  .steps-grid { grid-template-columns: 1fr; }
   .site-footer .container { justify-content: center; text-align: center; }
   .nav { gap: 14px; }
+  .app-hero-inner { flex-direction: column; text-align: center; align-items: center; }
+  .app-hero-copy .status-badge { margin-inline: auto; }
 }
 
 @media (prefers-reduced-motion: reduce) {

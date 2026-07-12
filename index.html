@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr" data-page="home">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,12 +9,12 @@
   <meta property="og:title"       content="Homemade Apps" />
   <meta property="og:description" content="Simple, honest apps for families. No ads, no subscriptions, no accounts." />
   <meta property="og:type"        content="website" />
-  <meta property="og:image"       content="assets/og-image.png" />
-  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <meta property="og:image"       content="assets/logo-stories.png" />
+  <link rel="icon" href="assets/logo-stories.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
 
@@ -24,8 +24,10 @@
         <span class="brand-orange">Homemade</span><span>&nbsp;Apps</span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="#apps">Our apps</a>
-        <a href="#philosophy">Our promise</a>
+        <a href="#apps" data-i18n="nav.apps">Our apps</a>
+        <a href="#philosophy" data-i18n="nav.promise">Our promise</a>
+        <label class="sr-only" for="langSwitcherHeader" data-i18n="nav.lang_label">Choose language</label>
+        <select class="lang-switcher" id="langSwitcherHeader" aria-label="Choose language"></select>
       </nav>
     </div>
   </header>
@@ -35,29 +37,29 @@
     <!-- ── Hero ── -->
     <section class="hero">
       <div class="container">
-        <span class="eyebrow">A small studio, big intentions</span>
-        <h1>Apps made by hand,<br><span class="accent">for the people you love.</span></h1>
-        <p class="lead">We make simple, focused apps for families — built with care, sold once, and never hungry for your data or attention.</p>
+        <span class="eyebrow" data-i18n="home.eyebrow">A small studio, big intentions</span>
+        <h1 data-i18n-html="home.h1_html">Apps made by hand,<br><span class="accent">for the people you love.</span></h1>
+        <p class="lead" data-i18n="home.lead">We make simple, focused apps for families — built with care, sold once, and never hungry for your data or attention.</p>
         <div class="promise-chips">
           <span class="chip">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-            No ads
+            <span data-i18n="chip.no_ads">No ads</span>
           </span>
           <span class="chip">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-            No subscription
+            <span data-i18n="chip.no_sub">No subscription</span>
           </span>
           <span class="chip">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-            No account needed
+            <span data-i18n="chip.no_account">No account needed</span>
           </span>
           <span class="chip">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-            No data collected
+            <span data-i18n="chip.no_data">No data collected</span>
           </span>
           <span class="chip">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-            One-time purchase
+            <span data-i18n="chip.one_time">One-time purchase</span>
           </span>
         </div>
       </div>
@@ -66,7 +68,7 @@
     <!-- ── Apps grid ── -->
     <section class="apps" id="apps">
       <div class="container">
-        <h2>Our apps</h2>
+        <h2 data-i18n="home.apps_h2">Our apps</h2>
 
         <div class="apps-grid">
 
@@ -78,17 +80,17 @@
             <div class="app-card-body">
               <div class="app-meta">
                 <p class="app-name">Homemade Stories</p>
-                <span class="status-badge status-badge--live">Live on App Store</span>
+                <span class="status-badge status-badge--live" data-i18n="card.stories_status">Live on App Store</span>
               </div>
-              <p>Record bedtime stories, songs, lullabies and birthday messages in your own voice. Kids can replay them any time — even offline. The people they love, always a tap away.</p>
+              <p data-i18n="card.stories_desc">Record bedtime stories, songs, lullabies and birthday messages in your own voice. Kids can replay them any time — even offline. The people they love, always a tap away.</p>
               <div class="app-links">
-                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-stories/id6762309416" aria-label="Download Homemade Stories on the App Store">
+                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-stories/id6762309416" data-i18n-aria="card.stories_appstore_aria" aria-label="Download Homemade Stories on the App Store">
                   <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
                   </svg>
                   App Store
                 </a>
-                <a class="btn btn-outline" href="https://homemade-stories.com">Website</a>
+                <a class="btn btn-outline" href="https://homemade-stories.com" data-i18n="card.website">Website</a>
               </div>
             </div>
           </article>
@@ -101,16 +103,11 @@
             <div class="app-card-body">
               <div class="app-meta">
                 <p class="app-name">Homemade Charades</p>
-                <span class="status-badge status-badge--soon">Coming Soon</span>
+                <span class="status-badge status-badge--soon" data-i18n="card.coming_soon">Coming Soon</span>
               </div>
-              <p>Classic charades, made for family game nights. No fumbling with paper slips — just pick a category, pass the phone, and act it out. Simple, screen-light fun for every age.</p>
+              <p data-i18n="card.charades_desc">Classic charades, made for family game nights. No fumbling with paper slips — just pick a category, pass the phone, and act it out. Simple, screen-light fun for every age.</p>
               <div class="app-links">
-                <span class="btn btn-disabled" aria-label="Homemade Charades coming soon">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  Coming Soon
-                </span>
+                <a class="btn btn-outline" href="charades.html" data-i18n="card.learn_more">Learn more</a>
               </div>
             </div>
           </article>
@@ -123,16 +120,11 @@
             <div class="app-card-body">
               <div class="app-meta">
                 <p class="app-name">Homemade Clues</p>
-                <span class="status-badge status-badge--soon">Coming Soon</span>
+                <span class="status-badge status-badge--soon" data-i18n="card.coming_soon">Coming Soon</span>
               </div>
-              <p>A fast, funny word-guessing game for two teams sharing one phone. Bid on how few clues you'll need, then give single-word hints to race your team to the secret word. Clue smart, bid low, win the round.</p>
+              <p data-i18n="card.clues_desc">A fast, funny word-guessing game for two teams sharing one phone. Bid on how few clues you'll need, then give single-word hints to race your team to the secret word. Clue smart, bid low, win the round.</p>
               <div class="app-links">
-                <span class="btn btn-disabled" aria-label="Homemade Clues coming soon">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  Coming Soon
-                </span>
+                <a class="btn btn-outline" href="clues.html" data-i18n="card.learn_more">Learn more</a>
               </div>
             </div>
           </article>
@@ -144,8 +136,8 @@
     <!-- ── Philosophy ── -->
     <section class="philosophy" id="philosophy">
       <div class="container">
-        <h2>Our promise to you</h2>
-        <p class="lead">Every app we make follows the same principles. No exceptions, no "freemium" editions, no dark patterns. Just software that respects you and your family.</p>
+        <h2 data-i18n="home.philosophy_h2">Our promise to you</h2>
+        <p class="lead" data-i18n="home.philosophy_lead">Every app we make follows the same principles. No exceptions, no "freemium" editions, no dark patterns. Just software that respects you and your family.</p>
 
         <div class="pillars">
           <div class="pillar">
@@ -155,8 +147,8 @@
                 <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
               </svg>
             </div>
-            <h3>No ads. Ever.</h3>
-            <p>We will never show advertisements in any of our apps — not now, not in a future update.</p>
+            <h3 data-i18n="pillar.noads_h">No ads. Ever.</h3>
+            <p data-i18n="pillar.noads_p">We will never show advertisements in any of our apps — not now, not in a future update.</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon" aria-hidden="true">
@@ -165,8 +157,8 @@
                 <line x1="1" y1="10" x2="23" y2="10"/>
               </svg>
             </div>
-            <h3>Pay once, own it.</h3>
-            <p>A single purchase gets you the full app, all future updates, and no renewal reminders.</p>
+            <h3 data-i18n="pillar.payonce_h">Pay once, own it.</h3>
+            <p data-i18n="pillar.payonce_p">A single purchase gets you the full app, all future updates, and no renewal reminders.</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon" aria-hidden="true">
@@ -176,8 +168,8 @@
                 <line x1="18" y1="3" x2="22" y2="7"/>
               </svg>
             </div>
-            <h3>No account.</h3>
-            <p>Download, open, use. No sign-up form, no email required, no password to forget.</p>
+            <h3 data-i18n="pillar.noaccount_h">No account.</h3>
+            <p data-i18n="pillar.noaccount_p">Download, open, use. No sign-up form, no email required, no password to forget.</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon" aria-hidden="true">
@@ -186,8 +178,8 @@
                 <path d="M8 11V8a4 4 0 0 1 8 0v3"/>
               </svg>
             </div>
-            <h3>Your data stays yours.</h3>
-            <p>Nothing leaves your device. We don't collect, store, or sell any personal data.</p>
+            <h3 data-i18n="pillar.data_h">Your data stays yours.</h3>
+            <p data-i18n="pillar.data_p">Nothing leaves your device. We don't collect, store, or sell any personal data.</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon" aria-hidden="true">
@@ -195,8 +187,8 @@
                 <path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/>
               </svg>
             </div>
-            <h3>Kid-safe by design.</h3>
-            <p>No addictive loops, no notifications clamouring for attention, no in-app purchases hidden behind a cheerful button.</p>
+            <h3 data-i18n="pillar.kidsafe_h">Kid-safe by design.</h3>
+            <p data-i18n="pillar.kidsafe_p">No addictive loops, no notifications clamouring for attention, no in-app purchases hidden behind a cheerful button.</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon" aria-hidden="true">
@@ -205,8 +197,8 @@
                 <polyline points="9 22 9 12 15 12 15 22"/>
               </svg>
             </div>
-            <h3>Made for families.</h3>
-            <p>Every decision starts with the same question: is this good for the families using it?</p>
+            <h3 data-i18n="pillar.families_h">Made for families.</h3>
+            <p data-i18n="pillar.families_p">Every decision starts with the same question: is this good for the families using it?</p>
           </div>
         </div>
       </div>
@@ -216,17 +208,17 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div>© <span id="year">2026</span> Homemade Apps. Made with care.</div>
+      <div data-i18n="footer.copyright">© {year} Homemade Apps. Made with care.</div>
       <nav aria-label="Footer links">
-        <a href="https://homemade-stories.com/support.html">Support</a>
-        <a href="https://homemade-stories.com/privacy.html">Privacy</a>
+        <a href="charades.html" data-i18n="footer.charades">Charades</a>
+        <a href="clues.html" data-i18n="footer.clues">Clues</a>
+        <a href="https://homemade-stories.com/support.html" data-i18n="footer.support">Support</a>
       </nav>
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="translations.js"></script>
+  <script src="lang.js"></script>
 
 </body>
 </html>
