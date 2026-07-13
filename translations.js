@@ -103,7 +103,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Children\'s privacy',
     'privacy.children_body': 'The app is safe for players of any age. It collects no personal information and contains no advertising, analytics, or tracking of any kind.',
     'privacy.contact_h3': 'Contact',
-    'privacy.contact_html': 'If you have any questions about this privacy policy, please contact us at <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'If you have any questions about this privacy policy, please contact us at <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'Support',
+    'support.body_html': 'Questions, bug reports or ideas? Email us at <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — we read every message and reply as quickly as we can.'
   },
 
   /* ── FRENCH ──────────────────────────────────────────────── */
@@ -191,7 +193,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Confidentialité des enfants',
     'privacy.children_body': 'L\'appli est sûre pour les joueurs de tout âge. Elle ne collecte aucune information personnelle et ne contient ni publicité, ni analyse, ni suivi d\'aucune sorte.',
     'privacy.contact_h3': 'Contact',
-    'privacy.contact_html': 'Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l\'adresse <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l\'adresse <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'Assistance',
+    'support.body_html': 'Des questions, un bug à signaler ou une idée ? Écrivez-nous à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — nous lisons chaque message et répondons aussi vite que possible.'
   },
 
   /* ── GERMAN ──────────────────────────────────────────────── */
@@ -279,7 +283,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Datenschutz für Kinder',
     'privacy.children_body': 'Die App ist für Spieler jeden Alters sicher. Sie sammelt keine persönlichen Informationen und enthält keine Werbung, Analyse oder Tracking jeglicher Art.',
     'privacy.contact_h3': 'Kontakt',
-    'privacy.contact_html': 'Wenn ihr Fragen zu dieser Datenschutzerklärung habt, kontaktiert uns bitte unter <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'Wenn ihr Fragen zu dieser Datenschutzerklärung habt, kontaktiert uns bitte unter <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'Support',
+    'support.body_html': 'Fragen, Fehlermeldungen oder Ideen? Schreibt uns an <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — wir lesen jede Nachricht und antworten so schnell wie möglich.'
   },
 
   /* ── SPANISH ─────────────────────────────────────────────── */
@@ -367,7 +373,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Privacidad de los niños',
     'privacy.children_body': 'La app es segura para jugadores de cualquier edad. No recopila información personal y no contiene publicidad, análisis ni seguimiento de ningún tipo.',
     'privacy.contact_h3': 'Contacto',
-    'privacy.contact_html': 'Si tienes alguna pregunta sobre esta política de privacidad, contáctanos en <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'Si tienes alguna pregunta sobre esta política de privacidad, contáctanos en <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'Soporte',
+    'support.body_html': '¿Preguntas, errores o ideas? Escríbenos a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — leemos todos los mensajes y respondemos lo antes posible.'
   },
 
   /* ── ITALIAN ─────────────────────────────────────────────── */
@@ -455,7 +463,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Privacy dei bambini',
     'privacy.children_body': 'L\'app è sicura per giocatori di ogni età. Non raccoglie informazioni personali e non contiene pubblicità, analisi o tracciamento di alcun tipo.',
     'privacy.contact_h3': 'Contatti',
-    'privacy.contact_html': 'Se hai domande su questa informativa sulla privacy, contattaci all\'indirizzo <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'Se hai domande su questa informativa sulla privacy, contattaci all\'indirizzo <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'Assistenza',
+    'support.body_html': 'Domande, segnalazioni di bug o idee? Scrivici a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — leggiamo ogni messaggio e rispondiamo il prima possibile.'
   },
 
   /* ── PORTUGUESE ──────────────────────────────────────────── */
@@ -543,7 +553,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Privacidade das crianças',
     'privacy.children_body': 'O app é seguro para jogadores de qualquer idade. Não coleta informações pessoais e não contém publicidade, análise ou rastreamento de nenhum tipo.',
     'privacy.contact_h3': 'Contato',
-    'privacy.contact_html': 'Se você tiver dúvidas sobre esta política de privacidade, entre em contato pelo e-mail <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'Se você tiver dúvidas sobre esta política de privacidade, entre em contato pelo e-mail <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'Suporte',
+    'support.body_html': 'Dúvidas, problemas ou ideias? Escreva para <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — lemos todas as mensagens e respondemos o mais rápido possível.'
   },
 
   /* ── CHINESE (SIMPLIFIED) ─────────────────────────────────── */
@@ -631,7 +643,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': '儿童隐私',
     'privacy.children_body': '该应用对任何年龄的玩家都是安全的。它不收集任何个人信息，也不含任何广告、分析或跟踪。',
     'privacy.contact_h3': '联系我们',
-    'privacy.contact_html': '如果你对本隐私政策有任何疑问，请通过 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 与我们联系。'
+    'privacy.contact_html': '如果你对本隐私政策有任何疑问，请通过 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 与我们联系。',
+    'support.h2': '支持',
+    'support.body_html': '有问题、错误报告或建议？请发送邮件至 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>，我们会阅读每一条消息并尽快回复。'
   },
 
   /* ── JAPANESE ────────────────────────────────────────────── */
@@ -719,7 +733,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': '子どものプライバシー',
     'privacy.children_body': 'アプリはあらゆる年齢のプレイヤーにとって安全です。個人情報を一切収集せず、いかなる広告・分析・トラッキングも含みません。',
     'privacy.contact_h3': 'お問い合わせ',
-    'privacy.contact_html': 'このプライバシーポリシーについてご質問がある場合は、<a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> までご連絡ください。'
+    'privacy.contact_html': 'このプライバシーポリシーについてご質問がある場合は、<a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> までご連絡ください。',
+    'support.h2': 'サポート',
+    'support.body_html': 'ご質問、不具合のご報告、アイデアなどは <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> までメールでお寄せください。すべて拝見し、できるだけ早くお返事いたします。'
   },
 
   /* ── KOREAN ──────────────────────────────────────────────── */
@@ -807,7 +823,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': '아동 개인정보 보호',
     'privacy.children_body': '앱은 모든 연령의 플레이어에게 안전합니다. 개인정보를 수집하지 않으며 어떠한 광고, 분석, 추적도 포함하지 않습니다.',
     'privacy.contact_h3': '문의',
-    'privacy.contact_html': '이 개인정보 처리방침에 대해 궁금한 점이 있으면 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 으로 문의해 주세요.'
+    'privacy.contact_html': '이 개인정보 처리방침에 대해 궁금한 점이 있으면 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 으로 문의해 주세요.',
+    'support.h2': '지원',
+    'support.body_html': '질문, 버그 신고, 아이디어가 있으신가요? <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 으로 이메일을 보내 주세요. 모든 메시지를 읽고 최대한 빨리 답변드립니다.'
   },
 
   /* ── HINDI ───────────────────────────────────────────────── */
@@ -895,7 +913,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'बच्चों की गोपनीयता',
     'privacy.children_body': 'ऐप किसी भी उम्र के खिलाड़ियों के लिए सुरक्षित है। यह कोई व्यक्तिगत जानकारी एकत्र नहीं करता और इसमें किसी भी प्रकार का विज्ञापन, विश्लेषण या ट्रैकिंग नहीं है।',
     'privacy.contact_h3': 'संपर्क',
-    'privacy.contact_html': 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया हमें <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर संपर्क करें।'
+    'privacy.contact_html': 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया हमें <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर संपर्क करें।',
+    'support.h2': 'सहायता',
+    'support.body_html': 'सवाल, बग रिपोर्ट या सुझाव? हमें <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर ईमेल करें — हम हर संदेश पढ़ते हैं और जल्द से जल्द जवाब देते हैं।'
   },
 
   /* ── ARABIC (RTL) ────────────────────────────────────────── */
@@ -983,6 +1003,8 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'خصوصية الأطفال',
     'privacy.children_body': 'التطبيق آمن للاعبين من جميع الأعمار. لا يجمع أي معلومات شخصية ولا يحتوي على أي إعلانات أو تحليلات أو تتبّع من أي نوع.',
     'privacy.contact_h3': 'التواصل',
-    'privacy.contact_html': 'إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يُرجى التواصل معنا على <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.'
+    'privacy.contact_html': 'إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يُرجى التواصل معنا على <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'support.h2': 'الدعم',
+    'support.body_html': 'أسئلة أو بلاغات عن أخطاء أو أفكار؟ راسلونا عبر <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — نقرأ كل رسالة ونرد بأسرع ما يمكن.'
   }
 };
