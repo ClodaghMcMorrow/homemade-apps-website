@@ -118,6 +118,26 @@ section { padding: clamp(56px, 9vw, 112px) 0; }
 }
 .nav a:hover { color: var(--orange); }
 
+/* "All apps" up-link back to the Homemade Apps hub */
+.nav-up {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 1px solid rgba(46, 58, 89, 0.16);
+  background: rgba(46, 58, 89, 0.04);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.nav-up:hover {
+  background: rgba(217, 122, 44, 0.1);
+  border-color: var(--orange);
+  color: var(--orange-dark);
+}
+.nav-up svg { width: 14px; height: 14px; flex-shrink: 0; }
+
 /* Hero */
 .hero {
   padding-top: clamp(40px, 7vw, 80px);
@@ -501,6 +521,9 @@ html[dir="rtl"] .hero .container {
 }
 html[dir="rtl"] .back-link {
   flex-direction: row-reverse;
+}
+html[dir="rtl"] .nav-up svg {
+  transform: scaleX(-1);
 }
 html[dir="rtl"] .faq summary {
   flex-direction: row-reverse;

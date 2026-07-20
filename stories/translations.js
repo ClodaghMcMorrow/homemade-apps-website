@@ -31,6 +31,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'Support',
     'footer.privacy': 'Privacy Policy',
     'footer.more_apps': 'More apps',
+    'nav.all_apps': 'All apps',
 
     'home.meta_title': 'Homemade Stories — Stories & songs recorded by the people kids love',
     'home.meta_desc': 'An iOS app for recording bedtime stories, songs, jokes and birthday messages that kids can replay from family and friends. Kid-friendly. No ads. No subscriptions.',
@@ -105,6 +106,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'الدعم',
     'footer.privacy': 'سياسة الخصوصية',
     'footer.more_apps': 'مزيد من التطبيقات',
+    'nav.all_apps': 'كل التطبيقات',
 
     'home.meta_title': 'Homemade Stories — قصص وأغانٍ يسجّلها مَن يحبّهم الأطفال',
     'home.meta_desc': 'تطبيق iOS لتسجيل قصص النوم والأغاني والنكات ورسائل أعياد الميلاد ليستمتع بها الأطفال من أهلهم وأصدقائهم. مناسب للأطفال. بلا إعلانات. بلا اشتراكات.',
@@ -179,6 +181,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': '支持',
     'footer.privacy': '隐私政策',
     'footer.more_apps': '更多应用',
+    'nav.all_apps': '所有应用',
 
     'home.meta_title': 'Homemade Stories — 由孩子最爱的人录制的故事和歌曲',
     'home.meta_desc': '一款 iOS 应用，让家人和朋友为孩子录制睡前故事、歌曲、笑话和生日祝福，随时重听。适合儿童。无广告。无订阅。',
@@ -253,6 +256,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'Assistance',
     'footer.privacy': 'Politique de confidentialité',
     'footer.more_apps': 'Plus d\'applis',
+    'nav.all_apps': 'Toutes les applis',
 
     'home.meta_title': 'Homemade Stories — Histoires et chansons enregistrées par ceux que les enfants aiment',
     'home.meta_desc': 'Une app iOS pour enregistrer histoires du soir, chansons, blagues et messages d\'anniversaire que les enfants peuvent réécouter de la part de leur famille et amis. Conçue pour les enfants. Sans publicités. Sans abonnements.',
@@ -327,6 +331,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'Hilfe',
     'footer.privacy': 'Datenschutzerklärung',
     'footer.more_apps': 'Mehr Apps',
+    'nav.all_apps': 'Alle Apps',
 
     'home.meta_title': 'Homemade Stories — Geschichten und Lieder von den Menschen, die Kinder lieben',
     'home.meta_desc': 'Eine iOS-App zum Aufnehmen von Gutenachtgeschichten, Liedern, Witzen und Geburtstagsgrüßen, die Kinder immer wieder anhören können. Kindgerecht. Werbefrei. Ohne Abo.',
@@ -401,6 +406,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'सहायता',
     'footer.privacy': 'गोपनीयता नीति',
     'footer.more_apps': 'अधिक ऐप्स',
+    'nav.all_apps': 'सभी ऐप्स',
 
     'home.meta_title': 'Homemade Stories — बच्चों के चहेतों द्वारा रिकॉर्ड की गई कहानियाँ और गीत',
     'home.meta_desc': 'एक iOS ऐप जिसमें परिवार और मित्र बच्चों के लिए कहानियाँ, गीत, चुटकुले और जन्मदिन संदेश रिकॉर्ड कर सकते हैं। बच्चों के अनुकूल। कोई विज्ञापन नहीं। कोई सब्सक्रिप्शन नहीं।',
@@ -475,6 +481,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'Assistenza',
     'footer.privacy': 'Informativa sulla privacy',
     'footer.more_apps': 'Altre app',
+    'nav.all_apps': 'Tutte le app',
 
     'home.meta_title': 'Homemade Stories — Storie e canzoni registrate dalle persone che i bambini amano',
     'home.meta_desc': 'Un\'app iOS per registrare favole della buonanotte, canzoni, barzellette e messaggi di compleanno che i bambini possono riascoltare da famiglia e amici. Adatta ai bambini. Senza pubblicità. Senza abbonamenti.',
@@ -549,6 +556,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'サポート',
     'footer.privacy': 'プライバシーポリシー',
     'footer.more_apps': '他のアプリ',
+    'nav.all_apps': 'すべてのアプリ',
 
     'home.meta_title': 'Homemade Stories — 子どもたちが大好きな人たちが録音する物語と歌',
     'home.meta_desc': 'おやすみ前の物語、歌、ジョーク、お誕生日メッセージを家族や友人から録音して子どもにいつでも届けられるiOSアプリ。お子さまに安心。広告なし。サブスクなし。',
@@ -623,6 +631,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': '지원',
     'footer.privacy': '개인정보 처리방침',
     'footer.more_apps': '더 많은 앱',
+    'nav.all_apps': '모든 앱',
 
     'home.meta_title': 'Homemade Stories — 아이들이 사랑하는 이들이 들려주는 이야기와 노래',
     'home.meta_desc': '가족과 친구가 아이를 위해 이야기, 노래, 재미있는 말, 생일 메시지를 녹음해 다시 들려주는 iOS 앱이에요. 아이에게 안전해요. 광고 없음. 구독 없음.',
@@ -697,6 +706,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'Suporte',
     'footer.privacy': 'Política de privacidade',
     'footer.more_apps': 'Mais apps',
+    'nav.all_apps': 'Todos os apps',
 
     'home.meta_title': 'Homemade Stories — Histórias e canções gravadas pelas pessoas que as crianças amam',
     'home.meta_desc': 'Um app para iOS para gravar histórias para dormir, canções, piadas e mensagens de aniversário que as crianças podem reouvir da família e dos amigos. Indicado para crianças. Sem anúncios. Sem assinaturas.',
@@ -771,6 +781,7 @@ window.HS_TRANSLATIONS = {
     'footer.support': 'Soporte',
     'footer.privacy': 'Política de privacidad',
     'footer.more_apps': 'Más aplicaciones',
+    'nav.all_apps': 'Todas las apps',
 
     'home.meta_title': 'Homemade Stories — Historias y canciones grabadas por las personas que los niños quieren',
     'home.meta_desc': 'Una app para iOS para grabar cuentos para dormir, canciones, chistes y mensajes de cumpleaños que los niños pueden volver a escuchar de la familia y amigos. Apta para niños. Sin anuncios. Sin suscripciones.',
