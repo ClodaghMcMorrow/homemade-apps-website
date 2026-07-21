@@ -472,6 +472,53 @@ html[dir="rtl"] .lang-switcher {
 html[dir="rtl"] .back-link { display: inline-block; }
 html[dir="rtl"] .chip svg { transform: scaleX(-1); }
 
+/* Sub-page content (app support pages) */
+.page {
+  padding: clamp(48px, 7vw, 88px) 0;
+  background: var(--cream);
+}
+.page .container { max-width: 760px; }
+.page h1 { margin-bottom: 16px; }
+.page h2 { margin-top: 2em; font-size: 1.5rem; }
+.page h3 { margin-top: 1.6em; }
+.page p, .page li { color: var(--ink); }
+.page a { color: var(--orange-dark); text-decoration: underline; text-underline-offset: 3px; }
+
+.faq {
+  margin-top: 40px;
+  display: grid;
+  gap: 16px;
+}
+.faq details {
+  background: var(--card);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(46, 58, 89, 0.05);
+}
+.faq summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--navy);
+  font-family: 'Fraunces', serif;
+  font-size: 1.1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: '+';
+  font-size: 1.4rem;
+  color: var(--orange);
+  flex-shrink: 0;
+}
+.faq details[open] summary::after { content: '–'; }
+.faq details[open] { box-shadow: var(--shadow-md); }
+html[dir="rtl"] .faq summary { flex-direction: row-reverse; }
+
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .apps-grid { grid-template-columns: 1fr; }
