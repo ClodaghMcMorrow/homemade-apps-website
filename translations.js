@@ -34,6 +34,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. Made with care.',
     'footer.support': 'Support',
     'footer.all_apps': 'All apps',
+    'nav.all_apps': 'All apps',
+    'nav.privacy': 'Privacy',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -65,10 +67,16 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'Every decision starts with the same question: is this good for the families using it?',
 
     'app.back': '← All apps',
+    'app.help_h2': 'Need help?',
+    'app.help_body': 'Rules, settings and answers to the questions players ask most.',
 
     'charades_support.meta_title': 'Support — Homemade Charades',
     'charades_support.meta_desc': 'Help with Homemade Charades: how the three rounds work, Kids mode, writing your own cards, Fair mode, scoring and how to get in touch.',
     'csup.back': '← Back to Homemade Charades',
+    'charades_privacy.meta_title': 'Privacy — Homemade Charades',
+    'charades_privacy.meta_desc': 'Homemade Charades collects no personal data. It works entirely offline, needs no account and contains no ads, analytics or tracking.',
+    'clues_privacy.meta_title': 'Privacy — Homemade Clues',
+    'clues_privacy.meta_desc': 'Homemade Clues collects no personal data. It works entirely offline, needs no account and contains no ads, analytics or tracking.',
     'csup.h1': 'Homemade Charades — Support',
     'csup.lead': 'Everything you need to know about playing Homemade Charades. If your question isn\'t answered here, just email us — we read every message.',
     'csup.contact_h2': 'Contact us',
@@ -96,12 +104,12 @@ window.HA_TRANSLATIONS = {
     'csup.a10': 'You keep what\'s left. Clear the whole deck before time runs out and your leftover seconds carry over to the start of your next round, so a fast round pays off twice.',
     'csup.q11': 'Someone said the word by mistake. What now?',
     'csup.a11': 'Tap "Mistake — end turn". The turn stops there, but the cards found before the slip still count. When the timer stops, the whole table reviews that turn\'s guesses together and anyone can send a wrong answer back to the bottom of the deck. Note there\'s no skipping or passing in Homemade Charades — every card has to be guessed.',
-    'csup.q12': 'Can we play somewhere quiet, and what if we get interrupted?',
-    'csup.a12': 'Sounds and haptics each have their own switch on the setup screen, so the game works fine in a restaurant or a sleeping house. And if a game is cut short — the phone dies, or you simply have to stop — the app saves your progress at the last change of turn and offers to resume it next time you open the app.',
+    'csup.q12': 'What if we get interrupted mid-game?',
+    'csup.a12': 'Nothing is lost. If a game is cut short — the phone dies, or you simply have to stop — the app saves your progress at the last change of turn and offers to resume it the next time you open the app.',
     'csup.languages_h2': 'Available languages',
     'csup.languages_body': 'Homemade Charades is available in English and French, with a dedicated set of French cards alongside the international ones. You can switch language at any time on the setup screen.',
     'csup.privacy_h2': 'Privacy',
-    'csup.privacy_body_html': 'Homemade Charades works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="index.html#privacy">Homemade Charades page</a>.',
+    'csup.privacy_body_html': 'Homemade Charades works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="privacy.html">Homemade Charades privacy page</a>.',
     'csup.bugs_h2': 'Feature requests & bug reports',
     'csup.bugs_body_html': 'Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> with as much detail as you can — the device you\'re using and what happened really helps.',
     'clues_support.meta_title': 'Support — Homemade Clues',
@@ -131,7 +139,7 @@ window.HA_TRANSLATIONS = {
     'clsup.languages_h2': 'Available languages',
     'clsup.languages_body': 'Homemade Clues is available in English and French, each with its own word list. You can switch language at any time on the setup screen.',
     'clsup.privacy_h2': 'Privacy',
-    'clsup.privacy_body_html': 'Homemade Clues works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="index.html#privacy">Homemade Clues page</a>.',
+    'clsup.privacy_body_html': 'Homemade Clues works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="privacy.html">Homemade Clues privacy page</a>.',
     'clsup.bugs_h2': 'Feature requests & bug reports',
     'clsup.bugs_body_html': 'Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> with as much detail as you can — the device you\'re using and what happened really helps.',
 
@@ -194,6 +202,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. Conçu avec soin.',
     'footer.support': 'Assistance',
     'footer.all_apps': 'Toutes les applis',
+    'nav.all_apps': 'Toutes les applis',
+    'nav.privacy': 'Confidentialité',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -225,10 +235,16 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'Chaque décision commence par la même question : est-ce bon pour les familles qui l\'utilisent ?',
 
     'app.back': '← Toutes les applis',
+    'app.help_h2': 'Besoin d\'aide ?',
+    'app.help_body': 'Les règles, les réglages et les réponses aux questions les plus fréquentes.',
 
     'charades_support.meta_title': 'Assistance — Homemade Charades',
     'charades_support.meta_desc': 'Aide pour Homemade Charades : le déroulé des trois manches, le mode enfants, écrire vos cartes, le mode équitable, les points et comment nous contacter.',
     'csup.back': '← Retour à Homemade Charades',
+    'charades_privacy.meta_title': 'Confidentialité — Homemade Charades',
+    'charades_privacy.meta_desc': 'Homemade Charades ne collecte aucune donnée personnelle. Le jeu fonctionne entièrement hors ligne, sans compte, sans publicité, sans analyse ni suivi.',
+    'clues_privacy.meta_title': 'Confidentialité — Homemade Clues',
+    'clues_privacy.meta_desc': 'Homemade Clues ne collecte aucune donnée personnelle. Le jeu fonctionne entièrement hors ligne, sans compte, sans publicité, sans analyse ni suivi.',
     'csup.h1': 'Homemade Charades — Assistance',
     'csup.lead': 'Tout ce qu\'il faut savoir pour jouer à Homemade Charades. Si vous ne trouvez pas votre réponse ici, écrivez-nous — nous lisons chaque message.',
     'csup.contact_h2': 'Nous contacter',
@@ -256,12 +272,12 @@ window.HA_TRANSLATIONS = {
     'csup.a10': 'Vous gardez ce qu\'il reste. Videz tout le paquet avant la fin du temps et vos secondes restantes sont reportées au début de votre manche suivante : une manche rapide rapporte donc deux fois.',
     'csup.q11': 'Quelqu\'un a dit le mot par erreur. Que faire ?',
     'csup.a11': 'Touchez « Erreur — fin du tour ». Le tour s\'arrête là, mais les cartes trouvées avant la bévue comptent quand même. À l\'arrêt du minuteur, toute la table revoit ensemble les réponses du tour et n\'importe qui peut renvoyer une mauvaise réponse au bas du paquet. À noter : dans Homemade Charades, on ne peut ni passer ni sauter une carte — chaque carte doit être devinée.',
-    'csup.q12': 'Peut-on jouer dans un endroit calme, et si nous sommes interrompus ?',
-    'csup.a12': '« Sons » et « Vibrations » ont chacun leur interrupteur sur l\'écran de configuration : le jeu se prête donc très bien à un restaurant ou à une maison endormie. Et si une partie est écourtée — batterie vide ou simple obligation de s\'arrêter — l\'appli enregistre votre progression au dernier changement de tour et vous propose de la « Reprendre » à la prochaine ouverture.',
+    'csup.q12': 'Que se passe-t-il si nous sommes interrompus en pleine partie ?',
+    'csup.a12': 'Rien n\'est perdu. Si une partie est écourtée — batterie vide ou simple obligation de s\'arrêter — l\'appli enregistre votre progression au dernier changement de tour et vous propose de la « Reprendre » à la prochaine ouverture.',
     'csup.languages_h2': 'Langues disponibles',
     'csup.languages_body': 'Homemade Charades est disponible en anglais et en français, avec un jeu de cartes françaises dédié en plus des cartes internationales. Vous pouvez changer de langue à tout moment sur l\'écran de configuration.',
     'csup.privacy_h2': 'Confidentialité',
-    'csup.privacy_body_html': 'Homemade Charades fonctionne entièrement hors ligne. Le jeu ne demande aucun compte, aucune autorisation particulière, et ne collecte aucune donnée personnelle — ni publicité, ni analyse, ni suivi. Vous trouverez tous les détails sur la <a href="index.html#privacy">page Homemade Charades</a>.',
+    'csup.privacy_body_html': 'Homemade Charades fonctionne entièrement hors ligne. Le jeu ne demande aucun compte, aucune autorisation particulière, et ne collecte aucune donnée personnelle — ni publicité, ni analyse, ni suivi. Vous trouverez tous les détails sur la <a href="privacy.html">page de confidentialité de Homemade Charades</a>.',
     'csup.bugs_h2': 'Suggestions et signalements de bugs',
     'csup.bugs_body_html': 'Vous avez repéré un bug ou une idée pour améliorer le jeu ? Écrivez à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> avec le plus de détails possible — l\'appareil utilisé et ce qui s\'est passé nous aident beaucoup.',
     'clues_support.meta_title': 'Assistance — Homemade Clues',
@@ -291,7 +307,7 @@ window.HA_TRANSLATIONS = {
     'clsup.languages_h2': 'Langues disponibles',
     'clsup.languages_body': 'Homemade Clues est disponible en anglais et en français, chacun avec sa propre liste de mots. Vous pouvez changer de langue à tout moment sur l\'écran de configuration.',
     'clsup.privacy_h2': 'Confidentialité',
-    'clsup.privacy_body_html': 'Homemade Clues fonctionne entièrement hors ligne. Le jeu ne demande aucun compte, aucune autorisation particulière, et ne collecte aucune donnée personnelle — ni publicité, ni analyse, ni suivi. Vous trouverez tous les détails sur la <a href="index.html#privacy">page Homemade Clues</a>.',
+    'clsup.privacy_body_html': 'Homemade Clues fonctionne entièrement hors ligne. Le jeu ne demande aucun compte, aucune autorisation particulière, et ne collecte aucune donnée personnelle — ni publicité, ni analyse, ni suivi. Vous trouverez tous les détails sur la <a href="privacy.html">page de confidentialité de Homemade Clues</a>.',
     'clsup.bugs_h2': 'Suggestions et signalements de bugs',
     'clsup.bugs_body_html': 'Vous avez repéré un bug ou une idée pour améliorer le jeu ? Écrivez à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> avec le plus de détails possible — l\'appareil utilisé et ce qui s\'est passé nous aident beaucoup.',
 
@@ -354,6 +370,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. Mit Sorgfalt gemacht.',
     'footer.support': 'Support',
     'footer.all_apps': 'Alle Apps',
+    'nav.all_apps': 'Alle Apps',
+    'nav.privacy': 'Datenschutz',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -385,6 +403,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'Jede Entscheidung beginnt mit derselben Frage: Ist das gut für die Familien, die es nutzen?',
 
     'app.back': '← Alle Apps',
+    'app.help_h2': 'Braucht ihr Hilfe?',
+    'app.help_body': 'Regeln, Einstellungen und Antworten auf die häufigsten Fragen.',
 
     'charades.meta_title': 'Homemade Charades — Ein Partyspiel in drei Runden für zwei Teams',
     'charades.meta_desc': 'Zwei Teams, ein Handy, drei Runden Raten: beschreiben, ein Wort, dann Pantomime. Spielt mit Prominenten, Filmen und Liedern oder einem Kindermodus mit Bildkarten. Keine Werbung, keine Konten, keine Datenerfassung. Demnächst im App Store.',
@@ -445,6 +465,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. Hecho con cariño.',
     'footer.support': 'Soporte',
     'footer.all_apps': 'Todas las apps',
+    'nav.all_apps': 'Todas las apps',
+    'nav.privacy': 'Privacidad',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -476,6 +498,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'Cada decisión empieza con la misma pregunta: ¿es bueno para las familias que lo usan?',
 
     'app.back': '← Todas las apps',
+    'app.help_h2': '¿Necesitas ayuda?',
+    'app.help_body': 'Reglas, ajustes y respuestas a las preguntas más frecuentes.',
 
     'charades.meta_title': 'Homemade Charades — Un juego de fiesta en tres rondas para dos equipos',
     'charades.meta_desc': 'Dos equipos, un teléfono, tres rondas de adivinanzas: descríbelo, una palabra, luego mímica. Juega con personajes famosos, películas y canciones, o un modo Niños con cartas ilustradas. Sin anuncios, sin cuentas, sin recopilación de datos. Próximamente en el App Store.',
@@ -536,6 +560,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. Fatto con cura.',
     'footer.support': 'Assistenza',
     'footer.all_apps': 'Tutte le app',
+    'nav.all_apps': 'Tutte le app',
+    'nav.privacy': 'Privacy',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -567,6 +593,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'Ogni decisione parte dalla stessa domanda: è un bene per le famiglie che la usano?',
 
     'app.back': '← Tutte le app',
+    'app.help_h2': 'Serve aiuto?',
+    'app.help_body': 'Regole, impostazioni e risposte alle domande più frequenti.',
 
     'charades.meta_title': 'Homemade Charades — Un gioco di società in tre round per due squadre',
     'charades.meta_desc': 'Due squadre, un telefono, tre round di indovinelli: descrivi, una parola, poi mima. Gioca con personaggi famosi, film e canzoni, o una modalità Bambini con carte illustrate. Senza pubblicità, senza account, senza raccolta dati. Prossimamente su App Store.',
@@ -627,6 +655,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. Feito com carinho.',
     'footer.support': 'Suporte',
     'footer.all_apps': 'Todos os apps',
+    'nav.all_apps': 'Todos os apps',
+    'nav.privacy': 'Privacidade',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -658,6 +688,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'Cada decisão começa com a mesma pergunta: isto é bom para as famílias que usam?',
 
     'app.back': '← Todos os apps',
+    'app.help_h2': 'Precisa de ajuda?',
+    'app.help_body': 'Regras, ajustes e respostas às perguntas mais frequentes.',
 
     'charades.meta_title': 'Homemade Charades — Um jogo de festa em três rodadas para duas equipes',
     'charades.meta_desc': 'Duas equipes, um telefone, três rodadas de adivinhação: descreva, uma palavra, depois mímica. Jogue com personalidades, filmes e músicas, ou um modo Crianças com cartas ilustradas. Sem anúncios, sem contas, sem coleta de dados. Em breve na App Store.',
@@ -718,6 +750,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps。用心打造。',
     'footer.support': '支持',
     'footer.all_apps': '所有应用',
+    'nav.all_apps': '所有应用',
+    'nav.privacy': '隐私',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -749,6 +783,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': '每个决定都始于同一个问题：这对使用它的家庭有好处吗？',
 
     'app.back': '← 所有应用',
+    'app.help_h2': '需要帮助吗？',
+    'app.help_body': '规则、设置，以及玩家最常问的问题解答。',
 
     'charades.meta_title': 'Homemade Charades — 供两队游玩的三轮聚会游戏',
     'charades.meta_desc': '两队、一部手机、三轮猜词：先描述、只说一个词、再比划。用名人、电影和歌曲来玩，或选择图片卡的儿童模式。无广告、无账户、不收集数据。即将在 App Store 推出。',
@@ -809,6 +845,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. 心を込めて。',
     'footer.support': 'サポート',
     'footer.all_apps': 'すべてのアプリ',
+    'nav.all_apps': 'すべてのアプリ',
+    'nav.privacy': 'プライバシー',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -840,6 +878,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'すべての判断は、同じ問いから始まります——それは使う家族にとって良いことか？',
 
     'app.back': '← すべてのアプリ',
+    'app.help_h2': 'お困りですか？',
+    'app.help_body': 'ルール、設定、そしてよくある質問への答え。',
 
     'charades.meta_title': 'Homemade Charades — 2チームで遊ぶ3ラウンド制パーティーゲーム',
     'charades.meta_desc': '2チーム、1台のスマホ、3ラウンドの当てっこ：説明して、一語だけ、そしてジェスチャー。有名人・映画・歌で遊ぶも、絵カードのキッズモードも。広告なし、アカウントなし、データ収集なし。App Storeで近日公開。',
@@ -900,6 +940,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. 정성을 담아.',
     'footer.support': '지원',
     'footer.all_apps': '모든 앱',
+    'nav.all_apps': '모든 앱',
+    'nav.privacy': '개인정보',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -931,6 +973,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': '모든 결정은 같은 질문에서 시작합니다: 이것이 사용하는 가족에게 좋은가?',
 
     'app.back': '← 모든 앱',
+    'app.help_h2': '도움이 필요하신가요?',
+    'app.help_body': '규칙과 설정, 그리고 자주 묻는 질문에 대한 답변.',
 
     'charades.meta_title': 'Homemade Charades — 두 팀을 위한 3라운드 파티 게임',
     'charades.meta_desc': '두 팀, 폰 하나, 세 번의 맞히기: 설명하고, 한 단어, 그다음 몸짓. 유명인·영화·노래로 즐기거나 그림 카드 키즈 모드로. 광고 없음, 계정 없음, 데이터 수집 없음. App Store에 곧 출시.',
@@ -991,6 +1035,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. प्यार से बनाया गया।',
     'footer.support': 'सहायता',
     'footer.all_apps': 'सभी ऐप्स',
+    'nav.all_apps': 'सभी ऐप्स',
+    'nav.privacy': 'गोपनीयता',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -1022,6 +1068,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'हर फ़ैसला इसी सवाल से शुरू होता है: क्या यह इसका इस्तेमाल करने वाले परिवारों के लिए अच्छा है?',
 
     'app.back': '← सभी ऐप्स',
+    'app.help_h2': 'मदद चाहिए?',
+    'app.help_body': 'नियम, सेटिंग्स और खिलाड़ियों के सबसे आम सवालों के जवाब।',
 
     'charades.meta_title': 'Homemade Charades — दो टीमों के लिए तीन राउंड का पार्टी खेल',
     'charades.meta_desc': 'दो टीमें, एक फ़ोन, तीन राउंड का अनुमान: वर्णन करें, एक शब्द, फिर अभिनय। मशहूर हस्तियों, फ़िल्मों और गानों के साथ खेलें, या तस्वीर-कार्ड वाला किड्स मोड। कोई विज्ञापन नहीं, कोई खाता नहीं, कोई डेटा संग्रह नहीं। जल्द ही App Store पर।',
@@ -1082,6 +1130,8 @@ window.HA_TRANSLATIONS = {
     'footer.copyright': '© {year} Homemade Apps. صُنع بعناية.',
     'footer.support': 'الدعم',
     'footer.all_apps': 'كل التطبيقات',
+    'nav.all_apps': 'كل التطبيقات',
+    'nav.privacy': 'الخصوصية',
     'footer.charades': 'Charades',
     'footer.clues': 'Clues',
 
@@ -1113,6 +1163,8 @@ window.HA_TRANSLATIONS = {
     'pillar.families_p': 'كل قرار يبدأ بالسؤال نفسه: هل هذا مفيد للعائلات التي تستخدمه؟',
 
     'app.back': '← كل التطبيقات',
+    'app.help_h2': 'تحتاج مساعدة؟',
+    'app.help_body': 'القواعد والإعدادات وإجابات عن أكثر أسئلة اللاعبين شيوعًا.',
 
     'charades.meta_title': 'Homemade Charades — لعبة جماعية من ثلاث جولات لفريقين',
     'charades.meta_desc': 'فريقان، هاتف واحد، ثلاث جولات من التخمين: صِف، كلمة واحدة، ثم مثّل. العب بالمشاهير والأفلام والأغاني، أو بوضع أطفال ببطاقات مصوّرة. بلا إعلانات، بلا حسابات، بلا جمع بيانات. قريبًا على App Store.',

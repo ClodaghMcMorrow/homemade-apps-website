@@ -10,19 +10,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" />
-  <link rel="stylesheet" href="../styles.css?v=3" />
+  <link rel="stylesheet" href="../styles.css?v=4" />
 </head>
 <body>
 
   <header class="site-header">
     <div class="container">
-      <a href="../index.html" class="brand" aria-label="Homemade Apps home">
-        <span class="brand-orange">Homemade</span><span>&nbsp;Apps</span>
+      <a href="index.html" class="brand" aria-label="Homemade Charades home">
+        <span class="brand-orange">Homemade</span><span>&nbsp;Charades</span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="../index.html#apps" data-i18n="nav.apps">Our apps</a>
-        <a href="index.html">Homemade Charades</a>
+        <a href="../index.html" class="nav-up" data-i18n-aria="nav.all_apps" aria-label="All apps">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span data-i18n="nav.all_apps">All apps</span>
+        </a>
         <a href="support.html" aria-current="page" data-i18n="nav.support">Support</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
         <label class="sr-only" for="langSwitcherHeader" data-i18n="nav.lang_label">Choose language</label>
         <select class="lang-switcher" id="langSwitcherHeader" aria-label="Choose language"></select>
       </nav>
@@ -97,8 +100,8 @@
         </details>
 
         <details>
-          <summary data-i18n="csup.q12">Can we play somewhere quiet, and what if we get interrupted?</summary>
-          <p data-i18n="csup.a12">Sounds and haptics each have their own switch on the setup screen, so the game works fine in a restaurant or a sleeping house. And if a game is cut short — the phone dies, or you simply have to stop — the app saves your progress at the last change of turn and offers to resume it next time you open the app.</p>
+          <summary data-i18n="csup.q12">What if we get interrupted mid-game?</summary>
+          <p data-i18n="csup.a12">Nothing is lost. If a game is cut short — the phone dies, or you simply have to stop — the app saves your progress at the last change of turn and offers to resume it the next time you open the app.</p>
         </details>
 
       </div>
@@ -107,7 +110,7 @@
       <p data-i18n="csup.languages_body">Homemade Charades is available in English and French, with a dedicated set of French cards alongside the international ones. You can switch language at any time on the setup screen.</p>
 
       <h2 data-i18n="csup.privacy_h2">Privacy</h2>
-      <p data-i18n-html="csup.privacy_body_html">Homemade Charades works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="index.html#privacy">Homemade Charades page</a>.</p>
+      <p data-i18n-html="csup.privacy_body_html">Homemade Charades works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="privacy.html">Homemade Charades privacy page</a>.</p>
 
       <h2 data-i18n="csup.bugs_h2">Feature requests &amp; bug reports</h2>
       <p data-i18n-html="csup.bugs_body_html">Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> with as much detail as you can — the device you're using and what happened really helps.</p>
