@@ -66,6 +66,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'No addictive loops, no notifications clamouring for attention, no in-app purchases hidden behind a cheerful button.',
     'pillar.families_h': 'Made for families.',
     'pillar.families_p': 'Every decision starts with the same question: is this good for the families using it?',
+    'pillar.offline_h': 'No internet needed.',
+    'pillar.offline_p': 'Every app runs entirely on your device. Play in the car, on a plane, or anywhere with no signal — nothing ever needs a connection.',
 
     'app.back': '← All apps',
     'app.help_h2': 'Need help?',
@@ -235,6 +237,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'Pas de boucles addictives, pas de notifications qui réclament l\'attention, pas d\'achats intégrés cachés derrière un joli bouton.',
     'pillar.families_h': 'Pensé pour les familles.',
     'pillar.families_p': 'Chaque décision commence par la même question : est-ce bon pour les familles qui l\'utilisent ?',
+    'pillar.offline_h': 'Aucune connexion requise.',
+    'pillar.offline_p': 'Chaque appli fonctionne entièrement sur votre appareil. Jouez en voiture, en avion ou partout sans réseau — rien n\'a jamais besoin d\'une connexion.',
 
     'app.back': '← Toutes les applis',
     'app.help_h2': 'Besoin d\'aide ?',
@@ -404,6 +408,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'Keine süchtig machenden Schleifen, keine aufdringlichen Benachrichtigungen, keine In-App-Käufe hinter einem fröhlichen Button.',
     'pillar.families_h': 'Für Familien gemacht.',
     'pillar.families_p': 'Jede Entscheidung beginnt mit derselben Frage: Ist das gut für die Familien, die es nutzen?',
+    'pillar.offline_h': 'Kein Internet nötig.',
+    'pillar.offline_p': 'Jede App läuft vollständig auf eurem Gerät. Spielt im Auto, im Flugzeug oder überall ohne Empfang — nichts braucht je eine Verbindung.',
 
     'app.back': '← Alle Apps',
     'app.help_h2': 'Braucht ihr Hilfe?',
@@ -500,6 +506,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'Sin bucles adictivos, sin notificaciones que reclaman atención, sin compras integradas escondidas tras un botón simpático.',
     'pillar.families_h': 'Hecho para familias.',
     'pillar.families_p': 'Cada decisión empieza con la misma pregunta: ¿es bueno para las familias que lo usan?',
+    'pillar.offline_h': 'Sin conexión a internet.',
+    'pillar.offline_p': 'Cada app funciona por completo en tu dispositivo. Juega en el coche, en un avión o donde no haya señal — nada necesita conexión.',
 
     'app.back': '← Todas las apps',
     'app.help_h2': '¿Necesitas ayuda?',
@@ -596,6 +604,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'Nessun meccanismo che crea dipendenza, nessuna notifica che reclama attenzione, nessun acquisto in-app nascosto dietro un pulsante allegro.',
     'pillar.families_h': 'Fatto per le famiglie.',
     'pillar.families_p': 'Ogni decisione parte dalla stessa domanda: è un bene per le famiglie che la usano?',
+    'pillar.offline_h': 'Nessuna connessione richiesta.',
+    'pillar.offline_p': 'Ogni app funziona interamente sul tuo dispositivo. Gioca in auto, in aereo o ovunque senza segnale — niente ha mai bisogno di una connessione.',
 
     'app.back': '← Tutte le app',
     'app.help_h2': 'Serve aiuto?',
@@ -692,6 +702,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'Sem ciclos viciantes, sem notificações implorando atenção, sem compras dentro do app escondidas atrás de um botão simpático.',
     'pillar.families_h': 'Feito para famílias.',
     'pillar.families_p': 'Cada decisão começa com a mesma pergunta: isto é bom para as famílias que usam?',
+    'pillar.offline_h': 'Sem internet.',
+    'pillar.offline_p': 'Cada app funciona inteiramente no seu dispositivo. Jogue no carro, no avião ou onde não houver sinal — nada precisa de conexão.',
 
     'app.back': '← Todos os apps',
     'app.help_h2': 'Precisa de ajuda?',
@@ -788,6 +800,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': '没有让人上瘾的循环，没有争抢注意力的通知，也没有藏在可爱按钮后的应用内购买。',
     'pillar.families_h': '为家庭而作。',
     'pillar.families_p': '每个决定都始于同一个问题：这对使用它的家庭有好处吗？',
+    'pillar.offline_h': '无需联网。',
+    'pillar.offline_p': '每一款应用都完全在你的设备上运行。在车上、飞机上，或任何没有信号的地方都能玩——一切都无需联网。',
 
     'app.back': '← 所有应用',
     'app.help_h2': '需要帮助吗？',
@@ -884,6 +898,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': '依存させる仕掛けも、注意を奪う通知も、かわいいボタンの裏に隠れたアプリ内課金もありません。',
     'pillar.families_h': '家族のために。',
     'pillar.families_p': 'すべての判断は、同じ問いから始まります——それは使う家族にとって良いことか？',
+    'pillar.offline_h': 'インターネット不要。',
+    'pillar.offline_p': 'どのアプリも端末だけで完結します。車の中でも、飛行機でも、電波のない場所でも——接続は一切必要ありません。',
 
     'app.back': '← すべてのアプリ',
     'app.help_h2': 'お困りですか？',
@@ -980,6 +996,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': '중독시키는 반복도, 관심을 끌려는 알림도, 귀여운 버튼 뒤에 숨긴 인앱 구매도 없습니다.',
     'pillar.families_h': '가족을 위해 만듦.',
     'pillar.families_p': '모든 결정은 같은 질문에서 시작합니다: 이것이 사용하는 가족에게 좋은가?',
+    'pillar.offline_h': '인터넷이 필요 없어요.',
+    'pillar.offline_p': '모든 앱이 오롯이 기기에서만 작동합니다. 차 안에서도, 비행기에서도, 신호가 없는 어디서든 — 연결은 전혀 필요 없어요.',
 
     'app.back': '← 모든 앱',
     'app.help_h2': '도움이 필요하신가요?',
@@ -1076,6 +1094,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'कोई लत लगाने वाले चक्र नहीं, ध्यान खींचने वाली सूचनाएँ नहीं, किसी प्यारे बटन के पीछे छिपी इन-ऐप खरीदें नहीं।',
     'pillar.families_h': 'परिवारों के लिए बना।',
     'pillar.families_p': 'हर फ़ैसला इसी सवाल से शुरू होता है: क्या यह इसका इस्तेमाल करने वाले परिवारों के लिए अच्छा है?',
+    'pillar.offline_h': 'इंटरनेट की ज़रूरत नहीं।',
+    'pillar.offline_p': 'हर ऐप पूरी तरह आपके डिवाइस पर चलता है। कार में, हवाई जहाज़ में, या कहीं भी बिना सिग्नल के खेलें — किसी चीज़ को कभी कनेक्शन की ज़रूरत नहीं।',
 
     'app.back': '← सभी ऐप्स',
     'app.help_h2': 'मदद चाहिए?',
@@ -1172,6 +1192,8 @@ window.HA_TRANSLATIONS = {
     'pillar.kidsafe_p': 'بلا حلقات إدمانية، بلا إشعارات تلحّ في طلب الانتباه، بلا مشتريات داخل التطبيق مخبأة خلف زر مبهج.',
     'pillar.families_h': 'مصنوع للعائلات.',
     'pillar.families_p': 'كل قرار يبدأ بالسؤال نفسه: هل هذا مفيد للعائلات التي تستخدمه؟',
+    'pillar.offline_h': 'لا حاجة إلى إنترنت.',
+    'pillar.offline_p': 'كل تطبيق يعمل بالكامل على جهازك. العب في السيارة أو الطائرة أو في أي مكان بلا تغطية — لا شيء يحتاج إلى اتصال أبدًا.',
 
     'app.back': '← كل التطبيقات',
     'app.help_h2': 'تحتاج مساعدة؟',
