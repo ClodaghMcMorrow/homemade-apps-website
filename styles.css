@@ -254,6 +254,9 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 }
 
 .app-links { display: flex; flex-wrap: wrap; gap: 10px; }
+/* App cards stack their buttons so every card lines up the same way,
+   whatever the button labels translate to. */
+.app-card .app-links { flex-direction: column; align-items: flex-start; }
 
 /* ── Buttons ── */
 .btn {
