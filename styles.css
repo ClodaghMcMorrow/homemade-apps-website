@@ -414,6 +414,7 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 .app-hero-copy { flex: 1 1 320px; }
 .app-hero-copy .status-badge { margin-bottom: 14px; }
 .app-hero-copy h1 { margin: 0 0 .3em; }
+.app-hero-copy .app-links { margin-top: 22px; }
 .app-tagline {
   font-family: 'Fraunces', serif;
   font-size: clamp(1.2rem, 2.4vw, 1.5rem);
@@ -558,6 +559,7 @@ html[dir="rtl"] .faq summary { flex-direction: row-reverse; }
   .nav { gap: 14px; }
   .app-hero-inner { flex-direction: column; text-align: center; align-items: center; }
   .app-hero-copy .status-badge { margin-inline: auto; }
+  .app-hero-copy .app-links { justify-content: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
