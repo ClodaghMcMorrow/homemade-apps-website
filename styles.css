@@ -83,6 +83,10 @@ section { padding: clamp(56px, 9vw, 104px) 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* Wrap instead of squashing: nav labels vary a lot across the 11
+     languages, so the header needs anywhere from ~600px to ~780px. */
+  flex-wrap: wrap;
+  gap: 10px 16px;
 }
 .brand {
   font-family: 'Fraunces', serif;
@@ -92,9 +96,10 @@ section { padding: clamp(56px, 9vw, 104px) 0; }
   display: flex;
   align-items: baseline;
   gap: 4px;
+  white-space: nowrap;
 }
 .brand .brand-orange { color: var(--orange); }
-.nav { display: flex; gap: clamp(12px,3vw,28px); align-items: center; }
+.nav { display: flex; flex-wrap: wrap; gap: clamp(12px,3vw,28px); align-items: center; }
 .nav a { color: var(--navy); font-weight: 500; font-size: .97rem; }
 .nav a:hover { color: var(--orange); }
 
@@ -559,7 +564,13 @@ html[dir="rtl"] .faq summary { flex-direction: row-reverse; }
   .pillars   { grid-template-columns: 1fr; }
   .steps-grid { grid-template-columns: 1fr; }
   .site-footer .container { justify-content: center; text-align: center; }
-  .nav { gap: 14px; }
+  /* Once the header has wrapped, centre the rows rather than leaving
+     the nav stranded against one edge, and keep it compact — it's sticky. */
+  .site-header { padding: 12px 0; }
+  .site-header .container { justify-content: center; gap: 8px 14px; }
+  .nav { justify-content: center; gap: 8px 14px; }
+  .brand { font-size: 1.15rem; }
+  .lang-switcher { padding: 5px 30px 5px 12px; font-size: .9rem; }
   .app-hero-inner { flex-direction: column; text-align: center; align-items: center; }
   .app-hero-copy .status-badge { margin-inline: auto; }
   .app-hero-copy .app-links { justify-content: center; }
