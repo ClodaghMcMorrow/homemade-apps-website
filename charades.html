@@ -5,6 +5,10 @@
   <title>Redirecting…</title>
   <link rel="canonical" href="https://homemade-apps.com/charades/" />
   <meta http-equiv="refresh" content="0; url=./charades/" />
+  <script>
+    // Carry ?lang= through the redirect so old links still land in-language.
+    if (location.search) location.replace('./charades/' + location.search);
+  </script>
 </head>
 <body>
   <p>This page has moved to <a href="./charades/">/charades/</a>.</p>
