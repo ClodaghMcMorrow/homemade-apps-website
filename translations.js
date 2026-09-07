@@ -20,6 +20,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── ENGLISH ─────────────────────────────────────────────── */
   en: {
+    'card.download': "Download",
+    'card.clues_status': 'Live on App Store',
+    'card.clues_appstore_aria': 'Download Homemade Clues on the App Store',
     "card.players_note": "Needs at least 4 players.",
     // Homemade Drawings
     "card.drawings_desc": "A drawing pad for small hands. Pencil, glow and spray with their own styles, a sheet of stickers, shapes, mirror and mandala symmetry and coloured paper — on a shelf of pictures that are saved as they're drawn. No ads, no account, nothing leaves the device.",
@@ -212,7 +215,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'Two teams, one phone. Secretly bid how few one-word clues you\'ll need to reach the hidden word — lowest bid must deliver, or the other team steals it. No ads, no accounts, no data collection. Coming soon to the App Store.',
     'clues.tagline': 'One phone, two teams. Bid low, clue smart.',
     'clues.intro': 'Both teams see the same secret word, then secretly bid how few one-word clues they\'ll need to get their team there. The lowest bid wins the hand — but has to deliver. Fall short and the other team can pounce, stealing the word from the clues already given. Bid bold, clue sharp, and race to the target score.',
-    'clues.soon_note': 'Launching soon on the App Store.',
+    'clues.soon_note': 'Out now on the App Store.',
     'clues.how_h2': 'How a round works',
     'clues.step1_h': 'See the word',
     'clues.step1_p': 'Each team picks a clue-giver. Both clue-givers secretly see the same hidden word — no one else looks.',
@@ -240,6 +243,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── FRENCH ──────────────────────────────────────────────── */
   fr: {
+    'card.download': "Télécharger",
+    'card.clues_status': 'Disponible sur l\'App Store',
+    'card.clues_appstore_aria': 'Télécharger Homemade Clues sur l\'App Store',
     "card.players_note": "Au moins 4 joueurs.",
     // Homemade Drawings
     "card.drawings_desc": "Un cahier de dessin pour les petites mains. Crayon, néon et spray avec leurs styles, une planche d'autocollants, des formes, la symétrie miroir et mandala et du papier de couleur — sur une étagère de dessins enregistrés au fil du trait. Sans pub, sans compte, rien ne quitte l'appareil.",
@@ -432,7 +438,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'Deux équipes, un téléphone. Misez en secret le nombre minimal d\'indices d\'un mot pour atteindre le mot caché — la mise la plus basse doit assurer, sinon l\'autre équipe le vole. Sans publicité, sans compte, sans collecte de données. Bientôt sur l\'App Store.',
     'clues.tagline': 'Un téléphone, deux équipes. Misez bas, indiquez juste.',
     'clues.intro': 'Les deux équipes voient le même mot secret, puis misent en secret le nombre minimal d\'indices d\'un mot dont elles auront besoin pour y amener leur équipe. La mise la plus basse remporte la main — mais doit assurer. Échouez, et l\'autre équipe peut bondir et voler le mot à partir des indices déjà donnés. Misez gros, indiquez juste, et courez vers le score cible.',
-    'clues.soon_note': 'Bientôt disponible sur l\'App Store.',
+    'clues.soon_note': 'Disponible dès maintenant sur l\'App Store.',
     'clues.how_h2': 'Le déroulé d\'une manche',
     'clues.step1_h': 'Voir le mot',
     'clues.step1_p': 'Chaque équipe choisit un meneur. Les deux meneurs voient en secret le même mot caché — personne d\'autre ne regarde.',
@@ -460,6 +466,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── GERMAN ──────────────────────────────────────────────── */
   de: {
+    'card.download': "Laden",
+    'card.clues_status': 'Im App Store erhältlich',
+    'card.clues_appstore_aria': 'Homemade Clues im App Store laden',
     "card.players_note": "Mindestens 4 Spieler.",
     // Homemade Drawings
     "card.drawings_desc": "Ein Malblock für kleine Hände. Stift, Neon und Spray mit eigenen Stilen, ein Stickerbogen, Formen, Spiegel- und Mandala-Symmetrie und farbiges Papier – auf einem Regal voller Bilder, die beim Zeichnen gespeichert werden. Keine Werbung, kein Konto, nichts verlässt das Gerät.",
@@ -579,7 +588,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'Zwei Teams, ein Handy. Bietet heimlich, mit wie wenigen Ein-Wort-Hinweisen ihr das versteckte Wort erreicht — das niedrigste Gebot muss liefern, sonst stiehlt es das andere Team. Keine Werbung, keine Konten, keine Datenerfassung. Demnächst im App Store.',
     'clues.tagline': 'Ein Handy, zwei Teams. Niedrig bieten, clever Hinweise geben.',
     'clues.intro': 'Beide Teams sehen dasselbe geheime Wort und bieten dann heimlich, mit wie wenigen Ein-Wort-Hinweisen sie ihr Team dorthin bringen. Das niedrigste Gebot gewinnt die Hand — muss aber liefern. Verfehlt ihr es, kann das andere Team zuschlagen und das Wort aus den bereits gegebenen Hinweisen stehlen. Bietet mutig, gebt clevere Hinweise und rast zur Zielpunktzahl.',
-    'clues.soon_note': 'Demnächst im App Store.',
+    'clues.soon_note': 'Jetzt im App Store erhältlich.',
     'clues.how_h2': 'So läuft eine Runde',
     'clues.step1_h': 'Das Wort sehen',
     'clues.step1_p': 'Jedes Team wählt einen Hinweisgeber. Beide Hinweisgeber sehen heimlich dasselbe versteckte Wort — niemand sonst schaut.',
@@ -607,6 +616,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── SPANISH ─────────────────────────────────────────────── */
   es: {
+    'card.download': "Descargar",
+    'card.clues_status': 'Disponible en el App Store',
+    'card.clues_appstore_aria': 'Descargar Homemade Clues en el App Store',
     "card.players_note": "Necesita al menos 4 jugadores.",
     // Homemade Drawings
     "card.drawings_desc": "Un cuaderno de dibujo para manos pequeñas. Lápiz, neón y spray con sus estilos, una hoja de pegatinas, formas, simetría de espejo y mandala y papel de colores, en un estante de dibujos que se guardan mientras se hacen. Sin anuncios, sin cuenta, nada sale del dispositivo.",
@@ -726,7 +738,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'Dos equipos, un teléfono. Apuesta en secreto con cuántas pistas de una palabra llegarás a la palabra oculta — la apuesta más baja debe cumplir, o el otro equipo la roba. Sin anuncios, sin cuentas, sin recopilación de datos. Próximamente en el App Store.',
     'clues.tagline': 'Un teléfono, dos equipos. Apuesta bajo, da pistas con astucia.',
     'clues.intro': 'Ambos equipos ven la misma palabra secreta y luego apuestan en secreto con cuántas pistas de una palabra llevarán a su equipo hasta ella. La apuesta más baja gana la mano — pero debe cumplir. Si te quedas corto, el otro equipo puede lanzarse y robar la palabra a partir de las pistas ya dadas. Apuesta con audacia, da pistas afiladas y corre hacia la puntuación objetivo.',
-    'clues.soon_note': 'Próximamente en el App Store.',
+    'clues.soon_note': 'Ya disponible en el App Store.',
     'clues.how_h2': 'Cómo es una ronda',
     'clues.step1_h': 'Ve la palabra',
     'clues.step1_p': 'Cada equipo elige a quien da las pistas. Ambos ven en secreto la misma palabra oculta — nadie más mira.',
@@ -754,6 +766,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── ITALIAN ─────────────────────────────────────────────── */
   it: {
+    'card.download': "Scarica",
+    'card.clues_status': 'Disponibile su App Store',
+    'card.clues_appstore_aria': 'Scarica Homemade Clues su App Store',
     "card.players_note": "Servono almeno 4 giocatori.",
     // Homemade Drawings
     "card.drawings_desc": "Un album da disegno per mani piccole. Matita, neon e spray con i loro stili, un foglio di adesivi, forme, simmetria a specchio e mandala e carta colorata, su una mensola di disegni salvati mentre nascono. Niente pubblicità, niente account, nulla lascia il dispositivo.",
@@ -873,7 +888,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'Due squadre, un telefono. Punta in segreto con quanti pochi indizi di una parola raggiungerai la parola nascosta — la puntata più bassa deve mantenere, o l\'altra squadra la ruba. Senza pubblicità, senza account, senza raccolta dati. Prossimamente su App Store.',
     'clues.tagline': 'Un telefono, due squadre. Punta basso, dai indizi con astuzia.',
     'clues.intro': 'Entrambe le squadre vedono la stessa parola segreta, poi puntano in segreto con quanti pochi indizi di una parola porteranno la squadra fin lì. La puntata più bassa vince la mano — ma deve mantenere. Se non ci arrivi, l\'altra squadra può balzare e rubare la parola dagli indizi già dati. Punta con coraggio, dai indizi acuti e corri verso il punteggio obiettivo.',
-    'clues.soon_note': 'Prossimamente su App Store.',
+    'clues.soon_note': 'Ora disponibile su App Store.',
     'clues.how_h2': 'Com\'è un round',
     'clues.step1_h': 'Guarda la parola',
     'clues.step1_p': 'Ogni squadra sceglie chi dà gli indizi. Entrambi vedono in segreto la stessa parola nascosta — nessun altro guarda.',
@@ -901,6 +916,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── PORTUGUESE ──────────────────────────────────────────── */
   pt: {
+    'card.download': "Baixar",
+    'card.clues_status': 'Disponível na App Store',
+    'card.clues_appstore_aria': 'Baixar Homemade Clues na App Store',
     "card.players_note": "Precisa de pelo menos 4 jogadores.",
     // Homemade Drawings
     "card.drawings_desc": "Um bloco de desenho para mãos pequenas. Lápis, neon e spray com seus estilos, uma cartela de adesivos, formas, simetria em espelho e mandala e papel colorido, numa estante de desenhos salvos enquanto nascem. Sem anúncios, sem conta, nada sai do aparelho.",
@@ -1020,7 +1038,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'Duas equipes, um telefone. Aposte em segredo com quão poucas dicas de uma palavra chegará à palavra oculta — a aposta mais baixa tem de cumprir, ou a outra equipe a rouba. Sem anúncios, sem contas, sem coleta de dados. Em breve na App Store.',
     'clues.tagline': 'Um telefone, duas equipes. Aposte baixo, dê dicas com esperteza.',
     'clues.intro': 'As duas equipes veem a mesma palavra secreta e então apostam em segredo com quão poucas dicas de uma palavra levarão a equipe até ela. A aposta mais baixa vence a rodada — mas tem de cumprir. Se ficar aquém, a outra equipe pode dar o bote e roubar a palavra a partir das dicas já dadas. Aposte com ousadia, dê dicas afiadas e corra até a pontuação-alvo.',
-    'clues.soon_note': 'Em breve na App Store.',
+    'clues.soon_note': 'Já disponível na App Store.',
     'clues.how_h2': 'Como é uma rodada',
     'clues.step1_h': 'Veja a palavra',
     'clues.step1_p': 'Cada equipe escolhe quem dá as dicas. Os dois veem em segredo a mesma palavra oculta — mais ninguém olha.',
@@ -1048,6 +1066,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── CHINESE (SIMPLIFIED) ─────────────────────────────────── */
   zh: {
+    'card.download': "下载",
+    'card.clues_status': 'App Store 已上架',
+    'card.clues_appstore_aria': '在 App Store 下载 Homemade Clues',
     "card.players_note": "至少需要 4 名玩家。",
     // Homemade Drawings
     "card.drawings_desc": "给小手准备的画板。铅笔、霓虹和喷枪各有风格，还有一张贴纸表、图形、镜像与曼陀罗对称和彩色纸张——画作边画边保存，排在架子上。没有广告，无需账户，任何数据都不会离开设备。",
@@ -1167,7 +1188,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': '两队、一部手机。秘密竞标你需要多少个单字提示才能猜出隐藏词——出价最低者必须兑现，否则另一队就会抢走。无广告、无账户、不收集数据。即将在 App Store 推出。',
     'clues.tagline': '一部手机，两支队伍。低价竞标，精准提示。',
     'clues.intro': '两队看到同一个秘密词，然后秘密竞标：用多少个单字提示就能让本队猜到它。出价最低的一方赢得这一手——但必须兑现。若没做到，另一队就能出击，仅凭已给出的提示抢走这个词。大胆竞标，精准提示，冲向目标分数。',
-    'clues.soon_note': '即将在 App Store 推出。',
+    'clues.soon_note': '现已在 App Store 上架。',
     'clues.how_h2': '一回合的流程',
     'clues.step1_h': '看词',
     'clues.step1_p': '每队选一名提示者。两名提示者秘密看到同一个隐藏词——其他人不许看。',
@@ -1195,6 +1216,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── JAPANESE ────────────────────────────────────────────── */
   ja: {
+    'card.download': "ダウンロード",
+    'card.clues_status': 'App Storeで配信中',
+    'card.clues_appstore_aria': 'Homemade CluesをApp Storeでダウンロード',
     "card.players_note": "4人以上で遊べます。",
     // Homemade Drawings
     "card.drawings_desc": "小さな手のためのお絵かき帳。それぞれにスタイルのあるえんぴつ、ネオン、スプレー、ステッカーシート、図形、鏡とマンダラの対称、色紙。描いている間に保存され、棚に並びます。広告なし、アカウント不要、データは端末の外に出ません。",
@@ -1314,7 +1338,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': '2チーム、1台のスマホ。隠し語にたどり着くのに必要な一語ヒントの少なさを秘密で入札——最も低い入札は実行必須、さもなくば相手に奪われます。広告なし、アカウントなし、データ収集なし。App Storeで近日公開。',
     'clues.tagline': '1台のスマホ、2チーム。低く入札、賢くヒント。',
     'clues.intro': '両チームが同じ秘密の言葉を見て、それから「一語ヒント何個で自分のチームをそこへ導けるか」を秘密で入札します。最も低い入札がその手番を制します——ただし実行が必須。届かなければ、相手チームが飛びつき、すでに出されたヒントだけからその言葉を奪えます。大胆に入札し、鋭くヒントを出し、目標スコアへ駆け抜けましょう。',
-    'clues.soon_note': 'App Storeで近日公開。',
+    'clues.soon_note': 'App Storeで配信中。',
     'clues.how_h2': '1ラウンドの流れ',
     'clues.step1_h': '言葉を見る',
     'clues.step1_p': '各チームがヒントを出す人を決めます。2人のヒント役だけが同じ隠し語を秘密で見ます——ほかの人は見てはいけません。',
@@ -1342,6 +1366,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── KOREAN ──────────────────────────────────────────────── */
   ko: {
+    'card.download': "다운로드",
+    'card.clues_status': 'App Store에서 이용 가능',
+    'card.clues_appstore_aria': 'App Store에서 Homemade Clues 다운로드',
     "card.players_note": "최소 4명이 필요합니다.",
     // Homemade Drawings
     "card.drawings_desc": "작은 손을 위한 그림판. 저마다 스타일이 있는 연필, 네온, 스프레이, 스티커 시트, 도형, 거울과 만다라 대칭, 색지까지. 그림은 그리는 동안 저장되어 선반에 놓입니다. 광고 없음, 계정 없음, 어떤 것도 기기 밖으로 나가지 않습니다.",
@@ -1461,7 +1488,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': '두 팀, 폰 하나. 숨은 단어에 도달하는 데 필요한 한 단어 힌트를 얼마나 적게 쓸지 비밀리에 입찰하세요 — 가장 낮은 입찰은 반드시 해내야 하고, 못 하면 상대 팀이 가로챕니다. 광고 없음, 계정 없음, 데이터 수집 없음. App Store에 곧 출시.',
     'clues.tagline': '폰 하나, 두 팀. 낮게 입찰하고, 영리하게 힌트를.',
     'clues.intro': '두 팀이 같은 비밀 단어를 본 뒤, 팀을 그 단어로 이끄는 데 필요한 한 단어 힌트를 얼마나 적게 쓸지 비밀리에 입찰합니다. 가장 낮은 입찰이 그 판을 가져가요 — 대신 반드시 해내야 합니다. 못 미치면 상대 팀이 달려들어, 이미 나온 힌트만으로 그 단어를 가로챌 수 있어요. 과감히 입찰하고, 날카롭게 힌트를 주며, 목표 점수를 향해 달리세요.',
-    'clues.soon_note': 'App Store에 곧 출시.',
+    'clues.soon_note': 'App Store에서 이용 가능합니다.',
     'clues.how_h2': '한 라운드의 흐름',
     'clues.step1_h': '단어 보기',
     'clues.step1_p': '각 팀이 힌트 주는 사람을 정해요. 두 힌트 담당자만 같은 숨은 단어를 비밀리에 봅니다 — 다른 사람은 보면 안 돼요.',
@@ -1489,6 +1516,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── HINDI ───────────────────────────────────────────────── */
   hi: {
+    'card.download': "डाउनलोड",
+    'card.clues_status': 'App Store पर उपलब्ध',
+    'card.clues_appstore_aria': 'Homemade Clues को App Store से डाउनलोड करें',
     "card.players_note": "कम से कम 4 खिलाड़ी चाहिए।",
     // Homemade Drawings
     "card.drawings_desc": "छोटे हाथों के लिए एक ड्रॉइंग पैड। अपने-अपने स्टाइल वाली पेंसिल, ग्लो और स्प्रे, स्टिकर की शीट, आकृतियाँ, मिरर और मंडला सिमेट्री और रंगीन कागज़ — चित्रों की एक शेल्फ़ पर, जो बनते-बनते सेव होते हैं। कोई विज्ञापन नहीं, कोई खाता नहीं, कुछ भी डिवाइस से बाहर नहीं जाता।",
@@ -1608,7 +1638,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'दो टीमें, एक फ़ोन। गुप्त रूप से बोली लगाएँ कि छिपे शब्द तक पहुँचने के लिए कितने कम एक-शब्द संकेत चाहिए — सबसे कम बोली को कर दिखाना होगा, वरना दूसरी टीम उसे चुरा लेगी। कोई विज्ञापन नहीं, कोई खाता नहीं, कोई डेटा संग्रह नहीं। जल्द ही App Store पर।',
     'clues.tagline': 'एक फ़ोन, दो टीमें। कम बोली लगाएँ, समझदारी से संकेत दें।',
     'clues.intro': 'दोनों टीमें एक ही गुप्त शब्द देखती हैं, फिर गुप्त रूप से बोली लगाती हैं कि अपनी टीम को वहाँ तक ले जाने के लिए कितने कम एक-शब्द संकेत चाहिए। सबसे कम बोली वह हाथ जीतती है — पर कर दिखाना होता है। चूके, तो दूसरी टीम झपट सकती है और पहले से दिए गए संकेतों से ही वह शब्द चुरा सकती है। साहसी बोली लगाएँ, तेज़ संकेत दें, और लक्ष्य अंक की ओर दौड़ें।',
-    'clues.soon_note': 'जल्द ही App Store पर।',
+    'clues.soon_note': 'अब App Store पर उपलब्ध।',
     'clues.how_h2': 'एक राउंड कैसा होता है',
     'clues.step1_h': 'शब्द देखें',
     'clues.step1_p': 'हर टीम एक संकेत देने वाला चुनती है। दोनों संकेतक गुप्त रूप से एक ही छिपा शब्द देखते हैं — बाकी कोई नहीं देखता।',
@@ -1636,6 +1666,9 @@ window.HA_TRANSLATIONS = {
 
   /* ── ARABIC (RTL) ────────────────────────────────────────── */
   ar: {
+    'card.download': "تنزيل",
+    'card.clues_status': 'متوفر على App Store',
+    'card.clues_appstore_aria': 'تنزيل Homemade Clues من App Store',
     "card.players_note": "يلزم 4 لاعبين على الأقلّ.",
     // Homemade Drawings
     "card.drawings_desc": "دفتر رسم للأيدي الصغيرة. قلم رصاص وتوهّج ورذاذ لكلٍّ أساليبه، وورقة ملصقات، وأشكال، وتناظر المرآة والماندالا، وورق ملوّن — على رفّ من الرسومات تُحفَظ أثناء رسمها. بلا إعلانات، بلا حساب، ولا يخرج شيء من الجهاز.",
@@ -1755,7 +1788,7 @@ window.HA_TRANSLATIONS = {
     'clues.meta_desc': 'فريقان، هاتف واحد. راهن سرًّا على أقل عدد من تلميحات الكلمة الواحدة للوصول إلى الكلمة المخفية — على الرهان الأقل أن يفي، وإلا سرقها الفريق الآخر. بلا إعلانات، بلا حسابات، بلا جمع بيانات. قريبًا على App Store.',
     'clues.tagline': 'هاتف واحد، فريقان. راهن منخفضًا، ولمّح بذكاء.',
     'clues.intro': 'يرى الفريقان الكلمة السرية نفسها، ثم يراهنان سرًّا على أقل عدد من تلميحات الكلمة الواحدة لإيصال فريقهما إليها. الرهان الأقل يفوز باليد — لكن عليه أن يفي. إن قصّرت، فقد ينقضّ الفريق الآخر ويسرق الكلمة من التلميحات المعطاة سلفًا. راهن بجرأة، لمّح بذكاء، وتسابق نحو النتيجة المستهدفة.',
-    'clues.soon_note': 'قريبًا على App Store.',
+    'clues.soon_note': 'متوفر الآن على App Store.',
     'clues.how_h2': 'كيف تجري الجولة',
     'clues.step1_h': 'شاهد الكلمة',
     'clues.step1_p': 'يختار كل فريق مُعطي تلميحات. يرى مُعطيا التلميحات فقط الكلمة المخفية نفسها سرًّا — لا ينظر أحد غيرهما.',

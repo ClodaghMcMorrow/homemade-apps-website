@@ -23,6 +23,8 @@
   --stories-bg:   #FFF0E6;
   --stories-fg:   #B9611E;
   --charades-bg:  #EBF4EC;
+  --clues-bg:     #E8F0FB;
+  --drawings-bg:  #FBF3DC;
   --charades-fg:  #3A7A4A;
   --breathing-bg: #E6F0FA;
   --breathing-fg: #2F5C8F;
@@ -199,15 +201,12 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
   min-height: 0;
   flex: 0 0 220px;
 }
-/* The rows alternate their logo panel between the two house tints, whatever
-   app sits in them, so the list reads as stripes rather than four cards. */
-.apps-grid .app-card:nth-child(odd)  .app-logo-banner { background: var(--stories-bg); }
-.apps-grid .app-card:nth-child(even) .app-logo-banner { background: var(--charades-bg); }
+
 .app-card-body { flex: 1 1 auto; }
 .app-logo-banner--stories  { background: var(--stories-bg);  }
 .app-logo-banner--charades { background: var(--charades-bg); }
-.app-logo-banner--clues    { background: var(--stories-bg);  }
-.app-logo-banner--drawings { background: var(--stories-bg);  }
+.app-logo-banner--clues    { background: var(--clues-bg);    }
+.app-logo-banner--drawings { background: var(--drawings-bg); }
 
 .app-logo {
   width: auto;
