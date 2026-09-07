@@ -20,7 +20,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── ENGLISH ─────────────────────────────────────────────── */
   en: {
-    "card.players_note": "Needs at least 4 players — two teams of two.",
+    "card.players_note": "Needs at least 4 players.",
     // Homemade Drawings
     "card.drawings_desc": "A drawing pad for small hands. Pencil, glow and spray with their own styles, a sheet of stickers, shapes, mirror and mandala symmetry and coloured paper — on a shelf of pictures that are saved as they're drawn. No ads, no account, nothing leaves the device.",
     "drawings.meta_title": "Homemade Drawings — A drawing pad for little artists",
@@ -240,7 +240,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── FRENCH ──────────────────────────────────────────────── */
   fr: {
-    "card.players_note": "Au moins 4 joueurs — deux équipes de deux.",
+    "card.players_note": "Au moins 4 joueurs.",
     // Homemade Drawings
     "card.drawings_desc": "Un cahier de dessin pour les petites mains. Crayon, néon et spray avec leurs styles, une planche d'autocollants, des formes, la symétrie miroir et mandala et du papier de couleur — sur une étagère de dessins enregistrés au fil du trait. Sans pub, sans compte, rien ne quitte l'appareil.",
     "drawings.meta_title": "Homemade Drawings — Un cahier de dessin pour les petits artistes",
@@ -460,7 +460,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── GERMAN ──────────────────────────────────────────────── */
   de: {
-    "card.players_note": "Mindestens 4 Spieler – zwei Teams zu zweit.",
+    "card.players_note": "Mindestens 4 Spieler.",
     // Homemade Drawings
     "card.drawings_desc": "Ein Malblock für kleine Hände. Stift, Neon und Spray mit eigenen Stilen, ein Stickerbogen, Formen, Spiegel- und Mandala-Symmetrie und farbiges Papier – auf einem Regal voller Bilder, die beim Zeichnen gespeichert werden. Keine Werbung, kein Konto, nichts verlässt das Gerät.",
     "drawings.meta_title": "Homemade Drawings – Ein Malblock für kleine Künstler",
@@ -607,7 +607,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── SPANISH ─────────────────────────────────────────────── */
   es: {
-    "card.players_note": "Necesita al menos 4 jugadores: dos equipos de dos.",
+    "card.players_note": "Necesita al menos 4 jugadores.",
     // Homemade Drawings
     "card.drawings_desc": "Un cuaderno de dibujo para manos pequeñas. Lápiz, neón y spray con sus estilos, una hoja de pegatinas, formas, simetría de espejo y mandala y papel de colores, en un estante de dibujos que se guardan mientras se hacen. Sin anuncios, sin cuenta, nada sale del dispositivo.",
     "drawings.meta_title": "Homemade Drawings — Un cuaderno de dibujo para pequeños artistas",
@@ -754,7 +754,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── ITALIAN ─────────────────────────────────────────────── */
   it: {
-    "card.players_note": "Servono almeno 4 giocatori: due squadre da due.",
+    "card.players_note": "Servono almeno 4 giocatori.",
     // Homemade Drawings
     "card.drawings_desc": "Un album da disegno per mani piccole. Matita, neon e spray con i loro stili, un foglio di adesivi, forme, simmetria a specchio e mandala e carta colorata, su una mensola di disegni salvati mentre nascono. Niente pubblicità, niente account, nulla lascia il dispositivo.",
     "drawings.meta_title": "Homemade Drawings — Un album da disegno per piccoli artisti",
@@ -901,7 +901,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── PORTUGUESE ──────────────────────────────────────────── */
   pt: {
-    "card.players_note": "Precisa de pelo menos 4 jogadores: dois times de dois.",
+    "card.players_note": "Precisa de pelo menos 4 jogadores.",
     // Homemade Drawings
     "card.drawings_desc": "Um bloco de desenho para mãos pequenas. Lápis, neon e spray com seus estilos, uma cartela de adesivos, formas, simetria em espelho e mandala e papel colorido, numa estante de desenhos salvos enquanto nascem. Sem anúncios, sem conta, nada sai do aparelho.",
     "drawings.meta_title": "Homemade Drawings — Um bloco de desenho para pequenos artistas",
@@ -1048,7 +1048,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── CHINESE (SIMPLIFIED) ─────────────────────────────────── */
   zh: {
-    "card.players_note": "至少需要 4 名玩家——两队，每队两人。",
+    "card.players_note": "至少需要 4 名玩家。",
     // Homemade Drawings
     "card.drawings_desc": "给小手准备的画板。铅笔、霓虹和喷枪各有风格，还有一张贴纸表、图形、镜像与曼陀罗对称和彩色纸张——画作边画边保存，排在架子上。没有广告，无需账户，任何数据都不会离开设备。",
     "drawings.meta_title": "Homemade Drawings — 给小画家的画板",
@@ -1195,7 +1195,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── JAPANESE ────────────────────────────────────────────── */
   ja: {
-    "card.players_note": "4人以上で遊べます — 2人ずつの2チーム。",
+    "card.players_note": "4人以上で遊べます。",
     // Homemade Drawings
     "card.drawings_desc": "小さな手のためのお絵かき帳。それぞれにスタイルのあるえんぴつ、ネオン、スプレー、ステッカーシート、図形、鏡とマンダラの対称、色紙。描いている間に保存され、棚に並びます。広告なし、アカウント不要、データは端末の外に出ません。",
     "drawings.meta_title": "Homemade Drawings — 小さなアーティストのお絵かき帳",
@@ -1342,7 +1342,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── KOREAN ──────────────────────────────────────────────── */
   ko: {
-    "card.players_note": "최소 4명이 필요합니다. 두 명씩 두 팀.",
+    "card.players_note": "최소 4명이 필요합니다.",
     // Homemade Drawings
     "card.drawings_desc": "작은 손을 위한 그림판. 저마다 스타일이 있는 연필, 네온, 스프레이, 스티커 시트, 도형, 거울과 만다라 대칭, 색지까지. 그림은 그리는 동안 저장되어 선반에 놓입니다. 광고 없음, 계정 없음, 어떤 것도 기기 밖으로 나가지 않습니다.",
     "drawings.meta_title": "Homemade Drawings — 어린 화가를 위한 그림판",
@@ -1489,7 +1489,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── HINDI ───────────────────────────────────────────────── */
   hi: {
-    "card.players_note": "कम से कम 4 खिलाड़ी चाहिए — दो-दो की दो टीमें।",
+    "card.players_note": "कम से कम 4 खिलाड़ी चाहिए।",
     // Homemade Drawings
     "card.drawings_desc": "छोटे हाथों के लिए एक ड्रॉइंग पैड। अपने-अपने स्टाइल वाली पेंसिल, ग्लो और स्प्रे, स्टिकर की शीट, आकृतियाँ, मिरर और मंडला सिमेट्री और रंगीन कागज़ — चित्रों की एक शेल्फ़ पर, जो बनते-बनते सेव होते हैं। कोई विज्ञापन नहीं, कोई खाता नहीं, कुछ भी डिवाइस से बाहर नहीं जाता।",
     "drawings.meta_title": "Homemade Drawings — छोटे कलाकारों के लिए ड्रॉइंग पैड",
@@ -1636,7 +1636,7 @@ window.HA_TRANSLATIONS = {
 
   /* ── ARABIC (RTL) ────────────────────────────────────────── */
   ar: {
-    "card.players_note": "يلزم 4 لاعبين على الأقلّ — فريقان من لاعبَين.",
+    "card.players_note": "يلزم 4 لاعبين على الأقلّ.",
     // Homemade Drawings
     "card.drawings_desc": "دفتر رسم للأيدي الصغيرة. قلم رصاص وتوهّج ورذاذ لكلٍّ أساليبه، وورقة ملصقات، وأشكال، وتناظر المرآة والماندالا، وورق ملوّن — على رفّ من الرسومات تُحفَظ أثناء رسمها. بلا إعلانات، بلا حساب، ولا يخرج شيء من الجهاز.",
     "drawings.meta_title": "Homemade Drawings — دفتر رسم للفنانين الصغار",
