@@ -193,12 +193,16 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 
 /* Logo banner at the top of each app card */
 .app-logo-banner {
-  padding: 28px 24px;
+  padding: 14px 20px;
   display: grid;
   place-items: center;
-  min-height: 180px;
-  flex: 0 0 280px;
+  min-height: 0;
+  flex: 0 0 220px;
 }
+/* The rows alternate their logo panel between the two house tints, whatever
+   app sits in them, so the list reads as stripes rather than four cards. */
+.apps-grid .app-card:nth-child(odd)  .app-logo-banner { background: var(--stories-bg); }
+.apps-grid .app-card:nth-child(even) .app-logo-banner { background: var(--charades-bg); }
 .app-card-body { flex: 1 1 auto; }
 .app-logo-banner--stories  { background: var(--stories-bg);  }
 .app-logo-banner--charades { background: var(--charades-bg); }
@@ -208,7 +212,7 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 .app-logo {
   width: auto;
   height: auto;
-  max-height: 152px;
+  max-height: 110px;
   max-width: 88%;
   object-fit: contain;
   filter: drop-shadow(0 6px 14px rgba(46,58,89,.14));
@@ -249,24 +253,25 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 }
 
 .app-card-body {
-  padding: 22px 28px 28px;
+  padding: 16px 24px 18px;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 .app-name + .status-badge { margin-top: 2px; }
-.app-card-body .app-meta + p { margin-top: 14px; }
+.app-card-body .app-meta + p { margin-top: 8px; }
 .app-card-body p {
   color: var(--muted);
-  font-size: 1rem;
-  margin-bottom: 20px;
+  font-size: .95rem;
+  line-height: 1.45;
+  margin-bottom: 12px;
   flex: 1;
 }
 
 .app-links { display: flex; flex-wrap: wrap; gap: 10px; }
 /* App cards stack their buttons so every card lines up the same way,
    whatever the button labels translate to. */
-.app-card .app-links { flex-direction: column; align-items: flex-start; }
+.app-card .app-links { flex-direction: row; align-items: center; }
 
 /* ── Buttons ── */
 .btn {
@@ -478,7 +483,7 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
   color: var(--orange-dark);
   margin: 6px 0 0;
 }
-.app-card-body .players-note { margin-top: 8px; }
+.app-card-body .players-note { margin: 0 0 10px; flex: 0; }
 
 .soon-note {
   display: inline-block;
@@ -611,7 +616,7 @@ html[dir="rtl"] .faq summary { flex-direction: row-reverse; }
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .app-card { flex-direction: column; }
-  .app-logo-banner { flex-basis: auto; }
+  .app-logo-banner { flex-basis: auto; padding: 18px 20px; }
   .apps-grid { grid-template-columns: 1fr; }
   .pillars   { grid-template-columns: 1fr; }
   .steps-grid { grid-template-columns: 1fr; }
