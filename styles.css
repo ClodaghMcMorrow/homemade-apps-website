@@ -468,6 +468,14 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
   font-weight: 500;
   margin: 0 0 .7em;
 }
+.players-note {
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--orange-dark);
+  margin: 6px 0 0;
+}
+.app-card-body .players-note { margin-top: 8px; }
+
 .soon-note {
   display: inline-block;
   font-size: .9rem;
