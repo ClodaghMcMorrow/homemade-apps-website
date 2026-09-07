@@ -170,9 +170,10 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 .apps { background: var(--cream); }
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 28px;
-  margin-top: 48px;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 920px;
+  margin: 48px auto 0;
 }
 
 .app-card {
@@ -182,7 +183,8 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
   border: 1px solid rgba(46,58,89,.05);
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: stretch;
   transition: transform .2s ease, box-shadow .2s ease;
 }
 .app-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
@@ -191,11 +193,13 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 
 /* Logo banner at the top of each app card */
 .app-logo-banner {
-  padding: 28px 24px 20px;
+  padding: 28px 24px;
   display: grid;
   place-items: center;
   min-height: 180px;
+  flex: 0 0 280px;
 }
+.app-card-body { flex: 1 1 auto; }
 .app-logo-banner--stories  { background: var(--stories-bg);  }
 .app-logo-banner--charades { background: var(--charades-bg); }
 .app-logo-banner--clues    { background: var(--stories-bg);  }
@@ -606,6 +610,8 @@ html[dir="rtl"] .faq summary { flex-direction: row-reverse; }
 
 /* ── Responsive ── */
 @media (max-width: 640px) {
+  .app-card { flex-direction: column; }
+  .app-logo-banner { flex-basis: auto; }
   .apps-grid { grid-template-columns: 1fr; }
   .pillars   { grid-template-columns: 1fr; }
   .steps-grid { grid-template-columns: 1fr; }
