@@ -207,6 +207,7 @@ html[dir="rtl"] .nav-up svg { transform: scaleX(-1); }
 .app-logo-banner--charades { background: var(--charades-bg); }
 .app-logo-banner--clues    { background: var(--clues-bg);    }
 .app-logo-banner--drawings { background: var(--drawings-bg); }
+.app-logo-banner--breathing { background: var(--breathing-bg); }
 
 .app-logo {
   width: auto;
