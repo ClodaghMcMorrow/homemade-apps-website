@@ -63,6 +63,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Download Homemade Clues on the App Store',
     'card.breathing_status': 'Live on App Store',
     'card.breathing_appstore_aria': 'Download Homemade Breathing on the App Store',
+    'card.drawings_status': 'Live on App Store',
+    'card.drawings_appstore_aria': 'Download Homemade Drawings on the App Store',
     "card.players_note": "Needs at least 4 players.",
     // Homemade Drawings
     "card.drawings_desc": "A drawing pad for small hands. Pencil, glow and spray with their own styles, a sheet of stickers, shapes, mirror and mandala symmetry and coloured paper — on a shelf of pictures that are saved as they're drawn. No ads, no account, nothing leaves the device.",
@@ -70,7 +72,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings is a drawing pad for children on iPhone and iPad: pencil, glow, spray, stickers, shapes and symmetry on coloured paper. No ads, no accounts, no data collection.",
     "drawings.tagline": "Small hands, big ideas.",
     "drawings.intro": "Open it and there is a shelf of pictures and a big button for a new page. Tap it and the whole screen becomes paper. No menus to learn, no account to make, nothing to unlock — just draw.",
-    "drawings.soon_note": "Launching soon on the App Store.",
+    "drawings.soon_note": 'Out now on the App Store.',
     "drawings.how_h2": "What's inside",
     "drawings.step1_h": "Draw",
     "drawings.step1_p": "Pencil, marker, paint, glow and spray, each with its own styles — hold a brush to see how else it can draw. A soft eraser paints the paper back on.",
@@ -98,7 +100,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "The flower icon at the right of the size slider switches between no mirror, mirror, four ways and mandala. The circle in the top bar opens the paper picker, with seven colours and optional squares or dots to draw on.",
     "drsup.languages_body": "Homemade Drawings speaks English, French, Spanish, Italian, German, Portuguese, Korean, Japanese and Simplified Chinese. Change the language any time in Settings — it applies on the spot.",
     "drsup.privacy_body_html": "Homemade Drawings works entirely offline. It needs no account and collects no personal data of any kind — no ads, no analytics, no tracking. The only permission it can ask for is to add a drawing to your photo library, and only when you choose to. Full details are on the <a href=\"privacy.html\">Homemade Drawings privacy page</a>.",
-    "drsup.bugs_body_html": "Spotted a bug or have an idea that would make the app better? Email <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> with as much detail as you can — the device you're using and what happened really helps.",
+    "drsup.bugs_body_html": "Spotted a bug or have an idea that would make the app better? Email <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> with as much detail as you can — the device you're using and what happened really helps.",
     "privacy.overview_drawings_html": "<strong>Overview.</strong> Homemade Drawings is a drawing app designed for children and families. It does not collect, transmit, or share any personal data.",
     "privacy.data_body_drawings": "Drawings, any photos you place on a page and your settings stay on your device only, in the app's own storage. Nothing is sent to external servers or third parties.",
     "privacy.perms_body_drawings": "The app works entirely offline. If you choose to save a drawing to your photo library it asks for add-only Photos access; placing a photo on the page uses Apple's picker, which needs no permission and shows the app only the picture you chose. It does not access your contacts, location or microphone.",
@@ -129,6 +131,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'Apps made with love,<br><span class="accent">for families to enjoy.</span>',
     'home.lead': 'I\'m a mother building simple, fun and educational apps for families.',
     'home.apps_h2': 'My apps',
+    'home.device_alt': 'An iPhone home screen with the Homemade apps on it: Stories, Breathing, Charades, Drawings and Clues.',
     'card.stories_status': 'Live on App Store',
     'card.charades_status': 'Live on App Store',
     'card.stories_desc': 'Record bedtime stories, songs, lullabies and birthday messages in your own voice. Kids can replay them any time — even offline. The people they love, always a tap away.',
@@ -206,7 +209,7 @@ window.HA_TRANSLATIONS = {
     'csup.privacy_h2': 'Privacy',
     'csup.privacy_body_html': 'Homemade Charades works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="privacy.html">Homemade Charades privacy page</a>.',
     'csup.bugs_h2': 'Feature requests & bug reports',
-    'csup.bugs_body_html': 'Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> with as much detail as you can — the device you\'re using and what happened really helps.',
+    'csup.bugs_body_html': 'Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> with as much detail as you can — the device you\'re using and what happened really helps.',
     'clues_support.meta_title': 'Support — Homemade Clues',
     'clues_support.meta_desc': 'Help with Homemade Clues: how bidding works, how the steal is scored, choosing word decks, writing your own words and how to get in touch.',
     'clsup.back': '← Back to Homemade Clues',
@@ -236,7 +239,7 @@ window.HA_TRANSLATIONS = {
     'clsup.privacy_h2': 'Privacy',
     'clsup.privacy_body_html': 'Homemade Clues works entirely offline. It needs no account, asks for no special permissions, and collects no personal data of any kind — no ads, no analytics, no tracking. You can read the full details on the <a href="privacy.html">Homemade Clues privacy page</a>.',
     'clsup.bugs_h2': 'Feature requests & bug reports',
-    'clsup.bugs_body_html': 'Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> with as much detail as you can — the device you\'re using and what happened really helps.',
+    'clsup.bugs_body_html': 'Spotted a bug or have an idea that would make the game better? Email <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> with as much detail as you can — the device you\'re using and what happened really helps.',
 
     'charades.meta_title': 'Homemade Charades — A three-round party game for two teams',
     'charades.meta_desc': 'Two teams, one phone, three rounds of guessing: describe it, say one word, then mime it. Play with famous people, movies and songs, or a picture-card Kids mode. No ads, no accounts, no data collection. Out now on the App Store.',
@@ -276,9 +279,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Children\'s privacy',
     'privacy.children_body': 'The app is safe for players of any age. It collects no personal information and contains no advertising, analytics, or tracking of any kind.',
     'privacy.contact_h3': 'Contact',
-    'privacy.contact_html': 'If you have any questions about this privacy policy, please contact us at <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'If you have any questions about this privacy policy, please contact us at <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'Support',
-    'support.body_html': 'Questions, bug reports or ideas? Email us at <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — we read every message and reply as quickly as we can.'
+    'support.body_html': 'Questions, bug reports or ideas? Email us at <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — we read every message and reply as quickly as we can.'
   },
 
   /* ── FRENCH ──────────────────────────────────────────────── */
@@ -326,6 +329,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Télécharger Homemade Clues sur l\'App Store',
     'card.breathing_status': 'Disponible sur l\'App Store',
     'card.breathing_appstore_aria': 'Télécharger Homemade Breathing sur l\'App Store',
+    'card.drawings_status': 'Disponible sur l\'App Store',
+    'card.drawings_appstore_aria': 'Télécharger Homemade Drawings sur l\'App Store',
     "card.players_note": "Au moins 4 joueurs.",
     // Homemade Drawings
     "card.drawings_desc": "Un cahier de dessin pour les petites mains. Crayon, néon et spray avec leurs styles, une planche d'autocollants, des formes, la symétrie miroir et mandala et du papier de couleur — sur une étagère de dessins enregistrés au fil du trait. Sans pub, sans compte, rien ne quitte l'appareil.",
@@ -333,7 +338,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings est un cahier de dessin pour enfants sur iPhone et iPad : crayon, néon, spray, autocollants, formes et symétrie sur du papier de couleur. Sans publicité, sans compte, sans collecte de données.",
     "drawings.tagline": "Petites mains, grandes idées.",
     "drawings.intro": "Ouvrez-le : une étagère de dessins et un grand bouton pour une nouvelle page. Une pression, et tout l'écran devient du papier. Pas de menus à apprendre, pas de compte à créer, rien à débloquer — on dessine.",
-    "drawings.soon_note": "Bientôt sur l'App Store.",
+    "drawings.soon_note": 'Disponible dès maintenant sur l\'App Store.',
     "drawings.how_h2": "Ce qu'il y a dedans",
     "drawings.step1_h": "Dessiner",
     "drawings.step1_p": "Crayon, marqueur, peinture, néon et spray, chacun avec ses styles — maintenez un pinceau pour voir ses autres façons de dessiner. Une gomme douce repeint le papier.",
@@ -361,7 +366,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "L'icône fleur à droite du curseur de taille passe de sans miroir à miroir, quatre côtés et mandala. Le cercle de la barre du haut ouvre le choix du papier : sept couleurs, et des carreaux ou des points en option.",
     "drsup.languages_body": "Homemade Drawings parle anglais, français, espagnol, italien, allemand, portugais, coréen, japonais et chinois simplifié. Changez de langue à tout moment dans les réglages — c'est immédiat.",
     "drsup.privacy_body_html": "Homemade Drawings fonctionne entièrement hors ligne. Aucun compte, aucune donnée personnelle collectée — pas de pub, pas d'analyse, pas de pistage. La seule autorisation possible est l'ajout d'un dessin à votre photothèque, et seulement si vous le demandez. Tous les détails sur la <a href=\"privacy.html\">page de confidentialité de Homemade Drawings</a>.",
-    "drsup.bugs_body_html": "Un bug, ou une idée pour améliorer l'application ? Écrivez à <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> avec le plus de détails possible — l'appareil utilisé et ce qui s'est passé aident beaucoup.",
+    "drsup.bugs_body_html": "Un bug, ou une idée pour améliorer l'application ? Écrivez à <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> avec le plus de détails possible — l'appareil utilisé et ce qui s'est passé aident beaucoup.",
     "privacy.overview_drawings_html": "<strong>En résumé.</strong> Homemade Drawings est une application de dessin conçue pour les enfants et les familles. Elle ne collecte, ne transmet et ne partage aucune donnée personnelle.",
     "privacy.data_body_drawings": "Les dessins, les photos posées sur une page et vos réglages restent uniquement sur votre appareil, dans l'espace de l'application. Rien n'est envoyé à des serveurs externes ni à des tiers.",
     "privacy.perms_body_drawings": "L'application fonctionne entièrement hors ligne. Si vous choisissez d'enregistrer un dessin dans votre photothèque, elle demande un accès Photos en ajout seulement ; poser une photo sur la page passe par le sélecteur d'Apple, qui ne demande aucune autorisation et ne montre à l'application que l'image choisie. Elle n'accède ni à vos contacts, ni à votre position, ni au micro.",
@@ -392,6 +397,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'Des applis faites avec amour,<br><span class="accent">pour le plaisir des familles.</span>',
     'home.lead': 'Je suis une maman qui crée des applis simples, ludiques et éducatives pour les familles.',
     'home.apps_h2': 'Mes applis',
+    'home.device_alt': 'Un écran d\'accueil d\'iPhone avec les applis Homemade : Stories, Breathing, Charades, Drawings et Clues.',
     'card.stories_status': 'Disponible sur l\'App Store',
     'card.charades_status': 'Disponible sur l\'App Store',
     'card.stories_desc': 'Enregistrez des histoires du soir, des chansons, des berceuses et des messages d\'anniversaire avec votre propre voix. Les enfants peuvent les réécouter à tout moment — même hors ligne. Ceux qu\'ils aiment, toujours à portée de main.',
@@ -469,7 +475,7 @@ window.HA_TRANSLATIONS = {
     'csup.privacy_h2': 'Confidentialité',
     'csup.privacy_body_html': 'Homemade Charades fonctionne entièrement hors ligne. Le jeu ne demande aucun compte, aucune autorisation particulière, et ne collecte aucune donnée personnelle — ni publicité, ni analyse, ni suivi. Vous trouverez tous les détails sur la <a href="privacy.html">page de confidentialité de Homemade Charades</a>.',
     'csup.bugs_h2': 'Suggestions et signalements de bugs',
-    'csup.bugs_body_html': 'Vous avez repéré un bug ou une idée pour améliorer le jeu ? Écrivez à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> avec le plus de détails possible — l\'appareil utilisé et ce qui s\'est passé nous aident beaucoup.',
+    'csup.bugs_body_html': 'Vous avez repéré un bug ou une idée pour améliorer le jeu ? Écrivez à <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> avec le plus de détails possible — l\'appareil utilisé et ce qui s\'est passé nous aident beaucoup.',
     'clues_support.meta_title': 'Assistance — Homemade Clues',
     'clues_support.meta_desc': 'Aide pour Homemade Clues : le fonctionnement des mises, le calcul des points et du vol, le choix des paquets de mots, écrire vos propres mots et comment nous contacter.',
     'clsup.back': '← Retour à Homemade Clues',
@@ -499,7 +505,7 @@ window.HA_TRANSLATIONS = {
     'clsup.privacy_h2': 'Confidentialité',
     'clsup.privacy_body_html': 'Homemade Clues fonctionne entièrement hors ligne. Le jeu ne demande aucun compte, aucune autorisation particulière, et ne collecte aucune donnée personnelle — ni publicité, ni analyse, ni suivi. Vous trouverez tous les détails sur la <a href="privacy.html">page de confidentialité de Homemade Clues</a>.',
     'clsup.bugs_h2': 'Suggestions et signalements de bugs',
-    'clsup.bugs_body_html': 'Vous avez repéré un bug ou une idée pour améliorer le jeu ? Écrivez à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> avec le plus de détails possible — l\'appareil utilisé et ce qui s\'est passé nous aident beaucoup.',
+    'clsup.bugs_body_html': 'Vous avez repéré un bug ou une idée pour améliorer le jeu ? Écrivez à <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> avec le plus de détails possible — l\'appareil utilisé et ce qui s\'est passé nous aident beaucoup.',
 
     'charades.meta_title': 'Homemade Charades — Un jeu d\'ambiance en trois manches pour deux équipes',
     'charades.meta_desc': 'Deux équipes, un téléphone, trois manches de devinettes : décrivez, un seul mot, puis mimez. Jouez avec des personnalités, des films et des chansons, ou un mode Enfants à cartes illustrées. Sans publicité, sans compte, sans collecte de données. Disponible sur l\'App Store.',
@@ -539,9 +545,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Confidentialité des enfants',
     'privacy.children_body': 'L\'appli est sûre pour les joueurs de tout âge. Elle ne collecte aucune information personnelle et ne contient ni publicité, ni analyse, ni suivi d\'aucune sorte.',
     'privacy.contact_h3': 'Contact',
-    'privacy.contact_html': 'Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l\'adresse <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l\'adresse <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'Assistance',
-    'support.body_html': 'Des questions, un bug à signaler ou une idée ? Écrivez-nous à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — nous lisons chaque message et répondons aussi vite que possible.'
+    'support.body_html': 'Des questions, un bug à signaler ou une idée ? Écrivez-nous à <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — nous lisons chaque message et répondons aussi vite que possible.'
   },
 
   /* ── GERMAN ──────────────────────────────────────────────── */
@@ -596,6 +602,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Homemade Clues im App Store laden',
     'card.breathing_status': 'Im App Store erhältlich',
     'card.breathing_appstore_aria': 'Homemade Breathing im App Store laden',
+    'card.drawings_status': 'Im App Store erhältlich',
+    'card.drawings_appstore_aria': 'Homemade Drawings im App Store laden',
     "card.players_note": "Mindestens 4 Spieler.",
     // Homemade Drawings
     "card.drawings_desc": "Ein Malblock für kleine Hände. Stift, Neon und Spray mit eigenen Stilen, ein Stickerbogen, Formen, Spiegel- und Mandala-Symmetrie und farbiges Papier – auf einem Regal voller Bilder, die beim Zeichnen gespeichert werden. Keine Werbung, kein Konto, nichts verlässt das Gerät.",
@@ -603,7 +611,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings ist ein Malblock für Kinder auf iPhone und iPad: Stift, Neon, Spray, Sticker, Formen und Symmetrie auf farbigem Papier. Keine Werbung, keine Konten, keine Datensammlung.",
     "drawings.tagline": "Kleine Hände, große Ideen.",
     "drawings.intro": "Beim Öffnen wartet ein Regal voller Bilder und ein großer Knopf für eine neue Seite. Ein Tipp, und der ganze Bildschirm wird zu Papier. Keine Menüs zum Lernen, kein Konto zum Anlegen, nichts freizuschalten – einfach zeichnen.",
-    "drawings.soon_note": "Bald im App Store.",
+    "drawings.soon_note": 'Jetzt im App Store erhältlich.',
     "drawings.how_h2": "Was drin ist",
     "drawings.step1_h": "Zeichnen",
     "drawings.step1_p": "Stift, Marker, Farbe, Neon und Spray, jeder mit eigenen Stilen – halte einen Pinsel gedrückt, um zu sehen, wie er sonst noch zeichnet. Ein weicher Radierer malt das Papier zurück.",
@@ -631,7 +639,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "Das Blumensymbol rechts vom Größenregler wechselt zwischen kein Spiegel, Spiegel, vierfach und Mandala. Der Kreis in der oberen Leiste öffnet die Papierauswahl mit sieben Farben und wahlweise Kästchen oder Punkten.",
     "drsup.languages_body": "Homemade Drawings spricht Englisch, Französisch, Spanisch, Italienisch, Deutsch, Portugiesisch, Koreanisch, Japanisch und vereinfachtes Chinesisch. Die Sprache lässt sich jederzeit in den Einstellungen wechseln – sofort.",
     "drsup.privacy_body_html": "Homemade Drawings funktioniert vollständig offline. Es braucht kein Konto und sammelt keinerlei persönliche Daten – keine Werbung, keine Analyse, kein Tracking. Die einzige mögliche Berechtigung ist das Hinzufügen eines Bildes zu deiner Fotomediathek, und nur wenn du es willst. Alle Details auf der <a href=\"privacy.html\">Datenschutzseite von Homemade Drawings</a>.",
-    "drsup.bugs_body_html": "Einen Fehler entdeckt oder eine Idee, die die App besser macht? Schreib an <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> mit so vielen Details wie möglich – dein Gerät und was passiert ist, helfen sehr.",
+    "drsup.bugs_body_html": "Einen Fehler entdeckt oder eine Idee, die die App besser macht? Schreib an <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> mit so vielen Details wie möglich – dein Gerät und was passiert ist, helfen sehr.",
     "privacy.overview_drawings_html": "<strong>Überblick.</strong> Homemade Drawings ist eine Zeichen-App für Kinder und Familien. Sie sammelt, überträgt und teilt keine persönlichen Daten.",
     "privacy.data_body_drawings": "Bilder, auf eine Seite gelegte Fotos und deine Einstellungen bleiben ausschließlich auf deinem Gerät, im eigenen Speicher der App. Nichts wird an externe Server oder Dritte gesendet.",
     "privacy.perms_body_drawings": "Die App funktioniert vollständig offline. Wenn du ein Bild in deiner Fotomediathek speichern möchtest, bittet sie um Fotos-Zugriff nur zum Hinzufügen; ein Foto auf die Seite zu legen nutzt Apples Auswahl, die keine Berechtigung braucht und der App nur das gewählte Bild zeigt. Kontakte, Standort und Mikrofon werden nicht angetastet.",
@@ -662,6 +670,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'Apps mit Liebe gemacht,<br><span class="accent">zur Freude der ganzen Familie.</span>',
     'home.lead': 'Ich bin eine Mutter und entwickle einfache, unterhaltsame und lehrreiche Apps für Familien.',
     'home.apps_h2': 'Meine Apps',
+    'home.device_alt': 'Ein iPhone-Home-Bildschirm mit den Homemade-Apps: Stories, Breathing, Charades, Drawings und Clues.',
     'card.stories_status': 'Im App Store erhältlich',
     'card.charades_status': 'Im App Store erhältlich',
     'card.stories_desc': 'Nehmt Gutenachtgeschichten, Lieder, Schlaflieder und Geburtstagsgrüße mit eurer eigenen Stimme auf. Kinder können sie jederzeit abspielen — auch offline. Die Liebsten, immer nur einen Tipp entfernt.',
@@ -736,9 +745,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Datenschutz für Kinder',
     'privacy.children_body': 'Die App ist für Spieler jeden Alters sicher. Sie sammelt keine persönlichen Informationen und enthält keine Werbung, Analyse oder Tracking jeglicher Art.',
     'privacy.contact_h3': 'Kontakt',
-    'privacy.contact_html': 'Wenn ihr Fragen zu dieser Datenschutzerklärung habt, kontaktiert uns bitte unter <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'Wenn ihr Fragen zu dieser Datenschutzerklärung habt, kontaktiert uns bitte unter <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'Support',
-    'support.body_html': 'Fragen, Fehlermeldungen oder Ideen? Schreibt uns an <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — wir lesen jede Nachricht und antworten so schnell wie möglich.'
+    'support.body_html': 'Fragen, Fehlermeldungen oder Ideen? Schreibt uns an <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — wir lesen jede Nachricht und antworten so schnell wie möglich.'
   },
 
   /* ── SPANISH ─────────────────────────────────────────────── */
@@ -793,6 +802,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Descargar Homemade Clues en el App Store',
     'card.breathing_status': 'Disponible en el App Store',
     'card.breathing_appstore_aria': 'Descargar Homemade Breathing en el App Store',
+    'card.drawings_status': 'Disponible en el App Store',
+    'card.drawings_appstore_aria': 'Descargar Homemade Drawings en el App Store',
     "card.players_note": "Necesita al menos 4 jugadores.",
     // Homemade Drawings
     "card.drawings_desc": "Un cuaderno de dibujo para manos pequeñas. Lápiz, neón y spray con sus estilos, una hoja de pegatinas, formas, simetría de espejo y mandala y papel de colores, en un estante de dibujos que se guardan mientras se hacen. Sin anuncios, sin cuenta, nada sale del dispositivo.",
@@ -800,7 +811,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings es un cuaderno de dibujo para niños en iPhone y iPad: lápiz, neón, spray, pegatinas, formas y simetría sobre papel de colores. Sin anuncios, sin cuentas, sin recopilación de datos.",
     "drawings.tagline": "Manos pequeñas, ideas grandes.",
     "drawings.intro": "Al abrirlo hay un estante con dibujos y un botón grande para una página nueva. Un toque y toda la pantalla se convierte en papel. Sin menús que aprender, sin cuenta que crear, sin nada que desbloquear: solo dibujar.",
-    "drawings.soon_note": "Muy pronto en el App Store.",
+    "drawings.soon_note": 'Ya disponible en el App Store.',
     "drawings.how_h2": "Qué hay dentro",
     "drawings.step1_h": "Dibujar",
     "drawings.step1_p": "Lápiz, rotulador, pintura, neón y spray, cada uno con sus estilos: mantén pulsado un pincel para ver de qué otras formas dibuja. Una goma suave vuelve a pintar el papel.",
@@ -828,7 +839,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "El icono de flor a la derecha del control de tamaño cambia entre sin espejo, espejo, cuatro lados y mandala. El círculo de la barra superior abre el selector de papel, con siete colores y cuadrícula o puntos opcionales.",
     "drsup.languages_body": "Homemade Drawings habla inglés, francés, español, italiano, alemán, portugués, coreano, japonés y chino simplificado. Cambia el idioma cuando quieras en Ajustes: se aplica al momento.",
     "drsup.privacy_body_html": "Homemade Drawings funciona completamente sin conexión. No necesita cuenta y no recopila datos personales de ningún tipo: sin anuncios, sin analíticas, sin rastreo. El único permiso que puede pedir es añadir un dibujo a tu fototeca, y solo cuando tú lo elijas. Todos los detalles en la <a href=\"privacy.html\">página de privacidad de Homemade Drawings</a>.",
-    "drsup.bugs_body_html": "¿Has visto un error o tienes una idea para mejorar la app? Escribe a <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> con todo el detalle que puedas: el dispositivo que usas y lo que ocurrió ayudan mucho.",
+    "drsup.bugs_body_html": "¿Has visto un error o tienes una idea para mejorar la app? Escribe a <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> con todo el detalle que puedas: el dispositivo que usas y lo que ocurrió ayudan mucho.",
     "privacy.overview_drawings_html": "<strong>Resumen.</strong> Homemade Drawings es una app de dibujo diseñada para niños y familias. No recopila, transmite ni comparte ningún dato personal.",
     "privacy.data_body_drawings": "Los dibujos, las fotos que pongas en una página y tus ajustes se quedan solo en tu dispositivo, en el almacenamiento de la app. No se envía nada a servidores externos ni a terceros.",
     "privacy.perms_body_drawings": "La app funciona completamente sin conexión. Si eliges guardar un dibujo en tu fototeca, pide acceso a Fotos solo para añadir; poner una foto en la página usa el selector de Apple, que no necesita permiso y solo muestra a la app la imagen elegida. No accede a tus contactos, ubicación ni micrófono.",
@@ -859,6 +870,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'Apps hechas con amor,<br><span class="accent">para disfrutar en familia.</span>',
     'home.lead': 'Soy una madre que crea apps sencillas, divertidas y educativas para las familias.',
     'home.apps_h2': 'Mis apps',
+    'home.device_alt': 'Una pantalla de inicio de iPhone con las apps Homemade: Stories, Breathing, Charades, Drawings y Clues.',
     'card.stories_status': 'Disponible en el App Store',
     'card.charades_status': 'Disponible en el App Store',
     'card.stories_desc': 'Graba cuentos para dormir, canciones, nanas y mensajes de cumpleaños con tu propia voz. Los niños pueden reproducirlos cuando quieran — incluso sin conexión. Los que quieren, siempre a un toque de distancia.',
@@ -933,9 +945,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Privacidad de los niños',
     'privacy.children_body': 'La app es segura para jugadores de cualquier edad. No recopila información personal y no contiene publicidad, análisis ni seguimiento de ningún tipo.',
     'privacy.contact_h3': 'Contacto',
-    'privacy.contact_html': 'Si tienes alguna pregunta sobre esta política de privacidad, contáctanos en <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'Si tienes alguna pregunta sobre esta política de privacidad, contáctanos en <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'Soporte',
-    'support.body_html': '¿Preguntas, errores o ideas? Escríbenos a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — leemos todos los mensajes y respondemos lo antes posible.'
+    'support.body_html': '¿Preguntas, errores o ideas? Escríbenos a <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — leemos todos los mensajes y respondemos lo antes posible.'
   },
 
   /* ── ITALIAN ─────────────────────────────────────────────── */
@@ -990,6 +1002,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Scarica Homemade Clues su App Store',
     'card.breathing_status': 'Disponibile su App Store',
     'card.breathing_appstore_aria': 'Scarica Homemade Breathing su App Store',
+    'card.drawings_status': 'Disponibile su App Store',
+    'card.drawings_appstore_aria': 'Scarica Homemade Drawings su App Store',
     "card.players_note": "Servono almeno 4 giocatori.",
     // Homemade Drawings
     "card.drawings_desc": "Un album da disegno per mani piccole. Matita, neon e spray con i loro stili, un foglio di adesivi, forme, simmetria a specchio e mandala e carta colorata, su una mensola di disegni salvati mentre nascono. Niente pubblicità, niente account, nulla lascia il dispositivo.",
@@ -997,7 +1011,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings è un album da disegno per bambini su iPhone e iPad: matita, neon, spray, adesivi, forme e simmetria su carta colorata. Niente pubblicità, niente account, nessuna raccolta di dati.",
     "drawings.tagline": "Mani piccole, idee grandi.",
     "drawings.intro": "Aprilo: una mensola di disegni e un grande pulsante per una pagina nuova. Un tocco e tutto lo schermo diventa carta. Nessun menu da imparare, nessun account da creare, niente da sbloccare: si disegna.",
-    "drawings.soon_note": "Presto sull'App Store.",
+    "drawings.soon_note": 'Ora disponibile su App Store.',
     "drawings.how_h2": "Cosa c'è dentro",
     "drawings.step1_h": "Disegnare",
     "drawings.step1_p": "Matita, pennarello, pittura, neon e spray, ognuno con i suoi stili: tieni premuto un pennello per vedere in quali altri modi disegna. Una gomma morbida ridipinge la carta.",
@@ -1025,7 +1039,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "L'icona del fiore a destra del cursore della misura passa tra nessuno specchio, specchio, quattro lati e mandala. Il cerchio nella barra in alto apre la scelta della carta, con sette colori e quadretti o puntini opzionali.",
     "drsup.languages_body": "Homemade Drawings parla inglese, francese, spagnolo, italiano, tedesco, portoghese, coreano, giapponese e cinese semplificato. Cambia lingua quando vuoi nelle impostazioni: vale all'istante.",
     "drsup.privacy_body_html": "Homemade Drawings funziona completamente offline. Non richiede account e non raccoglie dati personali di alcun tipo: niente pubblicità, niente analisi, niente tracciamento. L'unico permesso che può chiedere è aggiungere un disegno alla tua libreria foto, e solo quando lo scegli tu. Tutti i dettagli nella <a href=\"privacy.html\">pagina sulla privacy di Homemade Drawings</a>.",
-    "drsup.bugs_body_html": "Hai trovato un errore o hai un'idea per migliorare l'app? Scrivi a <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> con quanti più dettagli puoi: il dispositivo che usi e cosa è successo aiutano molto.",
+    "drsup.bugs_body_html": "Hai trovato un errore o hai un'idea per migliorare l'app? Scrivi a <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> con quanti più dettagli puoi: il dispositivo che usi e cosa è successo aiutano molto.",
     "privacy.overview_drawings_html": "<strong>In breve.</strong> Homemade Drawings è un'app da disegno pensata per bambini e famiglie. Non raccoglie, trasmette né condivide alcun dato personale.",
     "privacy.data_body_drawings": "I disegni, le foto appoggiate su una pagina e le tue impostazioni restano solo sul tuo dispositivo, nello spazio dell'app. Niente viene inviato a server esterni o a terzi.",
     "privacy.perms_body_drawings": "L'app funziona completamente offline. Se scegli di salvare un disegno nella tua libreria foto, chiede l'accesso a Foto solo per aggiungere; appoggiare una foto sulla pagina usa il selettore di Apple, che non richiede permessi e mostra all'app solo l'immagine scelta. Non accede a contatti, posizione o microfono.",
@@ -1056,6 +1070,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'App fatte con amore,<br><span class="accent">da vivere in famiglia.</span>',
     'home.lead': 'Sono una mamma che crea app semplici, divertenti ed educative per le famiglie.',
     'home.apps_h2': 'Le mie app',
+    'home.device_alt': 'Una schermata Home di iPhone con le app Homemade: Stories, Breathing, Charades, Drawings e Clues.',
     'card.stories_status': 'Disponibile su App Store',
     'card.charades_status': 'Disponibile su App Store',
     'card.stories_desc': 'Registra storie della buonanotte, canzoni, ninne nanne e messaggi di compleanno con la tua voce. I bambini possono riascoltarle quando vogliono — anche offline. Le persone che amano, sempre a portata di tocco.',
@@ -1130,9 +1145,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Privacy dei bambini',
     'privacy.children_body': 'L\'app è sicura per giocatori di ogni età. Non raccoglie informazioni personali e non contiene pubblicità, analisi o tracciamento di alcun tipo.',
     'privacy.contact_h3': 'Contatti',
-    'privacy.contact_html': 'Se hai domande su questa informativa sulla privacy, contattaci all\'indirizzo <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'Se hai domande su questa informativa sulla privacy, contattaci all\'indirizzo <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'Assistenza',
-    'support.body_html': 'Domande, segnalazioni di bug o idee? Scrivici a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — leggiamo ogni messaggio e rispondiamo il prima possibile.'
+    'support.body_html': 'Domande, segnalazioni di bug o idee? Scrivici a <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — leggiamo ogni messaggio e rispondiamo il prima possibile.'
   },
 
   /* ── PORTUGUESE ──────────────────────────────────────────── */
@@ -1187,6 +1202,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Baixar Homemade Clues na App Store',
     'card.breathing_status': 'Disponível na App Store',
     'card.breathing_appstore_aria': 'Baixar Homemade Breathing na App Store',
+    'card.drawings_status': 'Disponível na App Store',
+    'card.drawings_appstore_aria': 'Baixar Homemade Drawings na App Store',
     "card.players_note": "Precisa de pelo menos 4 jogadores.",
     // Homemade Drawings
     "card.drawings_desc": "Um bloco de desenho para mãos pequenas. Lápis, neon e spray com seus estilos, uma cartela de adesivos, formas, simetria em espelho e mandala e papel colorido, numa estante de desenhos salvos enquanto nascem. Sem anúncios, sem conta, nada sai do aparelho.",
@@ -1194,7 +1211,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings é um bloco de desenho para crianças no iPhone e no iPad: lápis, neon, spray, adesivos, formas e simetria em papel colorido. Sem anúncios, sem contas, sem coleta de dados.",
     "drawings.tagline": "Mãos pequenas, ideias grandes.",
     "drawings.intro": "Ao abrir, há uma estante de desenhos e um botão grande para uma página nova. Um toque e a tela inteira vira papel. Sem menus para aprender, sem conta para criar, nada para desbloquear: é só desenhar.",
-    "drawings.soon_note": "Em breve na App Store.",
+    "drawings.soon_note": 'Já disponível na App Store.',
     "drawings.how_h2": "O que vem dentro",
     "drawings.step1_h": "Desenhar",
     "drawings.step1_p": "Lápis, marcador, tinta, neon e spray, cada um com seus estilos: segure um pincel para ver de que outras formas ele desenha. Uma borracha macia pinta o papel de volta.",
@@ -1222,7 +1239,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "O ícone de flor à direita do controle de tamanho alterna entre sem espelho, espelho, quatro lados e mandala. O círculo na barra de cima abre a escolha do papel, com sete cores e quadrados ou pontos opcionais.",
     "drsup.languages_body": "O Homemade Drawings fala inglês, francês, espanhol, italiano, alemão, português, coreano, japonês e chinês simplificado. Troque o idioma quando quiser nos ajustes: vale na hora.",
     "drsup.privacy_body_html": "O Homemade Drawings funciona totalmente offline. Não precisa de conta e não coleta dados pessoais de nenhum tipo: sem anúncios, sem análises, sem rastreamento. A única permissão que pode pedir é adicionar um desenho à sua biblioteca de fotos, e só quando você quiser. Todos os detalhes na <a href=\"privacy.html\">página de privacidade do Homemade Drawings</a>.",
-    "drsup.bugs_body_html": "Encontrou um erro ou tem uma ideia para melhorar o app? Escreva para <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> com o máximo de detalhes: o aparelho que você usa e o que aconteceu ajudam muito.",
+    "drsup.bugs_body_html": "Encontrou um erro ou tem uma ideia para melhorar o app? Escreva para <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> com o máximo de detalhes: o aparelho que você usa e o que aconteceu ajudam muito.",
     "privacy.overview_drawings_html": "<strong>Resumo.</strong> O Homemade Drawings é um app de desenho feito para crianças e famílias. Ele não coleta, transmite nem compartilha nenhum dado pessoal.",
     "privacy.data_body_drawings": "Os desenhos, as fotos colocadas numa página e seus ajustes ficam só no seu aparelho, no espaço do app. Nada é enviado a servidores externos ou terceiros.",
     "privacy.perms_body_drawings": "O app funciona totalmente offline. Se você escolher salvar um desenho na sua biblioteca de fotos, ele pede acesso ao Fotos apenas para adicionar; colocar uma foto na página usa o seletor da Apple, que não pede permissão e mostra ao app só a imagem escolhida. Ele não acessa seus contatos, localização ou microfone.",
@@ -1253,6 +1270,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'Apps feitos com amor,<br><span class="accent">para a família aproveitar.</span>',
     'home.lead': 'Sou uma mãe que cria apps simples, divertidos e educativos para as famílias.',
     'home.apps_h2': 'Meus apps',
+    'home.device_alt': 'Um ecrã principal de iPhone com as apps Homemade: Stories, Breathing, Charades, Drawings e Clues.',
     'card.stories_status': 'Disponível na App Store',
     'card.charades_status': 'Disponível na App Store',
     'card.stories_desc': 'Grave histórias para dormir, canções, cantigas de ninar e mensagens de aniversário com a sua própria voz. As crianças podem ouvi-las quando quiserem — mesmo offline. Quem elas amam, sempre a um toque de distância.',
@@ -1327,9 +1345,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'Privacidade das crianças',
     'privacy.children_body': 'O app é seguro para jogadores de qualquer idade. Não coleta informações pessoais e não contém publicidade, análise ou rastreamento de nenhum tipo.',
     'privacy.contact_h3': 'Contato',
-    'privacy.contact_html': 'Se você tiver dúvidas sobre esta política de privacidade, entre em contato pelo e-mail <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'Se você tiver dúvidas sobre esta política de privacidade, entre em contato pelo e-mail <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'Suporte',
-    'support.body_html': 'Dúvidas, problemas ou ideias? Escreva para <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — lemos todas as mensagens e respondemos o mais rápido possível.'
+    'support.body_html': 'Dúvidas, problemas ou ideias? Escreva para <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — lemos todas as mensagens e respondemos o mais rápido possível.'
   },
 
   /* ── CHINESE (SIMPLIFIED) ─────────────────────────────────── */
@@ -1384,6 +1402,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': '在 App Store 下载 Homemade Clues',
     'card.breathing_status': 'App Store 已上架',
     'card.breathing_appstore_aria': '在 App Store 下载 Homemade Breathing',
+    'card.drawings_status': 'App Store 已上架',
+    'card.drawings_appstore_aria': '在 App Store 下载 Homemade Drawings',
     "card.players_note": "至少需要 4 名玩家。",
     // Homemade Drawings
     "card.drawings_desc": "给小手准备的画板。铅笔、霓虹和喷枪各有风格，还有一张贴纸表、图形、镜像与曼陀罗对称和彩色纸张——画作边画边保存，排在架子上。没有广告，无需账户，任何数据都不会离开设备。",
@@ -1391,7 +1411,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings 是 iPhone 和 iPad 上给孩子的画板：铅笔、霓虹、喷枪、贴纸、图形和对称，画在彩色纸上。没有广告，没有账户，不收集数据。",
     "drawings.tagline": "小小的手，大大的想法。",
     "drawings.intro": "打开就是一排画作和一个新页面的大按钮。轻点一下，整个屏幕变成纸。没有要学的菜单，没有要注册的账户，没有要解锁的东西——直接画。",
-    "drawings.soon_note": "即将登陆 App Store。",
+    "drawings.soon_note": '现已在 App Store 上架。',
     "drawings.how_h2": "里面有什么",
     "drawings.step1_h": "画",
     "drawings.step1_p": "铅笔、马克笔、颜料、霓虹和喷枪，每种都有自己的风格——长按画笔看看它还能怎么画。一块柔软的橡皮把纸重新涂回来。",
@@ -1419,7 +1439,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "大小滑块右侧的花朵图标在无镜像、镜像、四向和曼陀罗之间切换。顶栏的圆形图标打开纸张选择，有七种颜色，还可选方格或圆点。",
     "drsup.languages_body": "Homemade Drawings 支持英语、法语、西班牙语、意大利语、德语、葡萄牙语、韩语、日语和简体中文。随时在设置中更换语言，立即生效。",
     "drsup.privacy_body_html": "Homemade Drawings 完全离线运行。无需账户，不收集任何个人数据——没有广告、没有分析、没有跟踪。它唯一可能请求的权限是把画作添加到你的照片图库，而且只在你选择时。详情见 <a href=\"privacy.html\">Homemade Drawings 隐私页面</a>。",
-    "drsup.bugs_body_html": "发现了问题，或者有让应用更好的想法？请发邮件到 <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a>，尽量写清楚——你用的设备和发生了什么会很有帮助。",
+    "drsup.bugs_body_html": "发现了问题，或者有让应用更好的想法？请发邮件到 <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a>，尽量写清楚——你用的设备和发生了什么会很有帮助。",
     "privacy.overview_drawings_html": "<strong>概要。</strong>Homemade Drawings 是为孩子和家庭设计的绘画应用。它不收集、传输或分享任何个人数据。",
     "privacy.data_body_drawings": "画作、放到页面上的照片和你的设置只保存在你的设备上，在应用自己的存储空间里。没有任何内容发送到外部服务器或第三方。",
     "privacy.perms_body_drawings": "应用完全离线运行。如果你选择把画作保存到照片图库，它会请求仅添加的照片权限；把照片放到页面上使用 Apple 的选择器，无需权限，应用只能看到你选中的那张图片。它不会访问你的通讯录、位置或麦克风。",
@@ -1450,6 +1470,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': '用爱打造的应用，<br><span class="accent">让全家共享欢乐。</span>',
     'home.lead': '我是一位母亲，为家庭打造简单、有趣又寓教于乐的应用。',
     'home.apps_h2': '我的应用',
+    'home.device_alt': '一部 iPhone 的主屏幕，上面是 Homemade 系列应用：Stories、Breathing、Charades、Drawings 和 Clues。',
     'card.stories_status': 'App Store 已上架',
     'card.charades_status': 'App Store 已上架',
     'card.stories_desc': '用你自己的声音录下睡前故事、歌曲、摇篮曲和生日祝福。孩子随时都能重听——即使离线也行。所爱之人，永远一触即达。',
@@ -1524,9 +1545,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': '儿童隐私',
     'privacy.children_body': '该应用对任何年龄的玩家都是安全的。它不收集任何个人信息，也不含任何广告、分析或跟踪。',
     'privacy.contact_h3': '联系我们',
-    'privacy.contact_html': '如果你对本隐私政策有任何疑问，请通过 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 与我们联系。',
+    'privacy.contact_html': '如果你对本隐私政策有任何疑问，请通过 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> 与我们联系。',
     'support.h2': '支持',
-    'support.body_html': '有问题、错误报告或建议？请发送邮件至 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>，我们会阅读每一条消息并尽快回复。'
+    'support.body_html': '有问题、错误报告或建议？请发送邮件至 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>，我们会阅读每一条消息并尽快回复。'
   },
 
   /* ── JAPANESE ────────────────────────────────────────────── */
@@ -1581,6 +1602,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Homemade CluesをApp Storeでダウンロード',
     'card.breathing_status': 'App Storeで配信中',
     'card.breathing_appstore_aria': 'Homemade BreathingをApp Storeでダウンロード',
+    'card.drawings_status': 'App Storeで配信中',
+    'card.drawings_appstore_aria': 'Homemade DrawingsをApp Storeでダウンロード',
     "card.players_note": "4人以上で遊べます。",
     // Homemade Drawings
     "card.drawings_desc": "小さな手のためのお絵かき帳。それぞれにスタイルのあるえんぴつ、ネオン、スプレー、ステッカーシート、図形、鏡とマンダラの対称、色紙。描いている間に保存され、棚に並びます。広告なし、アカウント不要、データは端末の外に出ません。",
@@ -1588,7 +1611,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings は iPhone と iPad で使う子どものためのお絵かき帳。えんぴつ、ネオン、スプレー、ステッカー、図形、対称を色紙の上で。広告なし、アカウントなし、データ収集なし。",
     "drawings.tagline": "小さな手に、大きなアイデア。",
     "drawings.intro": "開くと、絵の並んだ棚と、新しい紙のための大きなボタン。ひとつタップすれば画面全体が紙になります。覚えるメニューも、作るアカウントも、解除するものもありません。ただ描くだけ。",
-    "drawings.soon_note": "近日 App Store に登場。",
+    "drawings.soon_note": 'App Storeで配信中。',
     "drawings.how_h2": "入っているもの",
     "drawings.step1_h": "描く",
     "drawings.step1_p": "えんぴつ、マーカー、ペイント、ネオン、スプレー。それぞれにスタイルがあり、ブラシを長押しするとほかの描き方が見えます。やさしい消しゴムが紙を塗り戻します。",
@@ -1616,7 +1639,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "サイズスライダーの右にある花のアイコンで、対称なし、鏡、四方向、マンダラを切り替えます。上のバーの丸いアイコンで紙を選べます。7色と、お好みで方眼か点。",
     "drsup.languages_body": "Homemade Drawings は英語、フランス語、スペイン語、イタリア語、ドイツ語、ポルトガル語、韓国語、日本語、簡体字中国語を話します。設定でいつでも切り替えられ、すぐに反映されます。",
     "drsup.privacy_body_html": "Homemade Drawings は完全にオフラインで動きます。アカウント不要で、個人データはいっさい集めません。広告も、解析も、追跡もありません。求める可能性のある唯一の許可は、あなたが選んだときに絵を写真ライブラリに追加することだけです。詳しくは<a href=\"privacy.html\">Homemade Drawings のプライバシーページ</a>をご覧ください。",
-    "drsup.bugs_body_html": "不具合を見つけた、あるいはアプリをよくするアイデアがある？ <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> まで、できるだけ詳しくメールしてください。使っている端末と何が起きたかが大きな助けになります。",
+    "drsup.bugs_body_html": "不具合を見つけた、あるいはアプリをよくするアイデアがある？ <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> まで、できるだけ詳しくメールしてください。使っている端末と何が起きたかが大きな助けになります。",
     "privacy.overview_drawings_html": "<strong>概要。</strong>Homemade Drawings は子どもと家族のために作られたお絵かきアプリです。個人データを収集、送信、共有することはありません。",
     "privacy.data_body_drawings": "絵、紙に置いた写真、設定は、あなたの端末の中のアプリ自身の保存領域だけに残ります。外部サーバーや第三者に送られるものはありません。",
     "privacy.perms_body_drawings": "アプリは完全にオフラインで動きます。絵を写真ライブラリに保存することを選んだときだけ、追加のみの写真アクセスを求めます。写真を紙に置くには Apple のピッカーを使い、許可は不要で、アプリには選んだ画像しか見えません。連絡先、位置情報、マイクにはアクセスしません。",
@@ -1647,6 +1670,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': '愛を込めて作ったアプリ、<br><span class="accent">家族みんなで楽しめる。</span>',
     'home.lead': '私は母親として、家族のためのシンプルで楽しく、学びのあるアプリを作っています。',
     'home.apps_h2': 'アプリ一覧',
+    'home.device_alt': 'Homemade のアプリ（Stories、Breathing、Charades、Drawings、Clues）が並んだ iPhone のホーム画面。',
     'card.stories_status': 'App Storeで配信中',
     'card.charades_status': 'App Storeで配信中',
     'card.stories_desc': '寝る前のお話、歌、子守唄、誕生日のメッセージを、あなたの声で録音。子どもたちはいつでも再生できます——オフラインでも。大好きな人が、いつもタップひとつの距離に。',
@@ -1721,9 +1745,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': '子どものプライバシー',
     'privacy.children_body': 'アプリはあらゆる年齢のプレイヤーにとって安全です。個人情報を一切収集せず、いかなる広告・分析・トラッキングも含みません。',
     'privacy.contact_h3': 'お問い合わせ',
-    'privacy.contact_html': 'このプライバシーポリシーについてご質問がある場合は、<a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> までご連絡ください。',
+    'privacy.contact_html': 'このプライバシーポリシーについてご質問がある場合は、<a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> までご連絡ください。',
     'support.h2': 'サポート',
-    'support.body_html': 'ご質問、不具合のご報告、アイデアなどは <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> までメールでお寄せください。すべて拝見し、できるだけ早くお返事いたします。'
+    'support.body_html': 'ご質問、不具合のご報告、アイデアなどは <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> までメールでお寄せください。すべて拝見し、できるだけ早くお返事いたします。'
   },
 
   /* ── KOREAN ──────────────────────────────────────────────── */
@@ -1778,6 +1802,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'App Store에서 Homemade Clues 다운로드',
     'card.breathing_status': 'App Store에서 이용 가능',
     'card.breathing_appstore_aria': 'App Store에서 Homemade Breathing 다운로드',
+    'card.drawings_status': 'App Store에서 이용 가능',
+    'card.drawings_appstore_aria': 'App Store에서 Homemade Drawings 다운로드',
     "card.players_note": "최소 4명이 필요합니다.",
     // Homemade Drawings
     "card.drawings_desc": "작은 손을 위한 그림판. 저마다 스타일이 있는 연필, 네온, 스프레이, 스티커 시트, 도형, 거울과 만다라 대칭, 색지까지. 그림은 그리는 동안 저장되어 선반에 놓입니다. 광고 없음, 계정 없음, 어떤 것도 기기 밖으로 나가지 않습니다.",
@@ -1785,7 +1811,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings는 iPhone과 iPad에서 쓰는 어린이 그림판입니다. 연필, 네온, 스프레이, 스티커, 도형, 대칭을 색지 위에. 광고 없음, 계정 없음, 데이터 수집 없음.",
     "drawings.tagline": "작은 손, 큰 상상.",
     "drawings.intro": "열면 그림이 놓인 선반과 새 종이를 위한 큰 버튼이 있습니다. 한 번 누르면 화면 전체가 종이가 됩니다. 배워야 할 메뉴도, 만들어야 할 계정도, 잠금 해제도 없습니다. 그냥 그리면 됩니다.",
-    "drawings.soon_note": "곧 App Store에 출시됩니다.",
+    "drawings.soon_note": 'App Store에서 이용 가능합니다.',
     "drawings.how_h2": "들어 있는 것",
     "drawings.step1_h": "그리기",
     "drawings.step1_p": "연필, 마커, 물감, 네온, 스프레이, 각각 고유한 스타일이 있습니다. 브러시를 길게 누르면 다른 방식으로도 그릴 수 있습니다. 부드러운 지우개가 종이를 다시 칠해 줍니다.",
@@ -1813,7 +1839,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "크기 슬라이더 오른쪽의 꽃 아이콘이 대칭 없음, 거울, 네 방향, 만다라를 전환합니다. 상단 바의 원 아이콘은 종이 선택을 열며, 일곱 가지 색과 선택 사항인 모눈 또는 점이 있습니다.",
     "drsup.languages_body": "Homemade Drawings는 영어, 프랑스어, 스페인어, 이탈리아어, 독일어, 포르투갈어, 한국어, 일본어, 중국어 간체를 말합니다. 설정에서 언제든 언어를 바꿀 수 있고 바로 적용됩니다.",
     "drsup.privacy_body_html": "Homemade Drawings는 완전히 오프라인으로 작동합니다. 계정이 필요 없고 어떤 개인 데이터도 수집하지 않습니다. 광고도, 분석도, 추적도 없습니다. 요청할 수 있는 유일한 권한은 그림을 사진 보관함에 추가하는 것이며, 그것도 사용자가 선택할 때만입니다. 자세한 내용은 <a href=\"privacy.html\">Homemade Drawings 개인정보 페이지</a>에 있습니다.",
-    "drsup.bugs_body_html": "버그를 발견했거나 앱을 더 좋게 만들 아이디어가 있나요? <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a>으로 가능한 한 자세히 이메일을 보내 주세요. 사용 중인 기기와 무슨 일이 있었는지가 큰 도움이 됩니다.",
+    "drsup.bugs_body_html": "버그를 발견했거나 앱을 더 좋게 만들 아이디어가 있나요? <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a>으로 가능한 한 자세히 이메일을 보내 주세요. 사용 중인 기기와 무슨 일이 있었는지가 큰 도움이 됩니다.",
     "privacy.overview_drawings_html": "<strong>개요.</strong> Homemade Drawings는 어린이와 가족을 위해 설계된 그리기 앱입니다. 어떤 개인 데이터도 수집, 전송, 공유하지 않습니다.",
     "privacy.data_body_drawings": "그림, 페이지에 놓은 사진, 설정은 기기 안 앱 자체 저장 공간에만 남습니다. 외부 서버나 제3자에게 보내는 것은 없습니다.",
     "privacy.perms_body_drawings": "앱은 완전히 오프라인으로 작동합니다. 그림을 사진 보관함에 저장하기로 선택하면 추가 전용 사진 권한을 요청합니다. 사진을 페이지에 놓는 것은 Apple의 선택기를 사용하며 권한이 필요 없고, 앱에는 선택한 사진만 보입니다. 연락처, 위치, 마이크에는 접근하지 않습니다.",
@@ -1844,6 +1870,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': '사랑으로 만든 앱,<br><span class="accent">온 가족이 즐겨요.</span>',
     'home.lead': '저는 가족을 위한 간단하고 재미있으며 유익한 앱을 만드는 엄마예요.',
     'home.apps_h2': '앱 목록',
+    'home.device_alt': 'Homemade 앱들이 놓인 아이폰 홈 화면: Stories, Breathing, Charades, Drawings, Clues.',
     'card.stories_status': 'App Store에서 이용 가능',
     'card.charades_status': 'App Store에서 이용 가능',
     'card.stories_desc': '잠자리 이야기, 노래, 자장가, 생일 메시지를 당신의 목소리로 녹음하세요. 아이들은 언제든 다시 들을 수 있어요 — 오프라인에서도. 사랑하는 사람이 언제나 한 번의 탭 거리에.',
@@ -1918,9 +1945,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': '아동 개인정보 보호',
     'privacy.children_body': '앱은 모든 연령의 플레이어에게 안전합니다. 개인정보를 수집하지 않으며 어떠한 광고, 분석, 추적도 포함하지 않습니다.',
     'privacy.contact_h3': '문의',
-    'privacy.contact_html': '이 개인정보 처리방침에 대해 궁금한 점이 있으면 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 으로 문의해 주세요.',
+    'privacy.contact_html': '이 개인정보 처리방침에 대해 궁금한 점이 있으면 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> 으로 문의해 주세요.',
     'support.h2': '지원',
-    'support.body_html': '질문, 버그 신고, 아이디어가 있으신가요? <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 으로 이메일을 보내 주세요. 모든 메시지를 읽고 최대한 빨리 답변드립니다.'
+    'support.body_html': '질문, 버그 신고, 아이디어가 있으신가요? <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> 으로 이메일을 보내 주세요. 모든 메시지를 읽고 최대한 빨리 답변드립니다.'
   },
 
   /* ── HINDI ───────────────────────────────────────────────── */
@@ -1975,6 +2002,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'Homemade Clues को App Store से डाउनलोड करें',
     'card.breathing_status': 'App Store पर उपलब्ध',
     'card.breathing_appstore_aria': 'Homemade Breathing को App Store से डाउनलोड करें',
+    'card.drawings_status': 'App Store पर उपलब्ध',
+    'card.drawings_appstore_aria': 'Homemade Drawings को App Store से डाउनलोड करें',
     "card.players_note": "कम से कम 4 खिलाड़ी चाहिए।",
     // Homemade Drawings
     "card.drawings_desc": "छोटे हाथों के लिए एक ड्रॉइंग पैड। अपने-अपने स्टाइल वाली पेंसिल, ग्लो और स्प्रे, स्टिकर की शीट, आकृतियाँ, मिरर और मंडला सिमेट्री और रंगीन कागज़ — चित्रों की एक शेल्फ़ पर, जो बनते-बनते सेव होते हैं। कोई विज्ञापन नहीं, कोई खाता नहीं, कुछ भी डिवाइस से बाहर नहीं जाता।",
@@ -1982,7 +2011,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings iPhone और iPad पर बच्चों के लिए एक ड्रॉइंग पैड है: पेंसिल, ग्लो, स्प्रे, स्टिकर, आकृतियाँ और सिमेट्री, रंगीन कागज़ पर। कोई विज्ञापन नहीं, कोई खाता नहीं, कोई डेटा संग्रह नहीं।",
     "drawings.tagline": "छोटे हाथ, बड़े विचार।",
     "drawings.intro": "खोलते ही चित्रों की एक शेल्फ़ और नए पन्ने के लिए एक बड़ा बटन। एक टैप, और पूरी स्क्रीन कागज़ बन जाती है। सीखने के लिए कोई मेन्यू नहीं, बनाने के लिए कोई खाता नहीं, अनलॉक करने के लिए कुछ नहीं — बस चित्र बनाइए।",
-    "drawings.soon_note": "जल्द ही App Store पर।",
+    "drawings.soon_note": 'अब App Store पर उपलब्ध।',
     "drawings.how_h2": "अंदर क्या है",
     "drawings.step1_h": "बनाइए",
     "drawings.step1_p": "पेंसिल, मार्कर, पेंट, ग्लो और स्प्रे, हर एक के अपने स्टाइल — ब्रश को दबाकर रखें और देखें वह और कैसे बना सकता है। एक नरम रबर कागज़ को वापस रंग देता है।",
@@ -2010,7 +2039,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "साइज़ स्लाइडर के दाईं ओर फूल का आइकन बिना मिरर, मिरर, चार-तरफ़ा और मंडला के बीच बदलता है। ऊपर की पट्टी में गोला कागज़ चुनने का पैनल खोलता है — सात रंग, और वैकल्पिक खाने या बिंदु।",
     "drsup.languages_body": "Homemade Drawings अंग्रेज़ी, फ़्रेंच, स्पेनिश, इतालवी, जर्मन, पुर्तगाली, कोरियाई, जापानी और सरलीकृत चीनी बोलता है। सेटिंग्स में कभी भी भाषा बदलें — तुरंत लागू होती है।",
     "drsup.privacy_body_html": "Homemade Drawings पूरी तरह ऑफ़लाइन काम करता है। इसे कोई खाता नहीं चाहिए और यह किसी भी तरह का व्यक्तिगत डेटा नहीं जुटाता — कोई विज्ञापन नहीं, कोई एनालिटिक्स नहीं, कोई ट्रैकिंग नहीं। यह सिर्फ़ एक अनुमति माँग सकता है: आपके चुनने पर चित्र को आपकी फ़ोटो लाइब्रेरी में जोड़ना। पूरा विवरण <a href=\"privacy.html\">Homemade Drawings के गोपनीयता पृष्ठ</a> पर है।",
-    "drsup.bugs_body_html": "कोई बग दिखा, या ऐप को बेहतर बनाने का कोई विचार है? <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> पर जितना हो सके विस्तार से ईमेल करें — आपका डिवाइस और क्या हुआ, यह बहुत मदद करता है।",
+    "drsup.bugs_body_html": "कोई बग दिखा, या ऐप को बेहतर बनाने का कोई विचार है? <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> पर जितना हो सके विस्तार से ईमेल करें — आपका डिवाइस और क्या हुआ, यह बहुत मदद करता है।",
     "privacy.overview_drawings_html": "<strong>सार।</strong> Homemade Drawings बच्चों और परिवारों के लिए बनाया गया एक ड्रॉइंग ऐप है। यह कोई व्यक्तिगत डेटा नहीं जुटाता, नहीं भेजता और नहीं साझा करता।",
     "privacy.data_body_drawings": "चित्र, पन्ने पर रखी फ़ोटो और आपकी सेटिंग्स सिर्फ़ आपके डिवाइस पर, ऐप के अपने स्टोरेज में रहती हैं। बाहरी सर्वर या तीसरे पक्ष को कुछ नहीं भेजा जाता।",
     "privacy.perms_body_drawings": "ऐप पूरी तरह ऑफ़लाइन काम करता है। अगर आप किसी चित्र को अपनी फ़ोटो लाइब्रेरी में सेव करना चुनें, तो यह सिर्फ़ जोड़ने की Photos अनुमति माँगता है; पन्ने पर फ़ोटो रखना Apple के पिकर से होता है, जिसे कोई अनुमति नहीं चाहिए और जो ऐप को सिर्फ़ चुनी हुई तस्वीर दिखाता है। यह आपके संपर्क, स्थान या माइक्रोफ़ोन तक नहीं पहुँचता।",
@@ -2041,6 +2070,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'प्यार से बनाए गए ऐप्स,<br><span class="accent">परिवार के आनंद के लिए।</span>',
     'home.lead': 'मैं एक माँ हूँ जो परिवारों के लिए सरल, मज़ेदार और शिक्षाप्रद ऐप्स बनाती हूँ।',
     'home.apps_h2': 'मेरे ऐप्स',
+    'home.device_alt': 'आईफ़ोन की होम स्क्रीन जिस पर Homemade ऐप्स हैं: Stories, Breathing, Charades, Drawings और Clues।',
     'card.stories_status': 'App Store पर उपलब्ध',
     'card.charades_status': 'App Store पर उपलब्ध',
     'card.stories_desc': 'अपनी आवाज़ में सोने से पहले की कहानियाँ, गीत, लोरियाँ और जन्मदिन के संदेश रिकॉर्ड करें। बच्चे इन्हें कभी भी दोबारा सुन सकते हैं — ऑफ़लाइन भी। जिन्हें वे प्यार करते हैं, हमेशा एक टैप दूर।',
@@ -2115,9 +2145,9 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'बच्चों की गोपनीयता',
     'privacy.children_body': 'ऐप किसी भी उम्र के खिलाड़ियों के लिए सुरक्षित है। यह कोई व्यक्तिगत जानकारी एकत्र नहीं करता और इसमें किसी भी प्रकार का विज्ञापन, विश्लेषण या ट्रैकिंग नहीं है।',
     'privacy.contact_h3': 'संपर्क',
-    'privacy.contact_html': 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया हमें <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर संपर्क करें।',
+    'privacy.contact_html': 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया हमें <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> पर संपर्क करें।',
     'support.h2': 'सहायता',
-    'support.body_html': 'सवाल, बग रिपोर्ट या सुझाव? हमें <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर ईमेल करें — हम हर संदेश पढ़ते हैं और जल्द से जल्द जवाब देते हैं।'
+    'support.body_html': 'सवाल, बग रिपोर्ट या सुझाव? हमें <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> पर ईमेल करें — हम हर संदेश पढ़ते हैं और जल्द से जल्द जवाब देते हैं।'
   },
 
   /* ── ARABIC (RTL) ────────────────────────────────────────── */
@@ -2172,6 +2202,8 @@ window.HA_TRANSLATIONS = {
     'card.clues_appstore_aria': 'تنزيل Homemade Clues من App Store',
     'card.breathing_status': 'متوفر على App Store',
     'card.breathing_appstore_aria': 'تنزيل Homemade Breathing من App Store',
+    'card.drawings_status': 'متوفر على App Store',
+    'card.drawings_appstore_aria': 'تنزيل Homemade Drawings من App Store',
     "card.players_note": "يلزم 4 لاعبين على الأقلّ.",
     // Homemade Drawings
     "card.drawings_desc": "دفتر رسم للأيدي الصغيرة. قلم رصاص وتوهّج ورذاذ لكلٍّ أساليبه، وورقة ملصقات، وأشكال، وتناظر المرآة والماندالا، وورق ملوّن — على رفّ من الرسومات تُحفَظ أثناء رسمها. بلا إعلانات، بلا حساب، ولا يخرج شيء من الجهاز.",
@@ -2179,7 +2211,7 @@ window.HA_TRANSLATIONS = {
     "drawings.meta_desc": "Homemade Drawings دفتر رسم للأطفال على iPhone وiPad: قلم رصاص وتوهّج ورذاذ وملصقات وأشكال وتناظر على ورق ملوّن. بلا إعلانات، بلا حسابات، بلا جمع بيانات.",
     "drawings.tagline": "أيدٍ صغيرة، أفكار كبيرة.",
     "drawings.intro": "افتحه وستجد رفًّا من الرسومات وزرًّا كبيرًا لصفحة جديدة. نقرة واحدة وتتحوّل الشاشة كلّها إلى ورقة. لا قوائم لتعلّمها، ولا حساب لإنشائه، ولا شيء لفتحه — ارسم فقط.",
-    "drawings.soon_note": "قريبًا على App Store.",
+    "drawings.soon_note": 'متوفر الآن على App Store.',
     "drawings.how_h2": "ماذا في الداخل",
     "drawings.step1_h": "ارسم",
     "drawings.step1_p": "قلم رصاص وقلم تحديد وطلاء وتوهّج ورذاذ، لكلٍّ أساليبه — اضغط مطوّلًا على فرشاة لترى كيف ترسم أيضًا. وممحاة ناعمة تُعيد لون الورقة.",
@@ -2207,7 +2239,7 @@ window.HA_TRANSLATIONS = {
     "drsup.a6": "رمز الزهرة يمين شريط الحجم يتنقّل بين بلا مرآة والمرآة والاتجاهات الأربعة والماندالا. والدائرة في الشريط العلويّ تفتح اختيار الورق: سبعة ألوان، ومربّعات أو نقاط اختياريّة.",
     "drsup.languages_body": "يتحدّث Homemade Drawings الإنجليزيّة والفرنسيّة والإسبانيّة والإيطاليّة والألمانيّة والبرتغاليّة والكوريّة واليابانيّة والصينيّة المبسّطة. غيّر اللغة في أيّ وقت من الإعدادات — ويُطبَّق التغيير فورًا.",
     "drsup.privacy_body_html": "يعمل Homemade Drawings دون اتصال بالكامل. لا يحتاج إلى حساب ولا يجمع أيّ بيانات شخصيّة — لا إعلانات ولا تحليلات ولا تتبّع. والإذن الوحيد الذي قد يطلبه هو إضافة رسمة إلى مكتبة الصور، وفقط حين تختار ذلك. التفاصيل كاملة في <a href=\"privacy.html\">صفحة خصوصيّة Homemade Drawings</a>.",
-    "drsup.bugs_body_html": "وجدت خللًا، أو لديك فكرة تجعل التطبيق أفضل؟ راسل <a href=\"mailto:contact@homemade-stories.com\">contact@homemade-stories.com</a> بأكبر قدر من التفاصيل — الجهاز الذي تستخدمه وما حدث يساعدان كثيرًا.",
+    "drsup.bugs_body_html": "وجدت خللًا، أو لديك فكرة تجعل التطبيق أفضل؟ راسل <a href=\"mailto:contact@homemade-apps.com\">contact@homemade-apps.com</a> بأكبر قدر من التفاصيل — الجهاز الذي تستخدمه وما حدث يساعدان كثيرًا.",
     "privacy.overview_drawings_html": "<strong>نظرة عامّة.</strong> Homemade Drawings تطبيق رسم مصمَّم للأطفال والعائلات. لا يجمع أيّ بيانات شخصيّة ولا ينقلها ولا يشاركها.",
     "privacy.data_body_drawings": "تبقى الرسومات والصور التي تضعها على الصفحة وإعداداتك على جهازك فقط، في مساحة التطبيق الخاصّة. لا يُرسَل شيء إلى خوادم خارجيّة أو أطراف ثالثة.",
     "privacy.perms_body_drawings": "يعمل التطبيق دون اتصال بالكامل. إذا اخترت حفظ رسمة في مكتبة الصور فإنّه يطلب إذن الصور للإضافة فقط؛ ووضع صورة على الصفحة يستخدم منتقي Apple الذي لا يحتاج إلى إذن ولا يُظهر للتطبيق سوى الصورة التي اخترتها. ولا يصل إلى جهات الاتصال أو الموقع أو الميكروفون.",
@@ -2238,6 +2270,7 @@ window.HA_TRANSLATIONS = {
     'home.h1_html': 'تطبيقات صُنعت بحبّ،<br><span class="accent">لتستمتع بها العائلة.</span>',
     'home.lead': 'أنا أمّ أصنع تطبيقات بسيطة وممتعة وتعليمية للعائلات.',
     'home.apps_h2': 'تطبيقاتي',
+    'home.device_alt': 'شاشة رئيسية لآيفون عليها تطبيقات Homemade: ‏Stories وBreathing وCharades وDrawings وClues.',
     'card.stories_status': 'متوفر على App Store',
     'card.charades_status': 'متوفر على App Store',
     'card.stories_desc': 'سجّل قصص ما قبل النوم والأغاني والتهويدات ورسائل أعياد الميلاد بصوتك. يمكن للأطفال إعادة تشغيلها في أي وقت — حتى دون اتصال. من يحبونهم، دائمًا على بُعد نقرة.',
@@ -2312,8 +2345,8 @@ window.HA_TRANSLATIONS = {
     'privacy.children_h3': 'خصوصية الأطفال',
     'privacy.children_body': 'التطبيق آمن للاعبين من جميع الأعمار. لا يجمع أي معلومات شخصية ولا يحتوي على أي إعلانات أو تحليلات أو تتبّع من أي نوع.',
     'privacy.contact_h3': 'التواصل',
-    'privacy.contact_html': 'إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يُرجى التواصل معنا على <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.',
+    'privacy.contact_html': 'إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يُرجى التواصل معنا على <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.',
     'support.h2': 'الدعم',
-    'support.body_html': 'أسئلة أو بلاغات عن أخطاء أو أفكار؟ راسلونا عبر <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> — نقرأ كل رسالة ونرد بأسرع ما يمكن.'
+    'support.body_html': 'أسئلة أو بلاغات عن أخطاء أو أفكار؟ راسلونا عبر <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> — نقرأ كل رسالة ونرد بأسرع ما يمكن.'
   }
 };

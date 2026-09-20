@@ -47,6 +47,11 @@
       if (t[key] !== undefined) el.innerHTML = t[key];
     });
 
+    document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+      const key = el.getAttribute('data-i18n-alt');
+      if (t[key] !== undefined) el.setAttribute('alt', t[key]);
+    });
+
     document.querySelectorAll('[data-i18n-aria]').forEach(el => {
       const key = el.getAttribute('data-i18n-aria');
       if (t[key] !== undefined) el.setAttribute('aria-label', t[key]);

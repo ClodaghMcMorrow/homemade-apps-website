@@ -68,7 +68,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'How do I stop my child from accidentally exiting the app?',
     'support.faq5_a': 'We recommend turning on iOS Guided Access, which locks the device to a single app until you enter a passcode. It\'s perfect for handing your phone or iPad to a young child without worrying that they\'ll wander into other apps, settings, messages or the App Store. To enable it: open Settings → Accessibility → Guided Access, turn it on and set a passcode. Then, in Homemade Stories, triple-click the side (or home) button to start a Guided Access session. Triple-click again and enter your passcode to exit.',
     'support.bugs_h2': 'Feature requests & bug reports',
-    'support.bugs_body_html': `If you've spotted a bug or have a suggestion, email <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> with as much detail as you can.`,
+    'support.bugs_body_html': `If you've spotted a bug or have a suggestion, email <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> with as much detail as you can.`,
     'support.languages_h2': 'Available languages',
     'support.languages_body': 'Homemade Stories is available in Arabic, Chinese, English, French, German, Hindi, Italian, Japanese, Korean, Portuguese and Spanish — so storytellers and little listeners around the world can enjoy it in their own language.',
 
@@ -90,7 +90,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'Third-party services',
     'privacy.thirdparty_body': 'This app does not integrate any third-party SDKs, advertising networks, or analytics tools.',
     'privacy.contact_h2': 'Contact',
-    'privacy.contact_html': `If you have any questions about this privacy policy, please contact us at <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `If you have any questions about this privacy policy, please contact us at <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   },
 
   /* ── ARABIC ──────────────────────────────────────────────── */
@@ -143,7 +143,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'كيف أمنع طفلي من الخروج من التطبيق عن طريق الخطأ؟',
     'support.faq5_a': 'ننصح بتفعيل ميزة "الوصول الموجَّه" (Guided Access) في iOS، التي تُقفل الجهاز على تطبيق واحد إلى أن تُدخل رمز المرور. مثالية لتسليم الهاتف أو الـ iPad لطفل صغير دون القلق من تجوّله في تطبيقات أخرى أو الإعدادات أو الرسائل أو App Store. للتفعيل: افتح الإعدادات ← تسهيلات الاستخدام ← الوصول الموجَّه، فعّله وعيّن رمز مرور. ثم داخل Homemade Stories، انقر ثلاث مرات على الزر الجانبي (أو زر الشاشة الرئيسية) لبدء جلسة الوصول الموجَّه. انقر ثلاث مرات مجدداً وأدخل رمز المرور للخروج.',
     'support.bugs_h2': 'اقتراحات وتقارير الأخطاء',
-    'support.bugs_body_html': `إن رصدت خطأً أو لديك اقتراح، راسلنا على <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> مع أكبر قدرٍ من التفاصيل.`,
+    'support.bugs_body_html': `إن رصدت خطأً أو لديك اقتراح، راسلنا على <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> مع أكبر قدرٍ من التفاصيل.`,
     'support.languages_h2': 'اللغات المتاحة',
     'support.languages_body': 'Homemade Stories متوفّر بالعربية والصينية والإنجليزية والفرنسية والألمانية والهندية والإيطالية واليابانية والكورية والبرتغالية والإسبانية — ليستمتع به الرواة والمستمعون الصغار حول العالم بلغاتهم.',
 
@@ -165,7 +165,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'خدمات الأطراف الثالثة',
     'privacy.thirdparty_body': 'لا يدمج هذا التطبيق أيّ حزم SDK خارجية أو شبكات إعلانية أو أدوات تحليل.',
     'privacy.contact_h2': 'التواصل',
-    'privacy.contact_html': `إن كانت لديك أيّ أسئلة حول سياسة الخصوصية، يُرجى التواصل معنا على <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `إن كانت لديك أيّ أسئلة حول سياسة الخصوصية، يُرجى التواصل معنا على <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   },
 
   /* ── CHINESE (Simplified) ────────────────────────────────── */
@@ -218,7 +218,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': '如何防止孩子不小心退出应用？',
     'support.faq5_a': '我们建议开启 iOS 的"引导式访问"（Guided Access），它会将设备锁定在单个应用中，直到您输入密码。这样您可以安心地把手机或 iPad 交给小朋友，不用担心他们误入其他应用、设置、信息或 App Store。开启方式：打开 设置 → 辅助功能 → 引导式访问，启用后设置密码。然后在 Homemade Stories 中，连按三次侧边按钮（或主屏幕按钮）即可开启引导式访问会话。再次连按三次并输入密码即可退出。',
     'support.bugs_h2': '功能建议与问题反馈',
-    'support.bugs_body_html': `如果发现问题或有任何建议，请发送邮件至 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>，并尽可能详细地描述。`,
+    'support.bugs_body_html': `如果发现问题或有任何建议，请发送邮件至 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>，并尽可能详细地描述。`,
     'support.languages_h2': '支持的语言',
     'support.languages_body': 'Homemade Stories 提供阿拉伯语、中文、英语、法语、德语、印地语、意大利语、日语、韩语、葡萄牙语和西班牙语——让世界各地的讲述者和小小听众都能以自己的语言享用。',
 
@@ -240,7 +240,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': '第三方服务',
     'privacy.thirdparty_body': '本应用不集成任何第三方 SDK、广告网络或分析工具。',
     'privacy.contact_h2': '联系方式',
-    'privacy.contact_html': `如果您对本隐私政策有任何疑问，请通过 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> 联系我们。`
+    'privacy.contact_html': `如果您对本隐私政策有任何疑问，请通过 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> 联系我们。`
   },
 
   /* ── FRENCH ──────────────────────────────────────────────── */
@@ -293,7 +293,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'Comment empêcher mon enfant de quitter l\'application par accident ?',
     'support.faq5_a': 'Nous recommandons d\'activer l\'Accès guidé d\'iOS, qui verrouille l\'appareil sur une seule application jusqu\'à la saisie d\'un code. Idéal pour confier votre iPhone ou iPad à un jeune enfant sans craindre qu\'il ne se promène dans d\'autres apps, les réglages, les messages ou l\'App Store. Pour l\'activer : ouvrez Réglages → Accessibilité → Accès guidé, activez-le et définissez un code. Ensuite, dans Homemade Stories, appuyez trois fois rapidement sur le bouton latéral (ou le bouton principal) pour démarrer une session. Appuyez à nouveau trois fois et saisissez le code pour quitter.',
     'support.bugs_h2': 'Suggestions et signalements de bugs',
-    'support.bugs_body_html': `Si vous avez repéré un bug ou une suggestion, écrivez-nous à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> avec autant de détails que possible.`,
+    'support.bugs_body_html': `Si vous avez repéré un bug ou une suggestion, écrivez-nous à <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> avec autant de détails que possible.`,
     'support.languages_h2': 'Langues disponibles',
     'support.languages_body': 'Homemade Stories est disponible en arabe, chinois, anglais, français, allemand, hindi, italien, japonais, coréen, portugais et espagnol — pour que conteurs et petits auditeurs du monde entier en profitent dans leur langue.',
 
@@ -315,7 +315,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'Services tiers',
     'privacy.thirdparty_body': 'Cette application n\'intègre aucun SDK tiers, réseau publicitaire ou outil d\'analyse.',
     'privacy.contact_h2': 'Contact',
-    'privacy.contact_html': `Pour toute question sur cette politique, veuillez nous contacter à <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `Pour toute question sur cette politique, veuillez nous contacter à <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   },
 
   /* ── GERMAN ──────────────────────────────────────────────── */
@@ -368,7 +368,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'Wie verhindere ich, dass mein Kind die App versehentlich verlässt?',
     'support.faq5_a': 'Wir empfehlen, den iOS-Geführten Zugriff zu aktivieren. Damit wird das Gerät auf eine einzige App gesperrt, bis ein Code eingegeben wird. Perfekt, wenn ihr eurem Kind das iPhone oder iPad in die Hand gebt, ohne dass es in andere Apps, Einstellungen, Nachrichten oder den App Store gelangt. So aktiviert ihr ihn: Einstellungen → Bedienungshilfen → Geführter Zugriff öffnen, einschalten und einen Code festlegen. Dann in Homemade Stories die Seitentaste (oder Home-Taste) dreimal schnell drücken, um eine Sitzung zu starten. Erneut dreimal drücken und den Code eingeben, um sie zu beenden.',
     'support.bugs_h2': 'Feedback und Fehlerberichte',
-    'support.bugs_body_html': `Wenn du einen Fehler entdeckt hast oder einen Vorschlag hast, schreib uns an <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> mit so vielen Details wie möglich.`,
+    'support.bugs_body_html': `Wenn du einen Fehler entdeckt hast oder einen Vorschlag hast, schreib uns an <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> mit so vielen Details wie möglich.`,
     'support.languages_h2': 'Verfügbare Sprachen',
     'support.languages_body': 'Homemade Stories ist in Arabisch, Chinesisch, Englisch, Französisch, Deutsch, Hindi, Italienisch, Japanisch, Koreanisch, Portugiesisch und Spanisch verfügbar — damit Erzähler und kleine Zuhörer weltweit in ihrer Sprache mitmachen können.',
 
@@ -390,7 +390,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'Drittanbieter-Dienste',
     'privacy.thirdparty_body': 'Diese App bindet keinerlei Drittanbieter-SDKs, Werbenetzwerke oder Analyse-Tools ein.',
     'privacy.contact_h2': 'Kontakt',
-    'privacy.contact_html': `Bei Fragen zu dieser Datenschutzerklärung erreichst du uns unter <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `Bei Fragen zu dieser Datenschutzerklärung erreichst du uns unter <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   },
 
   /* ── HINDI ───────────────────────────────────────────────── */
@@ -443,7 +443,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'मैं अपने बच्चे को ऐप से ग़लती से बाहर निकलने से कैसे रोकूँ?',
     'support.faq5_a': 'हम iOS के Guided Access (निर्देशित एक्सेस) को चालू करने की सलाह देते हैं, जो डिवाइस को एक ही ऐप पर लॉक कर देता है जब तक कि आप पासकोड न डालें। छोटे बच्चे को फ़ोन या iPad देते समय यह बहुत उपयोगी है ताकि वे ग़लती से दूसरे ऐप, सेटिंग्स, संदेशों या App Store में न पहुँच जाएँ। चालू करने के लिए: Settings → Accessibility → Guided Access खोलें, चालू करें और एक पासकोड सेट करें। फिर Homemade Stories में, साइड बटन (या होम बटन) को तीन बार दबाएँ — सत्र शुरू हो जाएगा। बाहर निकलने के लिए तीन बार फिर दबाएँ और पासकोड डालें।',
     'support.bugs_h2': 'फ़ीचर अनुरोध और बग रिपोर्ट',
-    'support.bugs_body_html': `यदि आपने कोई बग देखा है या कोई सुझाव है, तो <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर विस्तार से ईमेल करें।`,
+    'support.bugs_body_html': `यदि आपने कोई बग देखा है या कोई सुझाव है, तो <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> पर विस्तार से ईमेल करें।`,
     'support.languages_h2': 'उपलब्ध भाषाएँ',
     'support.languages_body': 'Homemade Stories अरबी, चीनी, अंग्रेज़ी, फ़्रेंच, जर्मन, हिंदी, इतालवी, जापानी, कोरियाई, पुर्तगाली और स्पैनिश में उपलब्ध है — ताकि दुनिया भर के कहानीकार और नन्हे श्रोता इसे अपनी भाषा में आनंद ले सकें।',
 
@@ -465,7 +465,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'तृतीय-पक्ष सेवाएँ',
     'privacy.thirdparty_body': 'यह ऐप किसी भी तृतीय-पक्ष SDK, विज्ञापन नेटवर्क या विश्लेषण उपकरण को एकीकृत नहीं करती।',
     'privacy.contact_h2': 'संपर्क',
-    'privacy.contact_html': `यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> पर संपर्क करें।`
+    'privacy.contact_html': `यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> पर संपर्क करें।`
   },
 
   /* ── ITALIAN ─────────────────────────────────────────────── */
@@ -518,7 +518,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'Come impedisco a mio figlio di uscire dall\'app per sbaglio?',
     'support.faq5_a': 'Consigliamo di attivare l\'Accesso guidato di iOS, che blocca il dispositivo su una sola app finché non si inserisce un codice. Perfetto per dare iPhone o iPad a un bambino piccolo senza il timore che apra altre app, le impostazioni, i messaggi o l\'App Store. Per attivarlo: apri Impostazioni → Accessibilità → Accesso guidato, attivalo e imposta un codice. Poi, in Homemade Stories, premi tre volte il tasto laterale (o il tasto Home) per avviare una sessione. Premi di nuovo tre volte e inserisci il codice per uscire.',
     'support.bugs_h2': 'Richieste di funzionalità e segnalazione di bug',
-    'support.bugs_body_html': `Se hai notato un bug o hai un suggerimento, scrivici a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> con tutti i dettagli possibili.`,
+    'support.bugs_body_html': `Se hai notato un bug o hai un suggerimento, scrivici a <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> con tutti i dettagli possibili.`,
     'support.languages_h2': 'Lingue disponibili',
     'support.languages_body': 'Homemade Stories è disponibile in arabo, cinese, inglese, francese, tedesco, hindi, italiano, giapponese, coreano, portoghese e spagnolo — così narratori e piccoli ascoltatori di tutto il mondo possono goderne nella propria lingua.',
 
@@ -540,7 +540,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'Servizi di terze parti',
     'privacy.thirdparty_body': 'Questa app non integra SDK di terze parti, reti pubblicitarie o strumenti di analisi.',
     'privacy.contact_h2': 'Contatti',
-    'privacy.contact_html': `Per qualsiasi domanda su questa informativa, scrivici a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `Per qualsiasi domanda su questa informativa, scrivici a <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   },
 
   /* ── JAPANESE ────────────────────────────────────────────── */
@@ -593,7 +593,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': '子どもが誤ってアプリを抜けてしまわないようにするには？',
     'support.faq5_a': 'iOSの「アクセスガイド（Guided Access）」をオンにすることをおすすめします。パスコードを入力するまで端末を1つのAppにロックでき、小さなお子さまにiPhoneやiPadを渡しても、ほかのApp・設定・メッセージ・App Storeに入ってしまう心配がありません。設定方法：「設定 → アクセシビリティ → アクセスガイド」を開き、オンにしてパスコードを設定します。Homemade Stories内でサイドボタン（またはホームボタン）を3回連続で押すとセッションが開始します。終了するにはもう一度3回連続で押し、パスコードを入力します。',
     'support.bugs_h2': '機能リクエストとバグ報告',
-    'support.bugs_body_html': `不具合やご提案は、できるだけ詳しく <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> までメールでお知らせください。`,
+    'support.bugs_body_html': `不具合やご提案は、できるだけ詳しく <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> までメールでお知らせください。`,
     'support.languages_h2': '対応言語',
     'support.languages_body': 'Homemade Storiesは、アラビア語、中国語、英語、フランス語、ドイツ語、ヒンディー語、イタリア語、日本語、韓国語、ポルトガル語、スペイン語に対応しています。世界中の語り手と小さなリスナーが、それぞれの言葉で楽しめます。',
 
@@ -615,7 +615,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'サードパーティのサービス',
     'privacy.thirdparty_body': '本アプリは、サードパーティのSDK、広告ネットワーク、分析ツールを一切組み込んでいません。',
     'privacy.contact_h2': 'お問い合わせ',
-    'privacy.contact_html': `本プライバシーポリシーについてご不明な点がある場合は、<a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>までご連絡ください。`
+    'privacy.contact_html': `本プライバシーポリシーについてご不明な点がある場合は、<a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>までご連絡ください。`
   },
 
   /* ── KOREAN ──────────────────────────────────────────────── */
@@ -668,7 +668,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': '아이가 실수로 앱에서 나가지 않게 하려면 어떻게 하나요?',
     'support.faq5_a': 'iOS의 손쉬운 사용 접근(Guided Access) 기능을 켜는 것을 권장합니다. 암호를 입력하기 전까지 기기를 하나의 앱에 잠가둘 수 있어, 어린 자녀에게 아이폰이나 아이패드를 건네줄 때 다른 앱·설정·메시지·App Store로 빠져나가는 걱정 없이 안심할 수 있습니다. 설정 방법: 설정 → 손쉬운 사용 → 손쉬운 사용 접근(Guided Access)을 열고 켠 뒤 암호를 설정하세요. 그런 다음 Homemade Stories에서 측면 버튼(또는 홈 버튼)을 빠르게 세 번 누르면 세션이 시작됩니다. 다시 세 번 누르고 암호를 입력하면 종료됩니다.',
     'support.bugs_h2': '기능 요청 및 버그 리포트',
-    'support.bugs_body_html': `버그를 발견하셨거나 제안이 있으시다면 가능한 한 자세한 내용을 담아 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>으로 이메일을 보내 주세요.`,
+    'support.bugs_body_html': `버그를 발견하셨거나 제안이 있으시다면 가능한 한 자세한 내용을 담아 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>으로 이메일을 보내 주세요.`,
     'support.languages_h2': '지원 언어',
     'support.languages_body': 'Homemade Stories는 아랍어, 중국어, 영어, 프랑스어, 독일어, 힌디어, 이탈리아어, 일본어, 한국어, 포르투갈어, 스페인어로 제공돼요. 전 세계의 이야기꾼과 작은 청취자들이 각자의 언어로 즐길 수 있도록요.',
 
@@ -690,7 +690,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': '제3자 서비스',
     'privacy.thirdparty_body': '본 앱은 제3자 SDK, 광고 네트워크, 분석 도구를 일절 포함하지 않습니다.',
     'privacy.contact_h2': '문의',
-    'privacy.contact_html': `본 개인정보 처리방침에 관해 문의사항이 있으시면 <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>으로 연락해 주세요.`
+    'privacy.contact_html': `본 개인정보 처리방침에 관해 문의사항이 있으시면 <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>으로 연락해 주세요.`
   },
 
   /* ── PORTUGUESE ──────────────────────────────────────────── */
@@ -743,7 +743,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': 'Como evito que meu filho saia do app sem querer?',
     'support.faq5_a': 'Recomendamos ativar o Acesso Guiado do iOS, que bloqueia o aparelho em um único app até que você digite um código. Perfeito para entregar o iPhone ou iPad a uma criança pequena sem se preocupar que ela acesse outros apps, ajustes, mensagens ou a App Store. Para ativar: abra Ajustes → Acessibilidade → Acesso Guiado, ative-o e defina um código. Depois, no Homemade Stories, pressione três vezes o botão lateral (ou o botão de início) para iniciar uma sessão. Pressione três vezes novamente e digite o código para sair.',
     'support.bugs_h2': 'Sugestões e relatos de bugs',
-    'support.bugs_body_html': `Se encontrou um bug ou tem uma sugestão, escreva para <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> com o máximo de detalhes possível.`,
+    'support.bugs_body_html': `Se encontrou um bug ou tem uma sugestão, escreva para <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> com o máximo de detalhes possível.`,
     'support.languages_h2': 'Idiomas disponíveis',
     'support.languages_body': 'O Homemade Stories está disponível em árabe, chinês, inglês, francês, alemão, hindi, italiano, japonês, coreano, português e espanhol — para que contadores de histórias e pequenos ouvintes em todo o mundo possam aproveitar no seu próprio idioma.',
 
@@ -765,7 +765,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'Serviços de terceiros',
     'privacy.thirdparty_body': 'Este app não integra nenhum SDK, rede publicitária nem ferramenta de análise de terceiros.',
     'privacy.contact_h2': 'Contato',
-    'privacy.contact_html': `Em caso de dúvidas sobre esta política de privacidade, entre em contato pelo <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `Em caso de dúvidas sobre esta política de privacidade, entre em contato pelo <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   },
 
   /* ── SPANISH ─────────────────────────────────────────────── */
@@ -818,7 +818,7 @@ window.HS_TRANSLATIONS = {
     'support.faq5_q': '¿Cómo evito que mi hijo salga de la app sin querer?',
     'support.faq5_a': 'Recomendamos activar el Acceso guiado de iOS, que bloquea el dispositivo en una sola app hasta que se introduzca un código. Es ideal para dejar el iPhone o iPad a un niño pequeño sin preocuparte de que entre en otras apps, ajustes, mensajes o la App Store. Para activarlo: abre Ajustes → Accesibilidad → Acceso guiado, actívalo y define un código. Después, en Homemade Stories, pulsa tres veces seguidas el botón lateral (o el botón de inicio) para iniciar una sesión. Pulsa tres veces de nuevo e introduce el código para salir.',
     'support.bugs_h2': 'Sugerencias y reportes de errores',
-    'support.bugs_body_html': `Si detectas un error o tienes una sugerencia, escríbenos a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a> con el mayor detalle posible.`,
+    'support.bugs_body_html': `Si detectas un error o tienes una sugerencia, escríbenos a <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a> con el mayor detalle posible.`,
     'support.languages_h2': 'Idiomas disponibles',
     'support.languages_body': 'Homemade Stories está disponible en árabe, chino, inglés, francés, alemán, hindi, italiano, japonés, coreano, portugués y español — para que narradores y pequeños oyentes de todo el mundo disfruten la app en su propio idioma.',
 
@@ -840,7 +840,7 @@ window.HS_TRANSLATIONS = {
     'privacy.thirdparty_h2': 'Servicios de terceros',
     'privacy.thirdparty_body': 'Esta app no integra SDKs, redes publicitarias ni herramientas de analítica de terceros.',
     'privacy.contact_h2': 'Contacto',
-    'privacy.contact_html': `Si tienes alguna pregunta sobre esta política de privacidad, escríbenos a <a href="mailto:contact@homemade-stories.com">contact@homemade-stories.com</a>.`
+    'privacy.contact_html': `Si tienes alguna pregunta sobre esta política de privacidad, escríbenos a <a href="mailto:contact@homemade-apps.com">contact@homemade-apps.com</a>.`
   }
 
 }; // end HS_TRANSLATIONS
