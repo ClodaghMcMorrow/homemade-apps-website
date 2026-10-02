@@ -305,6 +305,124 @@ html[dir="rtl"] .tap-hint-arrow { scale: -1 1; }
 .app-sheet .app-links .btn { flex: 1 1 auto; justify-content: center; padding: 14px 20px; }
 
 /* ── My promise to you: a numbered list instead of cards ── */
+/* ── Preview button (in the app details window) ── */
+.app-sheet .btn-preview {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  margin: 2px 0 12px;
+  padding: 17px 20px;
+  font-size: 1.08rem;
+  color: #fff;
+  background: linear-gradient(135deg, #F0A542 0%, var(--orange) 45%, var(--orange-dark) 100%);
+  box-shadow: 0 8px 22px rgba(217,122,44,.45);
+  animation: preview-pulse 2.2s ease-out infinite;
+}
+.btn-preview svg { width: 20px; height: 20px; flex-shrink: 0; }
+/* A band of light sweeping across the button */
+.btn-preview::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgba(255,255,255,.55) 50%, transparent 65%);
+  translate: -100% 0;
+  animation: preview-sheen 2.8s ease-in-out .6s infinite;
+}
+.btn-preview:hover { transform: translateY(-2px) scale(1.02); box-shadow: 0 12px 28px rgba(217,122,44,.55); }
+.btn-preview:active { transform: scale(.98); }
+@keyframes preview-pulse {
+  0%   { box-shadow: 0 8px 22px rgba(217,122,44,.45), 0 0 0 0 rgba(217,122,44,.5); }
+  70%  { box-shadow: 0 8px 22px rgba(217,122,44,.45), 0 0 0 12px rgba(217,122,44,0); }
+  100% { box-shadow: 0 8px 22px rgba(217,122,44,.45), 0 0 0 0 rgba(217,122,44,0); }
+}
+@keyframes preview-sheen {
+  0%        { translate: -100% 0; }
+  45%, 100% { translate: 100% 0; }
+}
+
+/* ── Screenshot gallery ── */
+.preview-sheet {
+  width: min(1180px, calc(100vw - 20px));
+  max-width: none;
+  max-height: calc(100dvh - 20px);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--cream);
+  color: var(--ink);
+  box-shadow: 0 24px 64px rgba(46,58,89,.4);
+  overflow: hidden;
+}
+.preview-sheet[open] { animation: sheet-in .32s cubic-bezier(.2,1.25,.35,1); }
+.preview-sheet::backdrop {
+  background: rgba(46,58,89,.6);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  animation: backdrop-in .25s ease;
+}
+.preview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px 12px 24px;
+}
+.preview-title { margin: 0; font-size: clamp(1.15rem, 2.4vw, 1.5rem); }
+.preview-close { position: static; flex-shrink: 0; background: #fff; }
+.preview-stage { position: relative; }
+.preview-strip {
+  /* Capped by width too, so a phone shows about a screenshot and a half:
+     enough to see that neighbouring ones join up */
+  --shot-h: min(640px, calc(100dvh - 130px), calc((100vw - 60px) / 1.5 * 2868 / 1320));
+  display: flex;
+  gap: 10px;
+  padding: 4px 24px 24px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 24px;
+  -webkit-overflow-scrolling: touch;
+}
+.preview-strip:focus-visible { outline-offset: -3px; }
+.preview-strip img {
+  flex: 0 0 auto;
+  height: var(--shot-h);
+  width: calc(var(--shot-h) * 1320 / 2868);
+  max-width: none;
+  border-radius: calc(var(--shot-h) * .035);
+  background: var(--cream-warm);
+  scroll-snap-align: start;
+  box-shadow: var(--shadow-sm);
+}
+.preview-nav {
+  position: absolute;
+  top: calc(50% - 10px);
+  translate: 0 -50%;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--navy);
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: opacity .2s, transform .15s;
+  z-index: 1;
+}
+.preview-nav svg { width: 20px; height: 20px; }
+.preview-nav--prev { left: 10px; }
+.preview-nav--next { right: 10px; }
+.preview-nav:hover { transform: scale(1.08); }
+.preview-nav:disabled { opacity: 0; pointer-events: none; }
+@media (hover: none) {
+  /* Touch screens swipe; the arrows would only cover the screenshots */
+  .preview-nav { display: none; }
+}
+
 /* The whole section is scaled down to match the compact list */
 .philosophy { padding: clamp(40px, 6vw, 64px) 0; }
 .philosophy h2 { font-size: clamp(1.45rem, 2.6vw, 1.9rem); }
@@ -389,5 +507,6 @@ html[dir="rtl"] .promise-list li:hover h3 { translate: -6px 0; }
   .tap-hint-arrow path { animation: none; stroke-dashoffset: 0; }
   .tap-hint > span { animation: none; background-position: 100% 0; }
   .tap-demo { display: none; }
+  .app-sheet .btn-preview, .btn-preview::after { animation: none; }
   .app-hotspot::before { box-shadow: 0 0 0 2px rgba(255,255,255,.8); }
 }
