@@ -13,8 +13,9 @@
   <link rel="icon" href="assets/logo-stories.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="styles.css?v=14" />
+  <link rel="stylesheet" href="fancy.css?v=7" />
 </head>
 <body>
 
@@ -67,142 +68,38 @@
           </div>
         </div>
 
-        <figure class="device-showcase">
+        <figure class="device-showcase device-showcase--live">
+          <figcaption class="tap-hint">
+            <span data-i18n="fancy.hint">Tap an app to peek inside</span>
+            <svg class="tap-hint-arrow" viewBox="0 0 110 50" aria-hidden="true">
+              <defs>
+                <linearGradient id="hintShine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="330" y2="0" gradientTransform="translate(-275 0)">
+                  <stop offset="0" stop-color="#A8521A"/><stop offset=".3" stop-color="#C96A22"/><stop offset=".42" stop-color="#D97A2C"/><stop offset=".47" stop-color="#F2A640"/>
+                  <stop offset=".5" stop-color="#FFD98A"/>
+                  <stop offset=".53" stop-color="#F2A640"/><stop offset=".58" stop-color="#D97A2C"/><stop offset=".7" stop-color="#C96A22"/><stop offset="1" stop-color="#A8521A"/>
+                  <animateTransform attributeName="gradientTransform" type="translate" values="-275 0; 55 0; 55 0" keyTimes="0; .55; 1" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
+                </linearGradient>
+              </defs>
+              <path pathLength="1" stroke="url(#hintShine)" d="M8 4 C 10 34, 58 46, 102 30"/>
+              <path class="tap-hint-arrow-head" pathLength="1" stroke="url(#hintShine)" d="M87 21 L104 29 L93 44"/>
+            </svg>
+          </figcaption>
           <div class="device">
-            <div class="device-screen">
+            <div class="device-screen" id="deviceScreen">
               <img src="assets/home-screen.webp" alt="An iPhone home screen with the Homemade apps on it: Stories, Breathing, Charades, Drawings and Clues." width="920" height="2000" data-i18n-alt="home.device_alt" />
               <span class="device-island" aria-hidden="true"></span>
+              <button type="button" class="app-hotspot app-hotspot--c1 app-hotspot--r1" data-app="stories" aria-haspopup="dialog" aria-label="Homemade Stories"></button>
+              <button type="button" class="app-hotspot app-hotspot--c2 app-hotspot--r1" data-app="breathing" aria-haspopup="dialog" aria-label="Homemade Breathing"></button>
+              <button type="button" class="app-hotspot app-hotspot--c3 app-hotspot--r1" data-app="charades" aria-haspopup="dialog" aria-label="Homemade Charades"></button>
+              <button type="button" class="app-hotspot app-hotspot--c1 app-hotspot--r2" data-app="drawings" aria-haspopup="dialog" aria-label="Homemade Drawings"></button>
+              <button type="button" class="app-hotspot app-hotspot--c2 app-hotspot--r2" data-app="clues" aria-haspopup="dialog" aria-label="Homemade Clues"></button>
+              <span class="tap-demo" aria-hidden="true"></span>
+              <div class="screen-nudge" id="screenNudge" role="status" aria-live="polite" hidden>
+                <span data-i18n="fancy.nudge">Tap one of the Homemade apps</span>
+              </div>
             </div>
           </div>
         </figure>
-      </div>
-    </section>
-
-    <!-- ── Apps grid ── -->
-    <section class="apps" id="apps">
-      <div class="container">
-        <h2 data-i18n="home.apps_h2">My apps</h2>
-
-        <div class="apps-grid">
-
-          <!-- Homemade Stories -->
-          <article class="app-card">
-            <div class="app-logo-banner app-logo-banner--stories">
-              <img src="assets/logo-stories.png" alt="Homemade Stories logo" width="200" height="200" class="app-logo" loading="lazy" />
-            </div>
-            <div class="app-card-body">
-              <div class="app-meta">
-                <p class="app-name sr-only">Homemade Stories</p>
-                <span class="status-badge status-badge--live" data-i18n="card.stories_status">Live on App Store</span>
-              </div>
-              <p data-i18n="card.stories_desc">Record bedtime stories, songs, lullabies and birthday messages in your own voice. Kids can replay them any time — even offline. The people they love, always a tap away.</p>
-              <div class="app-links">
-                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-stories/id6762309416" data-i18n-aria="card.stories_appstore_aria" aria-label="Download Homemade Stories on the App Store">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  <span data-i18n="card.download">Download</span>
-                </a>
-                <a class="btn btn-outline" href="stories/index.html" data-i18n="card.learn_more">Learn more</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Homemade Drawings -->
-          <article class="app-card">
-            <div class="app-logo-banner app-logo-banner--drawings">
-              <img src="assets/logo-drawings.png" alt="Homemade Drawings logo" width="200" height="200" class="app-logo" loading="lazy" />
-            </div>
-            <div class="app-card-body">
-              <div class="app-meta">
-                <p class="app-name sr-only">Homemade Drawings</p>
-                <span class="status-badge status-badge--live" data-i18n="card.drawings_status">Live on App Store</span>
-              </div>
-              <p data-i18n="card.drawings_desc">A drawing pad for small hands. Pencil, glow and spray with their own styles, a sheet of stickers, shapes, mirror and mandala symmetry and coloured paper — on a shelf of pictures that are saved as they're drawn. No ads, no account, nothing leaves the device.</p>
-              <div class="app-links">
-                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-drawings/id6809569806" data-i18n-aria="card.drawings_appstore_aria" aria-label="Download Homemade Drawings on the App Store">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  <span data-i18n="card.download">Download</span>
-                </a>
-                <a class="btn btn-outline" href="drawings/index.html" data-i18n="card.learn_more">Learn more</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Homemade Breathing -->
-          <article class="app-card">
-            <div class="app-logo-banner app-logo-banner--breathing">
-              <img src="assets/logo-breathing.png" alt="Homemade Breathing logo" width="200" height="200" class="app-logo" loading="lazy" />
-            </div>
-            <div class="app-card-body">
-              <div class="app-meta">
-                <p class="app-name sr-only">Homemade Breathing</p>
-                <span class="status-badge status-badge--live" data-i18n="card.breathing_status">Live on App Store</span>
-              </div>
-              <p data-i18n="card.breathing_desc">A breathing guide for calmer days. Follow a wave as it rises and falls while a girl breathes along with you — six techniques, from everyday coherent breathing to 4-7-8 for sleep, each at three levels, with soft sounds, a voice and haptics. No ads, no account, nothing leaves the device.</p>
-              <div class="app-links">
-                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-breathing/id6811675817" data-i18n-aria="card.breathing_appstore_aria" aria-label="Download Homemade Breathing on the App Store">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  <span data-i18n="card.download">Download</span>
-                </a>
-                <a class="btn btn-outline" href="breathing/index.html" data-i18n="card.learn_more">Learn more</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Homemade Charades -->
-          <article class="app-card">
-            <div class="app-logo-banner app-logo-banner--charades">
-              <img src="assets/logo-charades.png" alt="Homemade Charades logo" width="200" height="200" class="app-logo" loading="lazy" />
-            </div>
-            <div class="app-card-body">
-              <div class="app-meta">
-                <p class="app-name sr-only">Homemade Charades</p>
-                <span class="status-badge status-badge--live" data-i18n="card.charades_status">Live on App Store</span>
-              </div>
-              <p data-i18n="card.charades_desc">A three-round party game for two teams sharing one phone. Play the same deck three times — first describe each answer, then give just one word, then mime it in silence. Fill it with famous people, movies and songs, or switch on Kids mode with picture cards for those too young to read.</p>
-              <p class="players-note" data-i18n="card.players_note">Needs at least 4 players.</p>
-              <div class="app-links">
-                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-charades/id6790504744" data-i18n-aria="card.charades_appstore_aria" aria-label="Download Homemade Charades on the App Store">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  <span data-i18n="card.download">Download</span>
-                </a>
-                <a class="btn btn-outline" href="charades/index.html" data-i18n="card.learn_more">Learn more</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Homemade Clues -->
-          <article class="app-card">
-            <div class="app-logo-banner app-logo-banner--clues">
-              <img src="assets/logo-clues.png" alt="Homemade Clues logo" width="200" height="200" class="app-logo" loading="lazy" />
-            </div>
-            <div class="app-card-body">
-              <div class="app-meta">
-                <p class="app-name sr-only">Homemade Clues</p>
-                <span class="status-badge status-badge--live" data-i18n="card.clues_status">Live on App Store</span>
-              </div>
-              <p data-i18n="card.clues_desc">A bluffing word game for two teams sharing one phone. Both teams secretly bid how few one-word clues they'll need to reach the same hidden word — the lowest bid has to deliver. Miss, and the other team can steal it. Bid bold, clue sharp, first to the target score wins.</p>
-              <p class="players-note" data-i18n="card.players_note">Needs at least 4 players.</p>
-              <div class="app-links">
-                <a class="btn btn-primary" href="https://apps.apple.com/ie/app/homemade-clues/id6798347767" data-i18n-aria="card.clues_appstore_aria" aria-label="Download Homemade Clues on the App Store">
-                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
-                  </svg>
-                  <span data-i18n="card.download">Download</span>
-                </a>
-                <a class="btn btn-outline" href="clues/index.html" data-i18n="card.learn_more">Learn more</a>
-              </div>
-            </div>
-          </article>
-
-        </div>
       </div>
     </section>
 
@@ -212,83 +109,36 @@
         <h2 data-i18n="home.philosophy_h2">My promise to you</h2>
         <p class="lead" data-i18n="home.philosophy_lead">Every app I make follows the same principles. No exceptions, no "freemium" editions, no dark patterns. Just software that respects you and your family.</p>
 
-        <div class="pillars">
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
-              </svg>
-            </div>
+        <ol class="promise-list">
+          <li>
             <h3 data-i18n="pillar.noads_h">No ads. Ever.</h3>
             <p data-i18n="pillar.noads_p">I will never show advertisements in any of my apps — not now, not in a future update.</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="1" y="4" width="22" height="16" rx="2"/>
-                <line x1="1" y1="10" x2="23" y2="10"/>
-              </svg>
-            </div>
+          </li>
+          <li>
             <h3 data-i18n="pillar.payonce_h">Pay once, own it.</h3>
             <p data-i18n="pillar.payonce_p">A single purchase gets you the full app, all future updates, and no renewal reminders.</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                <circle cx="12" cy="7" r="4"/>
-                <line x1="18" y1="3" x2="22" y2="7"/>
-              </svg>
-            </div>
+          </li>
+          <li>
             <h3 data-i18n="pillar.noaccount_h">No account.</h3>
             <p data-i18n="pillar.noaccount_p">Download, open, use. No sign-up form, no email required, no password to forget.</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="5" y="11" width="14" height="10" rx="2"/>
-                <path d="M8 11V8a4 4 0 0 1 8 0v3"/>
-              </svg>
-            </div>
+          </li>
+          <li>
             <h3 data-i18n="pillar.data_h">Your data stays yours.</h3>
             <p data-i18n="pillar.data_p">Nothing leaves your device. I don't collect, store, or sell any personal data.</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/>
-              </svg>
-            </div>
+          </li>
+          <li>
             <h3 data-i18n="pillar.kidsafe_h">Kid-safe by design.</h3>
             <p data-i18n="pillar.kidsafe_p">No addictive loops, no notifications clamouring for attention, no in-app purchases hidden behind a cheerful button.</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                <polyline points="9 22 9 12 15 12 15 22"/>
-              </svg>
-            </div>
+          </li>
+          <li>
             <h3 data-i18n="pillar.families_h">Made for families.</h3>
             <p data-i18n="pillar.families_p">Every decision starts with the same question: is this good for the families using it?</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="2" y1="2" x2="22" y2="22"/>
-                <path d="M8.5 16.5a5 5 0 0 1 7 0"/>
-                <path d="M2 8.82a15 15 0 0 1 4.17-2.65"/>
-                <path d="M10.66 5c4.01-.36 8.14.9 11.34 3.76"/>
-                <path d="M16.85 11.25a10 10 0 0 1 2.22 1.68"/>
-                <path d="M5 13a10 10 0 0 1 5.24-2.76"/>
-                <line x1="12" y1="20" x2="12.01" y2="20"/>
-              </svg>
-            </div>
+          </li>
+          <li>
             <h3 data-i18n="pillar.offline_h">No internet needed.</h3>
             <p data-i18n="pillar.offline_p">Every app runs entirely on your device. Play in the car, on a plane, or anywhere with no signal — nothing ever needs a connection.</p>
-          </div>
-        </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -314,6 +164,120 @@
 
   </main>
 
+  <!-- ── App details (opened from the phone) ── -->
+  <dialog class="app-sheet" id="appSheet" aria-label="App details">
+    <button type="button" class="app-sheet-close" id="appSheetClose" aria-label="Close" data-i18n-aria="fancy.close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+      <div class="app-sheet-panel" data-app="stories" hidden>
+            <div class="app-logo-banner app-logo-banner--stories">
+              <img src="assets/logo-stories.png" alt="Homemade Stories logo" width="200" height="200" class="app-logo" />
+            </div>
+            <div class="app-card-body">
+              <div class="app-meta">
+                <h2 class="app-name">Homemade Stories</h2>
+                <span class="status-badge status-badge--live" data-i18n="card.stories_status">Live on App Store</span>
+              </div>
+              <p data-i18n="card.stories_desc">Record bedtime stories, songs, lullabies and birthday messages in your own voice. Kids can replay them any time — even offline. The people they love, always a tap away.</p>
+              <div class="app-links">
+                <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/ie/app/homemade-stories/id6762309416" data-i18n-aria="card.stories_appstore_aria" aria-label="Download Homemade Stories on the App Store">
+                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+                  </svg>
+                  <span data-i18n="card.download">Download</span>
+                </a>
+                <a class="btn btn-outline" href="stories/index.html" data-i18n="card.learn_more">Learn more</a>
+              </div>
+            </div>
+          </div>
+      <div class="app-sheet-panel" data-app="drawings" hidden>
+            <div class="app-logo-banner app-logo-banner--drawings">
+              <img src="assets/logo-drawings.png" alt="Homemade Drawings logo" width="200" height="200" class="app-logo" />
+            </div>
+            <div class="app-card-body">
+              <div class="app-meta">
+                <h2 class="app-name">Homemade Drawings</h2>
+                <span class="status-badge status-badge--live" data-i18n="card.drawings_status">Live on App Store</span>
+              </div>
+              <p data-i18n="card.drawings_desc">A drawing pad for small hands. Pencil, glow and spray with their own styles, a sheet of stickers, shapes, mirror and mandala symmetry and coloured paper — on a shelf of pictures that are saved as they're drawn. No ads, no account, nothing leaves the device.</p>
+              <div class="app-links">
+                <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/ie/app/homemade-drawings/id6809569806" data-i18n-aria="card.drawings_appstore_aria" aria-label="Download Homemade Drawings on the App Store">
+                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+                  </svg>
+                  <span data-i18n="card.download">Download</span>
+                </a>
+                <a class="btn btn-outline" href="drawings/index.html" data-i18n="card.learn_more">Learn more</a>
+              </div>
+            </div>
+          </div>
+      <div class="app-sheet-panel" data-app="breathing" hidden>
+            <div class="app-logo-banner app-logo-banner--breathing">
+              <img src="assets/logo-breathing.png" alt="Homemade Breathing logo" width="200" height="200" class="app-logo" />
+            </div>
+            <div class="app-card-body">
+              <div class="app-meta">
+                <h2 class="app-name">Homemade Breathing</h2>
+                <span class="status-badge status-badge--live" data-i18n="card.breathing_status">Live on App Store</span>
+              </div>
+              <p data-i18n="card.breathing_desc">A breathing guide for calmer days. Follow a wave as it rises and falls while a girl breathes along with you — six techniques, from everyday coherent breathing to 4-7-8 for sleep, each at three levels, with soft sounds, a voice and haptics. No ads, no account, nothing leaves the device.</p>
+              <div class="app-links">
+                <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/ie/app/homemade-breathing/id6811675817" data-i18n-aria="card.breathing_appstore_aria" aria-label="Download Homemade Breathing on the App Store">
+                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+                  </svg>
+                  <span data-i18n="card.download">Download</span>
+                </a>
+                <a class="btn btn-outline" href="breathing/index.html" data-i18n="card.learn_more">Learn more</a>
+              </div>
+            </div>
+          </div>
+      <div class="app-sheet-panel" data-app="charades" hidden>
+            <div class="app-logo-banner app-logo-banner--charades">
+              <img src="assets/logo-charades.png" alt="Homemade Charades logo" width="200" height="200" class="app-logo" />
+            </div>
+            <div class="app-card-body">
+              <div class="app-meta">
+                <h2 class="app-name">Homemade Charades</h2>
+                <span class="status-badge status-badge--live" data-i18n="card.charades_status">Live on App Store</span>
+              </div>
+              <p data-i18n="card.charades_desc">A three-round party game for two teams sharing one phone. Play the same deck three times — first describe each answer, then give just one word, then mime it in silence. Fill it with famous people, movies and songs, or switch on Kids mode with picture cards for those too young to read.</p>
+              <p class="players-note" data-i18n="card.players_note">Needs at least 4 players.</p>
+              <div class="app-links">
+                <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/ie/app/homemade-charades/id6790504744" data-i18n-aria="card.charades_appstore_aria" aria-label="Download Homemade Charades on the App Store">
+                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+                  </svg>
+                  <span data-i18n="card.download">Download</span>
+                </a>
+                <a class="btn btn-outline" href="charades/index.html" data-i18n="card.learn_more">Learn more</a>
+              </div>
+            </div>
+          </div>
+      <div class="app-sheet-panel" data-app="clues" hidden>
+            <div class="app-logo-banner app-logo-banner--clues">
+              <img src="assets/logo-clues.png" alt="Homemade Clues logo" width="200" height="200" class="app-logo" />
+            </div>
+            <div class="app-card-body">
+              <div class="app-meta">
+                <h2 class="app-name">Homemade Clues</h2>
+                <span class="status-badge status-badge--live" data-i18n="card.clues_status">Live on App Store</span>
+              </div>
+              <p data-i18n="card.clues_desc">A bluffing word game for two teams sharing one phone. Both teams secretly bid how few one-word clues they'll need to reach the same hidden word — the lowest bid has to deliver. Miss, and the other team can steal it. Bid bold, clue sharp, first to the target score wins.</p>
+              <p class="players-note" data-i18n="card.players_note">Needs at least 4 players.</p>
+              <div class="app-links">
+                <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/ie/app/homemade-clues/id6798347767" data-i18n-aria="card.clues_appstore_aria" aria-label="Download Homemade Clues on the App Store">
+                  <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+                  </svg>
+                  <span data-i18n="card.download">Download</span>
+                </a>
+                <a class="btn btn-outline" href="clues/index.html" data-i18n="card.learn_more">Learn more</a>
+              </div>
+            </div>
+          </div>
+  </dialog>
+
   <footer class="site-footer">
     <div class="container">
       <div data-i18n="footer.copyright">© 2026 Homemade Apps. Made with care.</div>
@@ -330,6 +294,7 @@
   </footer>
 
   <script src="translations.js?v=16"></script>
+  <script src="fancy.js?v=4"></script>
   <script src="lang.js?v=7"></script>
 
 </body>

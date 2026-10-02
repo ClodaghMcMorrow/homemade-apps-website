@@ -1,0 +1,373 @@
+/* Homemade Apps — home page only (interactive phone, app details window,
+   promise list). Loaded after styles.css. */
+
+/* ── Interactive phone ── */
+/* Stay stacked until there's room for copy + note + phone side by side */
+@media (min-width: 860px) and (max-width: 1039px) {
+  .hero .container { display: block; text-align: center; }
+  .hero .lead { margin-inline: auto; }
+  .hero .promise-chips { justify-content: center; }
+}
+/* The note lives in the margin beside the phone; while stacked, the phone
+   is nudged over by half the note's width so the pair sits centred. */
+.device-showcase--live {
+  --note-w: 112px;
+  position: relative;
+  inset-inline-start: calc(var(--note-w) / 2);
+  max-width: none;
+  width: min(290px, calc(100% - var(--note-w)));
+  margin: clamp(32px, 5vw, 48px) auto 0;
+}
+@media (min-width: 520px) {
+  .device-showcase--live { --note-w: 152px; }
+}
+@media (min-width: 1040px) {
+  .device-showcase--live {
+    inset-inline-start: 0;
+    width: 290px;
+    margin: 0;
+    margin-inline-start: var(--note-w);
+  }
+}
+.device-showcase--live .device { border-radius: 16.5% / 7.8%; padding: 3.4%; }
+.device-showcase--live .device-screen { border-radius: 15.5% / 7.2%; }
+
+/* Handwritten note with a hand-drawn arrow pointing at the app icons */
+.tap-hint {
+  position: absolute;
+  inset-inline-end: calc(100% + 16px);
+  bottom: 35%;
+  width: calc(var(--note-w) - 16px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  font-family: 'Caveat', 'Bradley Hand', cursive;
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: var(--orange-dark);
+  text-align: end;
+  rotate: -4deg;
+}
+@media (min-width: 520px) {
+  .tap-hint { font-size: 1.8rem; }
+}
+html[dir="rtl"] .tap-hint { rotate: 4deg; }
+/* Copper-to-gold lettering with a glint of light sweeping across it */
+.tap-hint > span {
+  padding: 0 2px;
+  color: var(--orange-dark); /* fallback if background-clip: text is unsupported */
+  background: linear-gradient(105deg,
+    #A8521A 0%, #C96A22 30%, #D97A2C 42%, #F2A640 47%,
+    #FFD98A 50%,
+    #F2A640 53%, #D97A2C 58%, #C96A22 70%, #A8521A 100%);
+  background-size: 300% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.7)) drop-shadow(0 2px 5px rgba(217,122,44,.28));
+  animation: hint-shine 3.6s ease-in-out 1.6s infinite;
+}
+@keyframes hint-shine {
+  0%        { background-position: 100% 0; }
+  55%, 100% { background-position: 0% 0; }
+}
+.tap-hint-arrow {
+  width: min(104px, 100%);
+  height: auto;
+  overflow: visible;
+  color: var(--orange);
+  animation: arrow-nudge 2.4s ease-in-out 1.6s infinite;
+}
+html[dir="rtl"] .tap-hint-arrow { scale: -1 1; }
+.tap-hint-arrow path {
+  fill: none;
+  /* stroke is the #hintShine gradient, set in the markup */
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  /* Draws itself in, shaft first and then the head */
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: arrow-draw .7s ease-out .5s forwards;
+}
+.tap-hint-arrow .tap-hint-arrow-head { animation-duration: .3s; animation-delay: 1.2s; }
+@keyframes arrow-draw { to { stroke-dashoffset: 0; } }
+@keyframes arrow-nudge {
+  0%, 100% { translate: 0 0; }
+  50%      { translate: 7px 2px; }
+}
+
+/* A touch that wanders from app to app, pressing each one in turn */
+.tap-demo {
+  position: absolute;
+  left: 38.4%;
+  top: 71.3%;
+  pointer-events: none;
+  transition: opacity .25s;
+  animation: demo-move 8s cubic-bezier(.6,0,.3,1) infinite;
+}
+.tap-demo::before {
+  content: '';
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.5);
+  border: 2px solid rgba(255,255,255,.95);
+  box-shadow: 0 3px 10px rgba(0,0,0,.35);
+  animation: demo-press 1.6s ease-in-out infinite;
+}
+/* Stories → Breathing → Charades → Drawings → Clues, 1.6s each */
+@keyframes demo-move {
+  0%        { left: 38.4%; top: 71.3%; }
+  10%, 20%  { left: 15.4%; top: 59.9%; }
+  30%, 40%  { left: 38.4%; top: 59.9%; }
+  50%, 60%  { left: 61.6%; top: 59.9%; }
+  70%, 80%  { left: 15.4%; top: 71.3%; }
+  90%, 100% { left: 38.4%; top: 71.3%; }
+}
+@keyframes demo-press {
+  0%, 52%   { scale: 1; }
+  63%       { scale: .7; }
+  80%, 100% { scale: 1; }
+}
+.device-screen:hover .tap-demo,
+.device.is-nudging .tap-demo,
+.is-discovered .tap-demo { opacity: 0; }
+
+/* Tappable areas over the app icons. Positions are percentages of the
+   920 × 2000 screenshot, so they track the image at any size. */
+.app-hotspot {
+  position: absolute;
+  width: 20.65%;
+  height: 10.5%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.app-hotspot--c1 { left: 5.43%; }
+.app-hotspot--c2 { left: 28.59%; }
+.app-hotspot--c3 { left: 51.74%; }
+.app-hotspot--r1 { top: 55.75%; }
+.app-hotspot--r2 { top: 67.15%; }
+
+/* Ring sitting exactly on the icon (not its label) */
+.app-hotspot::before {
+  content: '';
+  position: absolute;
+  left: 9.5%;
+  top: 4.8%;
+  width: 77.4%;
+  aspect-ratio: 1;
+  border-radius: 24%;
+  animation: icon-tap 8s ease-out infinite;
+  transition: transform .18s ease, background .18s ease;
+}
+/* Same 8s loop as .tap-demo: each icon reacts when the touch lands on it */
+.app-hotspot--c2::before { animation-delay: 1.6s; }
+.app-hotspot--c3::before { animation-delay: 3.2s; }
+.app-hotspot--r2.app-hotspot--c1::before { animation-delay: 4.8s; }
+.app-hotspot--r2.app-hotspot--c2::before { animation-delay: 6.4s; }
+@keyframes icon-tap {
+  0%, 12%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+  13.5%     { transform: scale(.9);   box-shadow: 0 0 0 0 rgba(255,255,255,.95); }
+  18%       { transform: scale(1.08); box-shadow: 0 0 0 7px rgba(255,255,255,.5); }
+  26%, 100% { transform: scale(1);    box-shadow: 0 0 0 14px rgba(255,255,255,0); }
+}
+.app-hotspot:hover::before,
+.app-hotspot:focus-visible::before {
+  transform: scale(1.1);
+  background: rgba(255,255,255,.18);
+  animation: none;
+  box-shadow: 0 0 0 3px #fff, 0 6px 16px rgba(0,0,0,.3);
+}
+.app-hotspot:active::before { transform: scale(.94); }
+.app-hotspot:focus-visible { outline: none; }
+
+/* Tapped somewhere else on the screen: shake + point at the apps */
+.screen-nudge {
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  top: 43%;
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.96);
+  color: var(--navy);
+  font-size: .86rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,.3);
+  animation: nudge-in .3s cubic-bezier(.2,1.4,.4,1);
+  pointer-events: none;
+}
+.screen-nudge[hidden] { display: none; }
+.screen-nudge::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border: 8px solid transparent;
+  border-top-color: rgba(255,255,255,.96);
+  border-bottom: 0;
+}
+@keyframes nudge-in {
+  from { opacity: 0; transform: translateY(8px) scale(.92); }
+  to   { opacity: 1; transform: none; }
+}
+.device.is-nudging { animation: device-shake .4s ease; }
+@keyframes device-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-7px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(3px); }
+}
+.device.is-nudging .app-hotspot::before {
+  animation: icon-flash .5s ease-in-out 3;
+}
+@keyframes icon-flash {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+  50%      { box-shadow: 0 0 0 4px #fff, 0 0 18px 6px rgba(255,255,255,.7); }
+}
+
+/* ── App details window ── */
+.app-sheet {
+  width: min(440px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: 0 24px 64px rgba(46,58,89,.35);
+  overflow: auto;
+}
+.app-sheet[open] { animation: sheet-in .32s cubic-bezier(.2,1.25,.35,1); }
+.app-sheet::backdrop {
+  background: rgba(46,58,89,.5);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  animation: backdrop-in .25s ease;
+}
+@keyframes sheet-in {
+  from { opacity: 0; transform: translateY(24px) scale(.9); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+
+.app-sheet-close {
+  position: absolute;
+  top: 14px;
+  inset-inline-end: 14px;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,.85);
+  color: var(--navy);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s, background .15s;
+}
+.app-sheet-close:hover { background: #fff; transform: rotate(90deg); }
+.app-sheet-close svg { width: 16px; height: 16px; }
+
+.app-sheet-panel[hidden] { display: none; }
+.app-sheet .app-logo-banner { flex: none; padding: 32px 20px 26px; }
+.app-sheet .app-logo { max-height: 140px; }
+.app-sheet[open] .app-logo { animation: logo-pop .5s cubic-bezier(.2,1.5,.4,1) .08s both; }
+@keyframes logo-pop {
+  from { opacity: 0; transform: scale(.6) rotate(-6deg); }
+  to   { opacity: 1; transform: none; }
+}
+.app-sheet .app-card-body { padding: 22px 26px 26px; text-align: start; }
+.app-sheet .app-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-bottom: 4px;
+}
+.app-sheet .app-name { font-size: 1.5rem; margin: 0; }
+.app-sheet .app-card-body p { font-size: 1rem; line-height: 1.55; }
+.app-sheet .app-links { margin-top: 6px; }
+.app-sheet .app-links .btn { flex: 1 1 auto; justify-content: center; padding: 14px 20px; }
+
+/* ── My promise to you: a numbered list instead of cards ── */
+.promise-list {
+  list-style: none;
+  counter-reset: promise;
+  max-width: 860px;
+  margin: 48px auto 0;
+  padding: 0;
+  text-align: start;
+}
+.promise-list li {
+  counter-increment: promise;
+  display: grid;
+  grid-template-columns: 2.6rem minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: baseline;
+  padding: 22px 6px;
+  border-top: 1px solid rgba(255,255,255,.16);
+}
+.promise-list li:last-child { border-bottom: 1px solid rgba(255,255,255,.16); }
+.promise-list li::before {
+  content: counter(promise, decimal-leading-zero);
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: .95rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  color: var(--mint);
+  transition: color .2s;
+}
+.promise-list h3 {
+  grid-column: 2;
+  margin: 0 0 4px;
+  color: #fff;
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  transition: translate .2s ease, color .2s;
+}
+.promise-list p {
+  grid-column: 2;
+  margin: 0;
+  color: rgba(255,255,255,.72);
+  font-size: 1rem;
+}
+.promise-list li:hover::before { color: var(--orange); }
+.promise-list li:hover h3 { translate: 6px 0; color: var(--blush); }
+html[dir="rtl"] .promise-list li:hover h3 { translate: -6px 0; }
+@media (min-width: 760px) {
+  .promise-list li { grid-template-columns: 3.2rem minmax(0, 17rem) minmax(0, 1fr); column-gap: 24px; }
+  .promise-list h3 { margin: 0; }
+  .promise-list p { grid-column: 3; }
+}
+/* Slide-in on scroll (class added by fancy.js, so no JS = fully visible) */
+.has-reveal .promise-list li {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .6s ease, transform .6s cubic-bezier(.2,.8,.3,1);
+}
+.has-reveal .promise-list li.is-visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tap-hint-arrow,
+  .app-hotspot::before,
+  .device.is-nudging,
+  .device.is-nudging .app-hotspot::before { animation: none; }
+  .tap-hint-arrow path { animation: none; stroke-dashoffset: 0; }
+  .tap-hint > span { animation: none; background-position: 100% 0; }
+  .tap-demo { display: none; }
+  .app-hotspot::before { box-shadow: 0 0 0 2px rgba(255,255,255,.8); }
+}
