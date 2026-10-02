@@ -305,28 +305,32 @@ html[dir="rtl"] .tap-hint-arrow { scale: -1 1; }
 .app-sheet .app-links .btn { flex: 1 1 auto; justify-content: center; padding: 14px 20px; }
 
 /* ── My promise to you: a numbered list instead of cards ── */
+/* The whole section is scaled down to match the compact list */
+.philosophy { padding: clamp(40px, 6vw, 64px) 0; }
+.philosophy h2 { font-size: clamp(1.45rem, 2.6vw, 1.9rem); }
+.philosophy .lead { font-size: 1rem; max-width: 520px; margin-bottom: 0; }
 .promise-list {
   list-style: none;
   counter-reset: promise;
-  max-width: 860px;
-  margin: 48px auto 0;
+  max-width: 680px;
+  margin: 24px auto 0;
   padding: 0;
   text-align: start;
 }
 .promise-list li {
   counter-increment: promise;
   display: grid;
-  grid-template-columns: 2.6rem minmax(0, 1fr);
-  column-gap: 16px;
+  grid-template-columns: 2.1rem minmax(0, 1fr);
+  column-gap: 12px;
   align-items: baseline;
-  padding: 22px 6px;
+  padding: 8px 4px;
   border-top: 1px solid rgba(255,255,255,.16);
 }
 .promise-list li:last-child { border-bottom: 1px solid rgba(255,255,255,.16); }
 .promise-list li::before {
   content: counter(promise, decimal-leading-zero);
   font-family: 'Fraunces', Georgia, serif;
-  font-size: .95rem;
+  font-size: .72rem;
   font-weight: 500;
   letter-spacing: .08em;
   color: var(--mint);
@@ -334,25 +338,41 @@ html[dir="rtl"] .tap-hint-arrow { scale: -1 1; }
 }
 .promise-list h3 {
   grid-column: 2;
-  margin: 0 0 4px;
+  margin: 0;
   color: #fff;
-  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  font-size: .98rem;
   transition: translate .2s ease, color .2s;
 }
 .promise-list p {
   grid-column: 2;
   margin: 0;
   color: rgba(255,255,255,.72);
-  font-size: 1rem;
+  font-size: .84rem;
+  line-height: 1.45;
 }
 .promise-list li:hover::before { color: var(--orange); }
 .promise-list li:hover h3 { translate: 6px 0; color: var(--blush); }
 html[dir="rtl"] .promise-list li:hover h3 { translate: -6px 0; }
 @media (min-width: 760px) {
-  .promise-list li { grid-template-columns: 3.2rem minmax(0, 17rem) minmax(0, 1fr); column-gap: 24px; }
+  .promise-list li { grid-template-columns: 2rem minmax(0, 11.5rem) minmax(0, 1fr); column-gap: 16px; }
   .promise-list h3 { margin: 0; }
   .promise-list p { grid-column: 3; }
 }
+/* ── Support the project: a smaller card ── */
+.donate { padding: clamp(40px, 6vw, 64px) 0; }
+.donate-card {
+  max-width: 520px;
+  padding: clamp(24px, 4vw, 34px) clamp(20px, 4vw, 36px);
+  border-radius: var(--radius-md);
+}
+.donate-icon { width: 42px; height: 42px; border-radius: 12px; margin-bottom: 12px; }
+.donate-icon svg { width: 20px; height: 20px; }
+.donate .eyebrow { font-size: .72rem; margin-bottom: 8px; }
+.donate h2 { font-size: clamp(1.25rem, 2.2vw, 1.5rem); }
+.donate .lead { font-size: .95rem; margin-bottom: 20px; }
+.donate-actions { margin-bottom: 14px; }
+.donate-note { font-size: .8rem; }
+
 /* Slide-in on scroll (class added by fancy.js, so no JS = fully visible) */
 .has-reveal .promise-list li {
   opacity: 0;
